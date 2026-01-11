@@ -5,210 +5,93 @@
 <title>MatiPLK – PLK Predictor</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  body{background:#0b0b0b;color:#fff;font-family:Arial;padding:15px}
-  h2,h3{text-align:center;margin:10px 0}
-  select,input,button{width:100%;padding:12px;margin:8px 0;font-size:16px}
-  button{background:#ff9800;border:none;font-weight:bold}
-  .box{background:#1a1a1a;padding:12px;border-radius:10px;margin-top:12px}
-  small{color:#aaa}
-  #status{text-align:center;margin:10px 0;font-weight:bold}
-  .ok{color:#6CFF6C}
-  .bad{color:#ff4444}
+body{background:#0b0b0b;color:#fff;font-family:Arial;padding:15px}
+h2,h3{text-align:center}
+select,input,button{width:100%;padding:12px;margin:8px 0;font-size:16px}
+button{background:#ff9800;border:none;font-weight:bold}
+.box{background:#1a1a1a;padding:12px;border-radius:10px;margin-top:12px}
+#status{text-align:center;margin:10px;font-weight:bold}
+.ok{color:#6CFF6C}.bad{color:#ff4444}
 </style>
 </head>
 <body>
-
 <h2>MatiPLK – PLK Predictor</h2>
-<div id="status" class="bad">Ładowanie danych…</div>
+<div id="status">Ładowanie…</div>
 
 <div class="box">
-  <h3>Wybór meczu</h3>
+<label>Drużyna A (gospodarz)</label>
+<select id="teamA"></select>
 
-  <label>Drużyna A (gospodarz)</label>
-  <select id="teamA"></select>
+<label>Mecz gospodarza</label>
+<select id="matchSelect"><option>— wybierz mecz —</option></select>
 
-  <label>Mecz gospodarza (terminarz)</label>
-  <select id="matchSelect">
-    <option value="">— wybierz mecz —</option>
-  </select>
+<label>Drużyna B</label>
+<select id="teamB"></select>
 
-  <label>Drużyna B (gość)</label>
-  <select id="teamB" disabled></select>
+<label>Data meczu</label>
+<input id="matchDate" type="datetime-local" readonly>
 
-  <label>Data i godzina meczu</label>
-  <input id="matchDate" type="datetime-local" disabled>
-
-  <button id="btnPredict" onclick="predict()" disabled>ANALIZUJ</button>
-
-  <div style="text-align:center;margin-top:6px">
-    <small id="countdown"></small>
-  </div>
+<button onclick="predict()">ANALIZUJ</button>
 </div>
 
 <div class="box" id="result"></div>
 
-<div class="box">
-  <h3>Historia</h3>
-  <div id="history"></div>
-</div>
-
 <script>
-let teams = null;
-let matches = [];
+function norm(s){return String(s).trim().replace(/\s+/g,' ')}
 
-function setStatus(text, ok){
-  const el = document.getElementById('status');
-  el.textContent = text;
-  el.className = ok ? 'ok' : 'bad';
+let teams={},matches=[];
+
+async function load(){
+  teams = await (await fetch('teams.json')).json();
+  matches = await (await fetch('matches.json')).json();
+  document.getElementById('status').textContent='ONLINE: działa';
+  init();
 }
 
-async function loadTeams(){
-  const r = await fetch('teams.json', { cache: 'no-store' });
-  if(!r.ok) throw new Error('teams.json HTTP ' + r.status);
-  teams = await r.json();
+function init(){
+  const a=document.getElementById('teamA');
+  const b=document.getElementById('teamB');
+  Object.keys(teams).forEach(t=>{
+    a.innerHTML+=`<option>${t}</option>`;
+    b.innerHTML+=`<option>${t}</option>`;
+  });
+  a.onchange=updateMatches;
+  document.getElementById('matchSelect').onchange=applyMatch;
+  updateMatches();
 }
 
-async function loadMatches(){
-  const r = await fetch('matches.json', { cache: 'no-store' });
-  if(!r.ok) throw new Error('matches.json HTTP ' + r.status);
-  matches = await r.json();
-}
-
-function populateTeamSelects(){
-  const a = document.getElementById('teamA');
-  const b = document.getElementById('teamB');
-  a.innerHTML = '';
-  b.innerHTML = '';
-  Object.keys(teams || {}).forEach(t => {
-    a.innerHTML += `<option>${t}</option>`;
-    b.innerHTML += `<option>${t}</option>`;
+function updateMatches(){
+  const host=norm(teamA.value);
+  const ms=document.getElementById('matchSelect');
+  ms.innerHTML='<option>— wybierz mecz —</option>';
+  matches.filter(m=>norm(m.home)===host).forEach(m=>{
+    const d=new Date(m.start);
+    ms.innerHTML+=`<option value="${m.id}">${d.toLocaleString('pl-PL')} vs ${m.away}</option>`;
   });
 }
 
-function updateMatchList(){
-  const host = document.getElementById('teamA').value;
-  const ms = document.getElementById('matchSelect');
-
-  ms.innerHTML = `<option value="">— wybierz mecz —</option>`;
-
-  const upcoming = matches
-    .filter(m => m.home === host)
-    .sort((x,y) => new Date(x.start) - new Date(y.start));
-
-  for(const m of upcoming){
-    const d = new Date(m.start);
-    const label = `${d.toLocaleString('pl-PL')} — vs ${m.away}`;
-    ms.innerHTML += `<option value="${m.id}">${label}</option>`;
-  }
-
-  document.getElementById('teamB').value = "";
-  document.getElementById('matchDate').value = "";
-  document.getElementById('countdown').textContent = "";
-  document.getElementById('btnPredict').disabled = true;
+function applyMatch(){
+  const id=matchSelect.value;
+  const m=matches.find(x=>x.id===id);
+  if(!m)return;
+  teamB.value=m.away;
+  const d=new Date(m.start);
+  matchDate.value=d.toISOString().slice(0,16);
 }
 
-function applySelectedMatch(){
-  const id = document.getElementById('matchSelect').value;
-  const m = matches.find(x => String(x.id) === String(id));
-  if(!m) {
-    document.getElementById('btnPredict').disabled = true;
-    return;
-  }
-
-  document.getElementById('teamB').value = m.away;
-
-  const dt = new Date(m.start);
-  const pad = n => String(n).padStart(2,'0');
-  const val = `${dt.getFullYear()}-${pad(dt.getMonth()+1)}-${pad(dt.getDate())}T${pad(dt.getHours())}:${pad(dt.getMinutes())}`;
-  document.getElementById('matchDate').value = val;
-
-  updateCountdown(dt);
-  document.getElementById('btnPredict').disabled = false;
-}
-
-function updateCountdown(matchTime){
-  const el = document.getElementById('countdown');
-  const now = new Date();
-  const diffMs = matchTime - now;
-
-  if(diffMs > 0){
-    const totalSec = Math.floor(diffMs / 1000);
-    const days = Math.floor(totalSec / 86400);
-    const hours = Math.floor((totalSec % 86400) / 3600);
-    const mins = Math.floor((totalSec % 3600) / 60);
-    el.textContent = `Start za: ${days}d ${hours}h ${mins}m`;
-  }else{
-    el.textContent = `Mecz już się rozpoczął / minął`;
-  }
-}
-
-function teamScore(name, isHome){
-  const t = teams[name];
-  if(!t) return 50;
-
-  const base = t.rating;
-  const form = (t.form.reduce((a,v)=>a+v,0)/5) * 20;
-  const players = t.top_players.reduce((s,p)=>s+(p.ppg*0.5+p.rpg*0.3+p.apg*0.2),0) * 0.4;
-  const homeBonus = isHome ? 6 : 0;
-  const rand = Math.random() * 3;
-  return base + form + players + homeBonus + rand;
+function score(t,home){
+  const x=teams[t];
+  return x.rating+(home?6:0)+Math.random()*5;
 }
 
 function predict(){
-  const a = document.getElementById('teamA').value;  // gospodarz
-  const b = document.getElementById('teamB').value;  // gość
-  const dtVal = document.getElementById('matchDate').value;
-
-  if(!a || !b || a === b){
-    result.innerHTML = "Wybierz poprawny mecz z terminarza.";
-    return;
-  }
-
-  const sa = teamScore(a, true);
-  const sb = teamScore(b, false);
-  const diff = sa - sb;
-  const win = diff > 0 ? a : b;
-
-  const pct = Math.min(80, 50 + Math.abs(diff) * 2.3);
-  const conf = pct > 70 ? "WYSOKA" : pct > 60 ? "ŚREDNIA" : "NISKA";
-
-  let when = "";
-  if(dtVal){
-    when = `<br><b>Mecz:</b> ${new Date(dtVal).toLocaleString('pl-PL')}`;
-  }
-
-  result.innerHTML = `
-    <h3>WYNIK ANALIZY</h3>
-    ${a}: ${sa.toFixed(1)}<br>
-    ${b}: ${sb.toFixed(1)}<br><br>
-    <b>Typ:</b> ${win}<br>
-    <b>Szanse:</b> ${pct.toFixed(0)}%<br>
-    <b>Pewność:</b> ${conf}
-    ${when}
-    <br><small>Do zabawy (symulacja)</small>
-  `;
-
-  history.innerHTML = `${a} vs ${b} → ${win} (${pct.toFixed(0)}%) ${dtVal ? " | " + new Date(dtVal).toLocaleString('pl-PL') : ""}<br>` + history.innerHTML;
+  const a=teamA.value,b=teamB.value;
+  const sa=score(a,true),sb=score(b,false);
+  const win=sa>sb?a:b;
+  result.innerHTML=`<h3>Typ: ${win}</h3>`;
 }
 
-(async () => {
-  try{
-    await Promise.all([loadTeams(), loadMatches()]);
-    setStatus("ONLINE: dane + terminarz załadowane", true);
-  }catch(e){
-    console.warn(e);
-    setStatus("OFFLINE: błąd ładowania (sprawdź teams.json / matches.json)", false);
-  }
-
-  populateTeamSelects();
-  updateMatchList();
-
-  document.getElementById('teamA').addEventListener('change', updateMatchList);
-  document.getElementById('matchSelect').addEventListener('change', applySelectedMatch);
-
-  window.addEventListener('online', () => location.reload());
-})();
+load();
 </script>
-
 </body>
 </html>
