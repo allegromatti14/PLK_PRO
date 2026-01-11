@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2026-01-11-KING-LEGIA",
+    "home": "King Szczecin",
+    "away": "Legia Warszawa",
+    "start": "2026-01-11T12:30:00+01:00"
+  },
+  {
+    "id": "2026-01-11-GORNIK-STAL",
+    "home": "Górnik Zamek Książ Wałbrzych",
+    "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+    "start": "2026-01-11T15:30:00+01:00"
+  },
+  {
+    "id": "2026-01-11-DZIKI-ZASTAL",
+    "home": "Dziki Warszawa",
+    "away": "Zastal Zielona Góra",
+    "start": "2026-01-11T17:30:00+01:00"
+  },
+  {
+    "id": "2026-01-11-SLASK-KROSNO",
+    "home": "WKS Śląsk Wrocław",
+    "away": "Miasto Szkła Krosno",
+    "start": "2026-01-11T20:00:00+01:00"
+  },
+  {
+    "id": "2026-01-16-MKS-PIERNIKI",
+    "home": "MKS Dąbrowa Górnicza",
+    "away": "Arriva Lotto Twarde Pierniki Toruń",
+    "start": "2026-01-16T20:15:00+01:00"
+  },
+  {
+    "id": "2026-01-17-DZIKI-SLASK",
+    "home": "Dziki Warszawa",
+    "away": "WKS Śląsk Wrocław",
+    "start": "2026-01-17T12:30:00+01:00"
+  },
+  {
+    "id": "2026-01-17-TREFL-ZASTAL",
+    "home": "Energa Trefl Sopot",
+    "away": "Zastal Zielona Góra",
+    "start": "2026-01-17T15:30:00+01:00"
+  },
+  {
+    "id": "2026-01-17-GORNIK-ANWIL",
+    "home": "Górnik Zamek Książ Wałbrzych",
+    "away": "Anwil Włocławek",
+    "start": "2026-01-17T17:30:00+01:00"
+  },
+  {
+    "id": "2026-01-17-CZARNI-ARKA",
+    "home": "Energa Czarni Słupsk",
+    "away": "AMW Arka Gdynia",
+    "start": "2026-01-17T19:30:00+01:00"
+  },
+  {
+    "id": "2026-01-18-KING-START",
+    "home": "King Szczecin",
+    "away": "PGE Start Lublin",
+    "start": "2026-01-18T12:30:00+01:00"
+  }
+]

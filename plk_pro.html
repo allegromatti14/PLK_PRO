@@ -7,7 +7,7 @@
 <style>
   body{background:#0b0b0b;color:#fff;font-family:Arial;padding:15px}
   h2,h3{text-align:center;margin:10px 0}
-  select,button{width:100%;padding:12px;margin:8px 0;font-size:16px}
+  select,input,button{width:100%;padding:12px;margin:8px 0;font-size:16px}
   button{background:#ff9800;border:none;font-weight:bold}
   .box{background:#1a1a1a;padding:12px;border-radius:10px;margin-top:12px}
   small{color:#aaa}
@@ -17,21 +17,32 @@
 </style>
 </head>
 <body>
-<h2>MatiPLK – PLK Predictor (Online + Offline)</h2>
 
+<h2>MatiPLK – PLK Predictor</h2>
 <div id="status" class="bad">Ładowanie danych…</div>
 
 <div class="box">
   <h3>Wybór meczu</h3>
-  <label>Drużyna A</label>
+
+  <label>Drużyna A (gospodarz)</label>
   <select id="teamA"></select>
-  <label><input type="checkbox" id="homeA"> Mecz u siebie</label>
 
-  <label>Drużyna B</label>
-  <select id="teamB"></select>
-  <label><input type="checkbox" id="homeB"> Mecz u siebie</label>
+  <label>Mecz gospodarza (terminarz)</label>
+  <select id="matchSelect">
+    <option value="">— wybierz mecz —</option>
+  </select>
 
-  <button onclick="predict()">ANALIZUJ</button>
+  <label>Drużyna B (gość)</label>
+  <select id="teamB" disabled></select>
+
+  <label>Data i godzina meczu</label>
+  <input id="matchDate" type="datetime-local" disabled>
+
+  <button id="btnPredict" onclick="predict()" disabled>ANALIZUJ</button>
+
+  <div style="text-align:center;margin-top:6px">
+    <small id="countdown"></small>
+  </div>
 </div>
 
 <div class="box" id="result"></div>
@@ -43,70 +54,128 @@
 
 <script>
 let teams = null;
-const FALLBACK = {"WKS Śląsk Wrocław": {"wins": 10, "losses": 4, "avg_points_scored": 89, "avg_points_allowed": 83, "form": [1, 1, 0, 1, 1], "rating": 91, "top_players": [{"name": "Lider S1", "ppg": 18.7, "rpg": 6.3, "apg": 4.5}, {"name": "Lider S2", "ppg": 15.4, "rpg": 5.9, "apg": 3.8}, {"name": "Lider S3", "ppg": 12.8, "rpg": 4.6, "apg": 3.1}]}, "AMW Arka Gdynia": {"wins": 10, "losses": 4, "avg_points_scored": 87, "avg_points_allowed": 82, "form": [1, 1, 1, 0, 1], "rating": 89, "top_players": [{"name": "Lider A1", "ppg": 17.9, "rpg": 6.1, "apg": 4.2}, {"name": "Lider A2", "ppg": 14.9, "rpg": 5.6, "apg": 3.7}, {"name": "Lider A3", "ppg": 11.9, "rpg": 4.8, "apg": 3.3}]}, "Trefl Sopot": {"wins": 9, "losses": 5, "avg_points_scored": 88, "avg_points_allowed": 84, "form": [1, 0, 1, 1, 1], "rating": 90, "top_players": [{"name": "Lider T1", "ppg": 18.3, "rpg": 6.4, "apg": 4.6}, {"name": "Lider T2", "ppg": 15.2, "rpg": 5.7, "apg": 4.0}, {"name": "Lider T3", "ppg": 13.2, "rpg": 5.0, "apg": 3.5}]}, "Legia Warszawa": {"wins": 9, "losses": 5, "avg_points_scored": 85, "avg_points_allowed": 83, "form": [1, 1, 0, 0, 1], "rating": 88, "top_players": [{"name": "Lider L1", "ppg": 16.1, "rpg": 6.0, "apg": 4.3}, {"name": "Lider L2", "ppg": 14.1, "rpg": 5.5, "apg": 3.9}, {"name": "Lider L3", "ppg": 12.3, "rpg": 4.4, "apg": 3.2}]}, "King Szczecin": {"wins": 9, "losses": 5, "avg_points_scored": 86, "avg_points_allowed": 85, "form": [1, 0, 1, 1, 0], "rating": 89, "top_players": [{"name": "Lider K1", "ppg": 17.0, "rpg": 6.5, "apg": 4.6}, {"name": "Lider K2", "ppg": 14.4, "rpg": 5.9, "apg": 4.0}, {"name": "Lider K3", "ppg": 12.1, "rpg": 4.9, "apg": 3.4}]}, "Anwil Włocławek": {"wins": 8, "losses": 6, "avg_points_scored": 87, "avg_points_allowed": 88, "form": [0, 1, 1, 1, 0], "rating": 87, "top_players": [{"name": "Lider W1", "ppg": 16.8, "rpg": 6.2, "apg": 4.0}, {"name": "Lider W2", "ppg": 14.6, "rpg": 5.7, "apg": 3.8}, {"name": "Lider W3", "ppg": 12.4, "rpg": 4.7, "apg": 3.1}]}, "Górnik Zamek Książ Wałbrzych": {"wins": 8, "losses": 6, "avg_points_scored": 84, "avg_points_allowed": 86, "form": [1, 0, 1, 0, 1], "rating": 86, "top_players": [{"name": "Lider G1", "ppg": 15.8, "rpg": 6.0, "apg": 4.1}, {"name": "Lider G2", "ppg": 14.0, "rpg": 5.5, "apg": 3.7}, {"name": "Lider G3", "ppg": 11.7, "rpg": 4.8, "apg": 3.3}]}, "Zastal Zielona Góra": {"wins": 8, "losses": 6, "avg_points_scored": 88, "avg_points_allowed": 86, "form": [1, 1, 0, 1, 0], "rating": 87, "top_players": [{"name": "Lider Z1", "ppg": 16.9, "rpg": 6.1, "apg": 4.3}, {"name": "Lider Z2", "ppg": 14.3, "rpg": 5.8, "apg": 3.9}, {"name": "Lider Z3", "ppg": 12.2, "rpg": 4.9, "apg": 3.2}]}, "Dziki Warszawa": {"wins": 8, "losses": 6, "avg_points_scored": 89, "avg_points_allowed": 86, "form": [1, 1, 0, 1, 0], "rating": 87, "top_players": [{"name": "Lider D1", "ppg": 17.6, "rpg": 6.7, "apg": 4.8}, {"name": "Lider D2", "ppg": 14.2, "rpg": 5.9, "apg": 3.6}, {"name": "Lider D3", "ppg": 12.5, "rpg": 4.8, "apg": 3.1}]}, "Stal Ostrów Wielkopolski": {"wins": 7, "losses": 7, "avg_points_scored": 87, "avg_points_allowed": 89, "form": [0, 1, 0, 1, 0], "rating": 85, "top_players": [{"name": "Lider O1", "ppg": 15.6, "rpg": 6.2, "apg": 4.1}, {"name": "Lider O2", "ppg": 13.8, "rpg": 5.7, "apg": 3.9}, {"name": "Lider O3", "ppg": 11.9, "rpg": 4.6, "apg": 3.0}]}, "MKS Dąbrowa Górnicza": {"wins": 6, "losses": 8, "avg_points_scored": 86, "avg_points_allowed": 88, "form": [0, 0, 1, 1, 0], "rating": 84, "top_players": [{"name": "Lider M1", "ppg": 15.4, "rpg": 5.8, "apg": 4.0}, {"name": "Lider M2", "ppg": 13.9, "rpg": 5.3, "apg": 3.8}, {"name": "Lider M3", "ppg": 11.8, "rpg": 4.7, "apg": 3.1}]}, "Czarni Słupsk": {"wins": 5, "losses": 10, "avg_points_scored": 87, "avg_points_allowed": 91, "form": [0, 0, 0, 1, 0], "rating": 82, "top_players": [{"name": "Lider C1", "ppg": 15.9, "rpg": 6.0, "apg": 4.2}, {"name": "Lider C2", "ppg": 13.5, "rpg": 5.6, "apg": 3.7}, {"name": "Lider C3", "ppg": 11.4, "rpg": 4.5, "apg": 3.0}]}, "Twarde Pierniki Toruń": {"wins": 6, "losses": 8, "avg_points_scored": 87, "avg_points_allowed": 89, "form": [0, 1, 0, 1, 0], "rating": 83, "top_players": [{"name": "Lider P1", "ppg": 15.7, "rpg": 6.1, "apg": 4.3}, {"name": "Lider P2", "ppg": 13.7, "rpg": 5.5, "apg": 3.7}, {"name": "Lider P3", "ppg": 11.9, "rpg": 4.6, "apg": 3.2}]}, "Start Lublin": {"wins": 5, "losses": 9, "avg_points_scored": 85, "avg_points_allowed": 90, "form": [0, 0, 1, 0, 0], "rating": 80, "top_players": [{"name": "Lider SL1", "ppg": 16.4, "rpg": 5.7, "apg": 4.1}, {"name": "Lider SL2", "ppg": 13.9, "rpg": 5.3, "apg": 3.8}, {"name": "Lider SL3", "ppg": 11.2, "rpg": 4.5, "apg": 3.0}]}, "GTK Gliwice": {"wins": 3, "losses": 12, "avg_points_scored": 84, "avg_points_allowed": 92, "form": [0, 0, 0, 1, 0], "rating": 78, "top_players": [{"name": "Lider Gt1", "ppg": 15.2, "rpg": 5.6, "apg": 4.0}, {"name": "Lider Gt2", "ppg": 13.8, "rpg": 5.2, "apg": 3.6}, {"name": "Lider Gt3", "ppg": 10.8, "rpg": 4.2, "apg": 3.0}]}, "Miasto Szkła Krosno": {"wins": 2, "losses": 12, "avg_points_scored": 82, "avg_points_allowed": 90, "form": [0, 0, 0, 1, 0], "rating": 76, "top_players": [{"name": "Lider Krs1", "ppg": 14.9, "rpg": 5.5, "apg": 4.1}, {"name": "Lider Krs2", "ppg": 12.8, "rpg": 5.0, "apg": 3.8}, {"name": "Lider Krs3", "ppg": 10.5, "rpg": 4.3, "apg": 2.9}]}, "BM SLAM Stal Ostrów (rezerwa)": {"wins": 4, "losses": 10, "avg_points_scored": 83, "avg_points_allowed": 91, "form": [0, 1, 0, 0, 0], "rating": 79, "top_players": [{"name": "Lider R1", "ppg": 14.8, "rpg": 5.8, "apg": 3.9}, {"name": "Lider R2", "ppg": 12.9, "rpg": 5.1, "apg": 3.4}, {"name": "Lider R3", "ppg": 10.9, "rpg": 4.4, "apg": 2.8}]}};
+let matches = [];
 
-function setStatus(text, ok) {
+function setStatus(text, ok){
   const el = document.getElementById('status');
   el.textContent = text;
   el.className = ok ? 'ok' : 'bad';
 }
 
-async function loadTeams() {
-  try {
-    // Works on GitHub Pages: teams.json in same folder as this HTML
-    const response = await fetch('teams.json', { cache: 'no-store' });
-    if (!response.ok) throw new Error('HTTP ' + response.status);
-    teams = await response.json();
-    setStatus('ONLINE: dane załadowane', true);
-  } catch (e) {
-    teams = FALLBACK;
-    // Show offline/failed indicator
-    const isOffline = (navigator.onLine === false);
-    setStatus((isOffline ? 'OFFLINE: brak internetu' : 'OFFLINE: błąd wczytania teams.json') + ' – używam danych lokalnych', false);
-    console.warn('Fallback data used:', e);
-  }
-  populateSelects();
+async function loadTeams(){
+  const r = await fetch('teams.json', { cache: 'no-store' });
+  if(!r.ok) throw new Error('teams.json HTTP ' + r.status);
+  teams = await r.json();
 }
 
-function populateSelects() {
+async function loadMatches(){
+  const r = await fetch('matches.json', { cache: 'no-store' });
+  if(!r.ok) throw new Error('matches.json HTTP ' + r.status);
+  matches = await r.json();
+}
+
+function populateTeamSelects(){
   const a = document.getElementById('teamA');
   const b = document.getElementById('teamB');
   a.innerHTML = '';
   b.innerHTML = '';
-  Object.keys(teams).forEach(t => {
+  Object.keys(teams || {}).forEach(t => {
     a.innerHTML += `<option>${t}</option>`;
     b.innerHTML += `<option>${t}</option>`;
   });
 }
 
-function teamScore(name, home) {
+function updateMatchList(){
+  const host = document.getElementById('teamA').value;
+  const ms = document.getElementById('matchSelect');
+
+  ms.innerHTML = `<option value="">— wybierz mecz —</option>`;
+
+  const upcoming = matches
+    .filter(m => m.home === host)
+    .sort((x,y) => new Date(x.start) - new Date(y.start));
+
+  for(const m of upcoming){
+    const d = new Date(m.start);
+    const label = `${d.toLocaleString('pl-PL')} — vs ${m.away}`;
+    ms.innerHTML += `<option value="${m.id}">${label}</option>`;
+  }
+
+  document.getElementById('teamB').value = "";
+  document.getElementById('matchDate').value = "";
+  document.getElementById('countdown').textContent = "";
+  document.getElementById('btnPredict').disabled = true;
+}
+
+function applySelectedMatch(){
+  const id = document.getElementById('matchSelect').value;
+  const m = matches.find(x => String(x.id) === String(id));
+  if(!m) {
+    document.getElementById('btnPredict').disabled = true;
+    return;
+  }
+
+  document.getElementById('teamB').value = m.away;
+
+  const dt = new Date(m.start);
+  const pad = n => String(n).padStart(2,'0');
+  const val = `${dt.getFullYear()}-${pad(dt.getMonth()+1)}-${pad(dt.getDate())}T${pad(dt.getHours())}:${pad(dt.getMinutes())}`;
+  document.getElementById('matchDate').value = val;
+
+  updateCountdown(dt);
+  document.getElementById('btnPredict').disabled = false;
+}
+
+function updateCountdown(matchTime){
+  const el = document.getElementById('countdown');
+  const now = new Date();
+  const diffMs = matchTime - now;
+
+  if(diffMs > 0){
+    const totalSec = Math.floor(diffMs / 1000);
+    const days = Math.floor(totalSec / 86400);
+    const hours = Math.floor((totalSec % 86400) / 3600);
+    const mins = Math.floor((totalSec % 3600) / 60);
+    el.textContent = `Start za: ${days}d ${hours}h ${mins}m`;
+  }else{
+    el.textContent = `Mecz już się rozpoczął / minął`;
+  }
+}
+
+function teamScore(name, isHome){
   const t = teams[name];
+  if(!t) return 50;
+
   const base = t.rating;
-  const form = (t.form.reduce((acc,v)=>acc+v,0)/5) * 20;
-  const players = t.top_players.reduce((s,p)=>s + (p.ppg*0.5 + p.rpg*0.3 + p.apg*0.2), 0) * 0.4;
-  const homeBonus = home ? 6 : 0;
+  const form = (t.form.reduce((a,v)=>a+v,0)/5) * 20;
+  const players = t.top_players.reduce((s,p)=>s+(p.ppg*0.5+p.rpg*0.3+p.apg*0.2),0) * 0.4;
+  const homeBonus = isHome ? 6 : 0;
   const rand = Math.random() * 3;
   return base + form + players + homeBonus + rand;
 }
 
-function predict() {
-  const a = document.getElementById('teamA').value;
-  const b = document.getElementById('teamB').value;
-  const result = document.getElementById('result');
-  const history = document.getElementById('history');
+function predict(){
+  const a = document.getElementById('teamA').value;  // gospodarz
+  const b = document.getElementById('teamB').value;  // gość
+  const dtVal = document.getElementById('matchDate').value;
 
-  if (a === b) {
-    result.innerHTML = 'Wybierz różne drużyny';
+  if(!a || !b || a === b){
+    result.innerHTML = "Wybierz poprawny mecz z terminarza.";
     return;
   }
 
-  const sa = teamScore(a, document.getElementById('homeA').checked);
-  const sb = teamScore(b, document.getElementById('homeB').checked);
+  const sa = teamScore(a, true);
+  const sb = teamScore(b, false);
   const diff = sa - sb;
   const win = diff > 0 ? a : b;
 
   const pct = Math.min(80, 50 + Math.abs(diff) * 2.3);
-  const conf = pct > 70 ? 'WYSOKA' : pct > 60 ? 'ŚREDNIA' : 'NISKA';
+  const conf = pct > 70 ? "WYSOKA" : pct > 60 ? "ŚREDNIA" : "NISKA";
+
+  let when = "";
+  if(dtVal){
+    when = `<br><b>Mecz:</b> ${new Date(dtVal).toLocaleString('pl-PL')}`;
+  }
 
   result.innerHTML = `
     <h3>WYNIK ANALIZY</h3>
@@ -114,18 +183,32 @@ function predict() {
     ${b}: ${sb.toFixed(1)}<br><br>
     <b>Typ:</b> ${win}<br>
     <b>Szanse:</b> ${pct.toFixed(0)}%<br>
-    <b>Pewność:</b> ${conf}<br>
-    <small>Do zabawy</small>
+    <b>Pewność:</b> ${conf}
+    ${when}
+    <br><small>Do zabawy (symulacja)</small>
   `;
 
-  history.innerHTML = `${a} vs ${b} → ${win} (${pct.toFixed(0)}%)<br>` + history.innerHTML;
+  history.innerHTML = `${a} vs ${b} → ${win} (${pct.toFixed(0)}%) ${dtVal ? " | " + new Date(dtVal).toLocaleString('pl-PL') : ""}<br>` + history.innerHTML;
 }
 
-// react to online/offline changes
-window.addEventListener('online', () => loadTeams());
-window.addEventListener('offline', () => setStatus('OFFLINE: brak internetu – używam danych lokalnych', false));
+(async () => {
+  try{
+    await Promise.all([loadTeams(), loadMatches()]);
+    setStatus("ONLINE: dane + terminarz załadowane", true);
+  }catch(e){
+    console.warn(e);
+    setStatus("OFFLINE: błąd ładowania (sprawdź teams.json / matches.json)", false);
+  }
 
-loadTeams();
+  populateTeamSelects();
+  updateMatchList();
+
+  document.getElementById('teamA').addEventListener('change', updateMatchList);
+  document.getElementById('matchSelect').addEventListener('change', applySelectedMatch);
+
+  window.addEventListener('online', () => location.reload());
+})();
 </script>
+
 </body>
 </html>

@@ -1,16 +1,9 @@
-# PLK_PRO (MatiPLK)
+WRZUĆ DO REPO (ROOT):
+- plk_pro.html
+- teams.json
+- matches.json
 
-## Szybki start (GitHub Pages)
-1. W repozytorium **PLK_PRO** wrzuć pliki:
-   - `plk_pro.html`
-   - `teams.json`
-2. Włącz **Settings → Pages → Deploy from a branch → main / root**.
-3. Otwórz:
-   - https://allegromatti14.github.io/PLK_PRO/plk_pro.html
+Potem GitHub Pages: Settings → Pages → Deploy from branch → main / (root)
 
-## Offline kontrolka
-- Jeśli `teams.json` nie wczyta się albo brak internetu, aplikacja pokaże OFFLINE i użyje danych wbudowanych.
-
-## Android (WebView)
-W folderze `AndroidApp` masz minimalne pliki. W Android Studio ustaw URL na:
+Link:
 https://allegromatti14.github.io/PLK_PRO/plk_pro.html
