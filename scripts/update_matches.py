@@ -56,8 +56,6 @@ def main():
             away = clean(lines[idx-1] if idx-1 >= 0 else "")
             if not home or not away:
                 continue
-            if home.lower().startswith("gospodarz") or away.lower().startswith("gość") or away.lower().startswith("gosc"):
-                continue
 
             start = parse_datetime(ddmm, hhmm)
 
@@ -96,11 +94,7 @@ def main():
             })
 
     payload = {
-        "meta": {
-            "source": URL,
-            "updated_at": datetime.utcnow().isoformat(timespec="seconds") + "Z",
-            "count": len(matches)
-        },
+        "meta": {"source": URL, "updated_at": datetime.utcnow().isoformat(timespec="seconds")+"Z", "count": len(matches)},
         "matches": matches
     }
 

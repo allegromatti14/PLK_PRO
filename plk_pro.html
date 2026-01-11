@@ -34,16 +34,24 @@
     <div class="pill" id="onlinePill">—</div>
   </div>
 
-  <label>Drużyna A (gospodarz)</label>
-  <select id="teamA"></select>
+  <label>Wybierz drużynę</label>
+  <select id="teamPick"></select>
 
-  <label>Mecz gospodarza (terminarz)</label>
+  <label>Mecze tej drużyny (u siebie i wyjazd)</label>
   <select id="matchSelect">
     <option value="">— wybierz mecz —</option>
   </select>
 
-  <label>Drużyna B (gość)</label>
-  <select id="teamB"></select>
+  <div class="row">
+    <div style="flex:1;min-width:240px">
+      <label>Gospodarz</label>
+      <select id="teamHome"></select>
+    </div>
+    <div style="flex:1;min-width:240px">
+      <label>Gość</label>
+      <select id="teamAway"></select>
+    </div>
+  </div>
 
   <label>Data i godzina meczu</label>
   <input id="matchDate" type="datetime-local" readonly>
@@ -96,40 +104,43 @@ async function loadMatches(){
   if(!r.ok) throw new Error("matches.json HTTP "+r.status);
   const data = await r.json();
   if(Array.isArray(data)){
-    matches = data;
-    matchesMeta = null;
+    matches = data; matchesMeta = null;
   }else{
-    matches = data.matches || [];
-    matchesMeta = data.meta || null;
+    matches = data.matches || []; matchesMeta = data.meta || null;
   }
   document.getElementById('meta').textContent =
     matchesMeta?.updated_at ? ("aktualizacja: "+matchesMeta.updated_at) : ("mecze: "+matches.length);
 }
 
-function populateTeamSelects(){
-  const a = document.getElementById('teamA');
-  const b = document.getElementById('teamB');
-  a.innerHTML = ""; b.innerHTML = "";
+function populateSelects(){
+  const pick = document.getElementById('teamPick');
+  const home = document.getElementById('teamHome');
+  const away = document.getElementById('teamAway');
+  pick.innerHTML = ""; home.innerHTML=""; away.innerHTML="";
   Object.keys(teams||{}).forEach(t=>{
-    a.innerHTML += `<option>${t}</option>`;
-    b.innerHTML += `<option>${t}</option>`;
+    pick.innerHTML += `<option>${t}</option>`;
+    home.innerHTML += `<option>${t}</option>`;
+    away.innerHTML += `<option>${t}</option>`;
   });
 }
 
-function formatMatchOption(m){
+function formatMatchOption(m, selectedTeam){
   const d = new Date(m.start);
   const when = d.toLocaleString('pl-PL', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' });
+  const isHome = normName(m.home) === normName(selectedTeam);
+  const vs = isHome ? `vs ${m.away} (u siebie)` : `@ ${m.home} (wyjazd)`;
   const score = (m.status==="played" && m.score) ? ` ${m.score.home}:${m.score.away}` : "";
-  return `${when} — vs ${m.away}${score}`;
+  const r = m.round ? ` | kolejka ${m.round}` : "";
+  return `${when} — ${vs}${score}${r}`;
 }
 
 function updateMatchList(){
-  const host = normName(document.getElementById('teamA').value);
+  const team = document.getElementById('teamPick').value;
   const ms = document.getElementById('matchSelect');
   ms.innerHTML = `<option value="">— wybierz mecz —</option>`;
 
   const list = matches
-    .filter(m => normName(m.home) === host)
+    .filter(m => normName(m.home)===normName(team) || normName(m.away)===normName(team))
     .sort((x,y)=> new Date(x.start) - new Date(y.start));
 
   if(list.length===0){
@@ -139,12 +150,12 @@ function updateMatchList(){
   }
 
   for(const m of list){
-    ms.innerHTML += `<option value="${m.id}">${formatMatchOption(m)}</option>`;
+    ms.innerHTML += `<option value="${m.id}">${formatMatchOption(m, team)}</option>`;
   }
 
-  document.getElementById('btnPredict').disabled = true;
-  document.getElementById('countdown').textContent = "";
-  document.getElementById('matchDate').value = "";
+  // auto wybierz najbliższy mecz
+  ms.value = list[0].id;
+  applySelectedMatch();
 }
 
 function applySelectedMatch(){
@@ -152,7 +163,8 @@ function applySelectedMatch(){
   const m = matches.find(x => String(x.id) === String(id));
   if(!m){ document.getElementById('btnPredict').disabled = true; return; }
 
-  document.getElementById('teamB').value = m.away;
+  document.getElementById('teamHome').value = m.home;
+  document.getElementById('teamAway').value = m.away;
 
   const dt = new Date(m.start);
   const pad = n => String(n).padStart(2,'0');
@@ -167,7 +179,6 @@ function updateCountdown(matchTime){
   const el = document.getElementById('countdown');
   const now = new Date();
   const diffMs = matchTime - now;
-
   if(diffMs > 0){
     const totalSec = Math.floor(diffMs/1000);
     const days = Math.floor(totalSec/86400);
@@ -191,16 +202,15 @@ function teamScore(name, isHome){
 }
 
 function predict(){
-  const a = teamA.value;
-  const b = teamB.value;
-  const dtVal = matchDate.value;
+  const home = document.getElementById('teamHome').value;
+  const away = document.getElementById('teamAway').value;
+  const dtVal = document.getElementById('matchDate').value;
   const m = matches.find(x => x.id === matchSelect.value);
 
-  const sa = teamScore(a,true);
-  const sb = teamScore(b,false);
-  const diff = sa - sb;
-  const win = diff > 0 ? a : b;
-
+  const sh = teamScore(home,true);
+  const sa = teamScore(away,false);
+  const diff = sh - sa;
+  const win = diff > 0 ? home : away;
   const pct = Math.min(80, 50 + Math.abs(diff) * 2.3);
   const conf = pct > 70 ? "WYSOKA" : pct > 60 ? "ŚREDNIA" : "NISKA";
 
@@ -210,14 +220,16 @@ function predict(){
 
   result.innerHTML = `
     <h3 style="margin:0 0 8px 0">WYNIK ANALIZY</h3>
-    ${a}: ${sa.toFixed(1)}<br>
-    ${b}: ${sb.toFixed(1)}<br><br>
+    ${home} (gosp.): ${sh.toFixed(1)}<br>
+    ${away} (gość): ${sa.toFixed(1)}<br><br>
     <b>Typ:</b> ${win}<br>
     <b>Szanse:</b> ${pct.toFixed(0)}%<br>
     <b>Pewność:</b> ${conf}
     ${when}${tv}${played}
     <br><small>Do zabawy</small>
   `;
+
+  history.innerHTML = `${home} vs ${away} → ${win} (${pct.toFixed(0)}%)${dtVal ? " | " + new Date(dtVal).toLocaleString('pl-PL') : ""}<br>` + history.innerHTML;
 }
 
 (async () => {
@@ -234,9 +246,10 @@ function predict(){
     return;
   }
 
-  populateTeamSelects();
+  populateSelects();
   updateMatchList();
-  teamA.addEventListener('change', updateMatchList);
+
+  teamPick.addEventListener('change', updateMatchList);
   matchSelect.addEventListener('change', applySelectedMatch);
 })();
 </script>
