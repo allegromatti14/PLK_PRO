@@ -12,3 +12,5 @@ Instrukcja:
 3) GitHub Pages: Settings → Pages → main / (root)
 4) Link:
    https://allegromatti14.github.io/PLK_PRO/plk_pro.html
+
+NOWOŚĆ: zakładka 'Kolejka 1–30' – wybierasz kolejkę i mecz z listy.
