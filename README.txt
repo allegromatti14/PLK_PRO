@@ -1,11 +1,14 @@
-GOTOWIEC: wybierasz drużynę → widzisz jej mecze (u siebie i wyjazd) + auto-aktualizacja z plk.pl
+START OD NOWA (v3) – prosto i działa:
 
-1) Wrzuć wszystko z ZIP do repo PLK_PRO (ROOT).
-2) Włącz GitHub Pages: Settings → Pages → Deploy from branch → main / (root).
-3) Wejdź w Actions i uruchom ręcznie:
-   Actions → "Update matches.json from plk.pl" → Run workflow
+Co robi apka:
+- wybierasz drużynę
+- dostajesz LISTĘ jej meczów (u siebie + wyjazd)
+- automatycznie ustawia najbliższy przyszły mecz
+- po meczu (jak pojawi się wynik na plk.pl) workflow dopisze status=played + wynik
 
-Potem workflow poleci codziennie i będzie aktualizować wyniki/statusy.
-
-Link:
-https://allegromatti14.github.io/PLK_PRO/plk_pro.html
+Instrukcja:
+1) Wgraj wszystko z ZIP do ROOT repo PLK_PRO.
+2) Actions → "Update matches.json from plk.pl" → Run workflow (pierwsza aktualizacja)
+3) GitHub Pages: Settings → Pages → main / (root)
+4) Link:
+   https://allegromatti14.github.io/PLK_PRO/plk_pro.html
