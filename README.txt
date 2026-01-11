@@ -1,15 +1,12 @@
-Gotowiec (opcja 1 = matches.json jako cache z plk.pl)
+GOTOWIEC: GitHub Pages + auto-aktualizacja terminarza/wyników z plk.pl
 
-1) Wrzuć do repo PLK_PRO (ROOT):
-   - plk_pro.html
-   - teams.json
-   - matches.json
+1) Wrzuć wszystko z ZIP do repo PLK_PRO (ROOT).
+2) Włącz GitHub Pages: Settings → Pages → Deploy from branch → main / (root).
+3) Wejdź w Actions i uruchom ręcznie:
+   Actions → "Update matches.json from plk.pl" → Run workflow
+   (pierwsze wypełnienie matches.json od razu)
 
-2) GitHub Pages: Settings → Pages → Deploy from branch → main / (root)
+Potem workflow poleci codziennie i będzie dopisywać wyniki / statusy "played".
 
-3) Otwórz:
-   https://allegromatti14.github.io/PLK_PRO/plk_pro.html
-
-Aktualizacja terminarza:
-- wejdź na https://plk.pl/terminarz/najblizsze-mecze
-- przepisz/uzupełnij matches.json o kolejne mecze.
+Link do apki:
+https://allegromatti14.github.io/PLK_PRO/plk_pro.html

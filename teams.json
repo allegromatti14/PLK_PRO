@@ -11,33 +11,33 @@
       0,
       1
     ],
-    "rating": 80,
+    "rating": 89,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 16,
-        "rpg": 5,
-        "apg": 4
+        "ppg": 16.0,
+        "rpg": 5.0,
+        "apg": 3.5
       },
       {
         "name": "Lider 2",
-        "ppg": 13,
-        "rpg": 4,
-        "apg": 3
+        "ppg": 13.0,
+        "rpg": 4.5,
+        "apg": 3.0
       },
       {
         "name": "Lider 3",
-        "ppg": 11,
-        "rpg": 4,
-        "apg": 2
+        "ppg": 11.0,
+        "rpg": 4.0,
+        "apg": 2.5
       }
     ]
   },
   "Anwil Włocławek": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 86,
+    "avg_points_allowed": 86,
     "form": [
       1,
       0,
@@ -45,33 +45,33 @@
       0,
       1
     ],
-    "rating": 81,
+    "rating": 89,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 17,
-        "rpg": 6,
-        "apg": 5
+        "ppg": 17.0,
+        "rpg": 6.0,
+        "apg": 4.5
       },
       {
         "name": "Lider 2",
-        "ppg": 14,
-        "rpg": 5,
-        "apg": 4
+        "ppg": 14.0,
+        "rpg": 5.5,
+        "apg": 4.0
       },
       {
         "name": "Lider 3",
-        "ppg": 12,
-        "rpg": 5,
-        "apg": 3
+        "ppg": 12.0,
+        "rpg": 5.0,
+        "apg": 3.5
       }
     ]
   },
   "Arriva Lotto Twarde Pierniki Toruń": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 87,
+    "avg_points_allowed": 87,
     "form": [
       1,
       0,
@@ -79,33 +79,33 @@
       0,
       1
     ],
-    "rating": 82,
+    "rating": 88,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 18,
-        "rpg": 7,
-        "apg": 4
+        "ppg": 18.0,
+        "rpg": 7.0,
+        "apg": 3.5
       },
       {
         "name": "Lider 2",
-        "ppg": 15,
-        "rpg": 6,
-        "apg": 3
+        "ppg": 15.0,
+        "rpg": 6.5,
+        "apg": 3.0
       },
       {
         "name": "Lider 3",
-        "ppg": 13,
-        "rpg": 6,
-        "apg": 2
+        "ppg": 13.0,
+        "rpg": 6.0,
+        "apg": 2.5
       }
     ]
   },
   "Dziki Warszawa": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 88,
+    "avg_points_allowed": 88,
     "form": [
       1,
       0,
@@ -113,33 +113,33 @@
       0,
       1
     ],
-    "rating": 83,
+    "rating": 88,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 19,
-        "rpg": 5,
-        "apg": 5
+        "ppg": 19.0,
+        "rpg": 5.0,
+        "apg": 4.5
       },
       {
         "name": "Lider 2",
-        "ppg": 16,
-        "rpg": 4,
-        "apg": 4
+        "ppg": 16.0,
+        "rpg": 4.5,
+        "apg": 4.0
       },
       {
         "name": "Lider 3",
-        "ppg": 14,
-        "rpg": 4,
-        "apg": 3
+        "ppg": 14.0,
+        "rpg": 4.0,
+        "apg": 3.5
       }
     ]
   },
   "Energa Czarni Słupsk": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 89,
+    "avg_points_allowed": 83,
     "form": [
       1,
       0,
@@ -147,33 +147,33 @@
       0,
       1
     ],
-    "rating": 84,
+    "rating": 87,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 16,
-        "rpg": 6,
-        "apg": 4
+        "ppg": 16.0,
+        "rpg": 6.0,
+        "apg": 3.5
       },
       {
         "name": "Lider 2",
-        "ppg": 13,
-        "rpg": 5,
-        "apg": 3
+        "ppg": 13.0,
+        "rpg": 5.5,
+        "apg": 3.0
       },
       {
         "name": "Lider 3",
-        "ppg": 11,
-        "rpg": 5,
-        "apg": 2
+        "ppg": 11.0,
+        "rpg": 5.0,
+        "apg": 2.5
       }
     ]
   },
   "Energa Trefl Sopot": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 90,
+    "avg_points_allowed": 84,
     "form": [
       1,
       0,
@@ -181,25 +181,25 @@
       0,
       1
     ],
-    "rating": 85,
+    "rating": 87,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 17,
-        "rpg": 7,
-        "apg": 5
+        "ppg": 17.0,
+        "rpg": 7.0,
+        "apg": 4.5
       },
       {
         "name": "Lider 2",
-        "ppg": 14,
-        "rpg": 6,
-        "apg": 4
+        "ppg": 14.0,
+        "rpg": 6.5,
+        "apg": 4.0
       },
       {
         "name": "Lider 3",
-        "ppg": 12,
-        "rpg": 6,
-        "apg": 3
+        "ppg": 12.0,
+        "rpg": 6.0,
+        "apg": 3.5
       }
     ]
   },
@@ -219,29 +219,29 @@
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 18,
-        "rpg": 5,
-        "apg": 4
+        "ppg": 18.0,
+        "rpg": 5.0,
+        "apg": 3.5
       },
       {
         "name": "Lider 2",
-        "ppg": 15,
-        "rpg": 4,
-        "apg": 3
+        "ppg": 15.0,
+        "rpg": 4.5,
+        "apg": 3.0
       },
       {
         "name": "Lider 3",
-        "ppg": 13,
-        "rpg": 4,
-        "apg": 2
+        "ppg": 13.0,
+        "rpg": 4.0,
+        "apg": 2.5
       }
     ]
   },
   "King Szczecin": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 86,
+    "avg_points_allowed": 86,
     "form": [
       1,
       0,
@@ -249,33 +249,33 @@
       0,
       1
     ],
-    "rating": 87,
+    "rating": 86,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 19,
-        "rpg": 6,
-        "apg": 5
+        "ppg": 19.0,
+        "rpg": 6.0,
+        "apg": 4.5
       },
       {
         "name": "Lider 2",
-        "ppg": 16,
-        "rpg": 5,
-        "apg": 4
+        "ppg": 16.0,
+        "rpg": 5.5,
+        "apg": 4.0
       },
       {
         "name": "Lider 3",
-        "ppg": 14,
-        "rpg": 5,
-        "apg": 3
+        "ppg": 14.0,
+        "rpg": 5.0,
+        "apg": 3.5
       }
     ]
   },
   "Legia Warszawa": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 87,
+    "avg_points_allowed": 87,
     "form": [
       1,
       0,
@@ -283,67 +283,33 @@
       0,
       1
     ],
-    "rating": 88,
+    "rating": 85,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 16,
-        "rpg": 7,
-        "apg": 4
+        "ppg": 16.0,
+        "rpg": 7.0,
+        "apg": 3.5
       },
       {
         "name": "Lider 2",
-        "ppg": 13,
-        "rpg": 6,
-        "apg": 3
+        "ppg": 13.0,
+        "rpg": 6.5,
+        "apg": 3.0
       },
       {
         "name": "Lider 3",
-        "ppg": 11,
-        "rpg": 6,
-        "apg": 2
-      }
-    ]
-  },
-  "MKS Dąbrowa Górnicza": {
-    "wins": 0,
-    "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
-    "form": [
-      1,
-      0,
-      1,
-      0,
-      1
-    ],
-    "rating": 89,
-    "top_players": [
-      {
-        "name": "Lider 1",
-        "ppg": 17,
-        "rpg": 5,
-        "apg": 5
-      },
-      {
-        "name": "Lider 2",
-        "ppg": 14,
-        "rpg": 4,
-        "apg": 4
-      },
-      {
-        "name": "Lider 3",
-        "ppg": 12,
-        "rpg": 4,
-        "apg": 3
+        "ppg": 11.0,
+        "rpg": 6.0,
+        "apg": 2.5
       }
     ]
   },
   "Miasto Szkła Krosno": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 88,
+    "avg_points_allowed": 88,
     "form": [
       1,
       0,
@@ -351,33 +317,67 @@
       0,
       1
     ],
-    "rating": 80,
+    "rating": 85,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 18,
-        "rpg": 6,
-        "apg": 4
+        "ppg": 17.0,
+        "rpg": 5.0,
+        "apg": 4.5
       },
       {
         "name": "Lider 2",
-        "ppg": 15,
-        "rpg": 5,
-        "apg": 3
+        "ppg": 14.0,
+        "rpg": 4.5,
+        "apg": 4.0
       },
       {
         "name": "Lider 3",
-        "ppg": 13,
-        "rpg": 5,
-        "apg": 2
+        "ppg": 12.0,
+        "rpg": 4.0,
+        "apg": 3.5
+      }
+    ]
+  },
+  "MKS Dąbrowa Górnicza": {
+    "wins": 0,
+    "losses": 0,
+    "avg_points_scored": 89,
+    "avg_points_allowed": 83,
+    "form": [
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "rating": 84,
+    "top_players": [
+      {
+        "name": "Lider 1",
+        "ppg": 18.0,
+        "rpg": 6.0,
+        "apg": 3.5
+      },
+      {
+        "name": "Lider 2",
+        "ppg": 15.0,
+        "rpg": 5.5,
+        "apg": 3.0
+      },
+      {
+        "name": "Lider 3",
+        "ppg": 13.0,
+        "rpg": 5.0,
+        "apg": 2.5
       }
     ]
   },
   "PGE Start Lublin": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 90,
+    "avg_points_allowed": 84,
     "form": [
       1,
       0,
@@ -385,25 +385,25 @@
       0,
       1
     ],
-    "rating": 81,
+    "rating": 84,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 19,
-        "rpg": 7,
-        "apg": 5
+        "ppg": 19.0,
+        "rpg": 7.0,
+        "apg": 4.5
       },
       {
         "name": "Lider 2",
-        "ppg": 16,
-        "rpg": 6,
-        "apg": 4
+        "ppg": 16.0,
+        "rpg": 6.5,
+        "apg": 4.0
       },
       {
         "name": "Lider 3",
-        "ppg": 14,
-        "rpg": 6,
-        "apg": 3
+        "ppg": 14.0,
+        "rpg": 6.0,
+        "apg": 3.5
       }
     ]
   },
@@ -419,33 +419,33 @@
       0,
       1
     ],
-    "rating": 82,
+    "rating": 83,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 16,
-        "rpg": 5,
-        "apg": 4
+        "ppg": 16.0,
+        "rpg": 5.0,
+        "apg": 3.5
       },
       {
         "name": "Lider 2",
-        "ppg": 13,
-        "rpg": 4,
-        "apg": 3
+        "ppg": 13.0,
+        "rpg": 4.5,
+        "apg": 3.0
       },
       {
         "name": "Lider 3",
-        "ppg": 11,
-        "rpg": 4,
-        "apg": 2
+        "ppg": 11.0,
+        "rpg": 4.0,
+        "apg": 2.5
       }
     ]
   },
-  "WKS Śląsk Wrocław": {
+  "Tauron GTK Gliwice": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 86,
+    "avg_points_allowed": 86,
     "form": [
       1,
       0,
@@ -457,29 +457,29 @@
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 17,
-        "rpg": 6,
-        "apg": 5
+        "ppg": 17.0,
+        "rpg": 6.0,
+        "apg": 4.5
       },
       {
         "name": "Lider 2",
-        "ppg": 14,
-        "rpg": 5,
-        "apg": 4
+        "ppg": 14.0,
+        "rpg": 5.5,
+        "apg": 4.0
       },
       {
         "name": "Lider 3",
-        "ppg": 12,
-        "rpg": 5,
-        "apg": 3
+        "ppg": 12.0,
+        "rpg": 5.0,
+        "apg": 3.5
       }
     ]
   },
-  "Zastal Zielona Góra": {
+  "WKS Śląsk Wrocław": {
     "wins": 0,
     "losses": 0,
-    "avg_points_scored": 85,
-    "avg_points_allowed": 85,
+    "avg_points_scored": 87,
+    "avg_points_allowed": 87,
     "form": [
       1,
       0,
@@ -487,25 +487,59 @@
       0,
       1
     ],
-    "rating": 84,
+    "rating": 82,
     "top_players": [
       {
         "name": "Lider 1",
-        "ppg": 18,
-        "rpg": 7,
-        "apg": 4
+        "ppg": 18.0,
+        "rpg": 7.0,
+        "apg": 3.5
       },
       {
         "name": "Lider 2",
-        "ppg": 15,
-        "rpg": 6,
-        "apg": 3
+        "ppg": 15.0,
+        "rpg": 6.5,
+        "apg": 3.0
       },
       {
         "name": "Lider 3",
-        "ppg": 13,
-        "rpg": 6,
-        "apg": 2
+        "ppg": 13.0,
+        "rpg": 6.0,
+        "apg": 2.5
+      }
+    ]
+  },
+  "Zastal Zielona Góra": {
+    "wins": 0,
+    "losses": 0,
+    "avg_points_scored": 88,
+    "avg_points_allowed": 88,
+    "form": [
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "rating": 82,
+    "top_players": [
+      {
+        "name": "Lider 1",
+        "ppg": 19.0,
+        "rpg": 5.0,
+        "apg": 4.5
+      },
+      {
+        "name": "Lider 2",
+        "ppg": 16.0,
+        "rpg": 4.5,
+        "apg": 4.0
+      },
+      {
+        "name": "Lider 3",
+        "ppg": 14.0,
+        "rpg": 4.0,
+        "apg": 3.5
       }
     ]
   }

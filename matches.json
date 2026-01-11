@@ -1,72 +1,109 @@
-[
-  {
-    "id": "15-2026-01-11-KING-LEGIA",
-    "home": "King Szczecin",
-    "away": "Legia Warszawa",
-    "start": "2026-01-11T12:30:00+01:00",
-    "round": "15"
+{
+  "meta": {
+    "source": "seed",
+    "updated_at": "2026-01-11T00:00:00Z",
+    "count": 8
   },
-  {
-    "id": "15-2026-01-11-GORNIK-STAL",
-    "home": "Górnik Zamek Książ Wałbrzych",
-    "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-    "start": "2026-01-11T15:30:00+01:00",
-    "round": "15"
-  },
-  {
-    "id": "15-2026-01-11-DZIKI-ZASTAL",
-    "home": "Dziki Warszawa",
-    "away": "Zastal Zielona Góra",
-    "start": "2026-01-11T17:30:00+01:00",
-    "round": "15"
-  },
-  {
-    "id": "15-2026-01-11-SLASK-KROSNO",
-    "home": "WKS Śląsk Wrocław",
-    "away": "Miasto Szkła Krosno",
-    "start": "2026-01-11T20:00:00+01:00",
-    "round": "15"
-  },
-  {
-    "id": "16-2026-01-16-MKS-PIERNIKI",
-    "home": "MKS Dąbrowa Górnicza",
-    "away": "Arriva Lotto Twarde Pierniki Toruń",
-    "start": "2026-01-16T20:15:00+01:00",
-    "round": "16"
-  },
-  {
-    "id": "16-2026-01-17-DZIKI-SLASK",
-    "home": "Dziki Warszawa",
-    "away": "WKS Śląsk Wrocław",
-    "start": "2026-01-17T12:30:00+01:00",
-    "round": "16"
-  },
-  {
-    "id": "16-2026-01-17-TREFL-ZASTAL",
-    "home": "Energa Trefl Sopot",
-    "away": "Zastal Zielona Góra",
-    "start": "2026-01-17T15:30:00+01:00",
-    "round": "16"
-  },
-  {
-    "id": "16-2026-01-17-GORNIK-ANWIL",
-    "home": "Górnik Zamek Książ Wałbrzych",
-    "away": "Anwil Włocławek",
-    "start": "2026-01-17T17:30:00+01:00",
-    "round": "16"
-  },
-  {
-    "id": "16-2026-01-17-CZARNI-ARKA",
-    "home": "Energa Czarni Słupsk",
-    "away": "AMW Arka Gdynia",
-    "start": "2026-01-17T19:30:00+01:00",
-    "round": "16"
-  },
-  {
-    "id": "16-2026-01-18-KING-START",
-    "home": "King Szczecin",
-    "away": "PGE Start Lublin",
-    "start": "2026-01-18T12:30:00+01:00",
-    "round": "16"
-  }
-]
+  "matches": [
+    {
+      "id": "15-2026-01-08-GTK-CZARNI",
+      "round": 15,
+      "home": "Tauron GTK Gliwice",
+      "away": "Energa Czarni Słupsk",
+      "start": "2026-01-08T20:15:00+01:00",
+      "tv": "YouTube",
+      "status": "played",
+      "score": {
+        "home": 73,
+        "away": 85
+      },
+      "winner": "Energa Czarni Słupsk"
+    },
+    {
+      "id": "15-2026-01-09-ARKA-TORUN",
+      "round": 15,
+      "home": "AMW Arka Gdynia",
+      "away": "Arriva Lotto Twarde Pierniki Toruń",
+      "start": "2026-01-09T20:15:00+01:00",
+      "tv": "YouTube",
+      "status": "played",
+      "score": {
+        "home": 94,
+        "away": 86
+      },
+      "winner": "AMW Arka Gdynia"
+    },
+    {
+      "id": "15-2026-01-10-TREFL-ANWIL",
+      "round": 15,
+      "home": "Energa Trefl Sopot",
+      "away": "Anwil Włocławek",
+      "start": "2026-01-10T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
+      "status": "played",
+      "score": {
+        "home": 83,
+        "away": 74
+      },
+      "winner": "Energa Trefl Sopot"
+    },
+    {
+      "id": "15-2026-01-10-START-MKS",
+      "round": 15,
+      "home": "PGE Start Lublin",
+      "away": "MKS Dąbrowa Górnicza",
+      "start": "2026-01-10T19:30:00+01:00",
+      "tv": "YouTube / Polsat Sport Extra",
+      "status": "played",
+      "score": {
+        "home": 81,
+        "away": 78
+      },
+      "winner": "PGE Start Lublin"
+    },
+    {
+      "id": "15-2026-01-11-KING-LEGIA",
+      "round": 15,
+      "home": "King Szczecin",
+      "away": "Legia Warszawa",
+      "start": "2026-01-11T12:30:00+01:00",
+      "tv": "Polsat Sport 3",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "15-2026-01-11-GORNIK-STAL",
+      "round": 15,
+      "home": "Górnik Zamek Książ Wałbrzych",
+      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "start": "2026-01-11T15:30:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "15-2026-01-11-DZIKI-ZASTAL",
+      "round": 15,
+      "home": "Dziki Warszawa",
+      "away": "Zastal Zielona Góra",
+      "start": "2026-01-11T17:30:00+01:00",
+      "tv": "Polsat Sport 3",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "15-2026-01-11-SLASK-KROSNO",
+      "round": 15,
+      "home": "WKS Śląsk Wrocław",
+      "away": "Miasto Szkła Krosno",
+      "start": "2026-01-11T20:00:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    }
+  ]
+}

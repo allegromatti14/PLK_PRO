@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <title>MatiPLK – PLK Predictor</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
-  body{background:#0b0b0b;color:#fff;font-family:Arial;padding:15px}
-  h2,h3{text-align:center;margin:10px 0}
-  select,input,button{width:100%;padding:12px;margin:8px 0;font-size:16px;border-radius:10px;border:1px solid #333;background:#111;color:#fff}
-  button{background:#ff9800;border:none;font-weight:bold;color:#111;cursor:pointer}
+  :root { --bg:#0b0b0b; --card:#151515; --border:#2b2b2b; --muted:#aaa; --accent:#ff9800; }
+  body{margin:0;background:var(--bg);color:#fff;font-family:Arial;padding:16px}
+  h2{margin:10px 0;text-align:center}
+  .row{display:flex;gap:10px;flex-wrap:wrap}
+  .box{background:var(--card);border:1px solid var(--border);padding:14px;border-radius:14px;margin-top:12px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  label{display:block;margin-top:10px;color:#ddd}
+  select,input,button{width:100%;padding:12px;margin-top:6px;font-size:16px;border-radius:12px;border:1px solid var(--border);background:#111;color:#fff}
+  button{background:var(--accent);border:none;color:#111;font-weight:700;cursor:pointer}
   button:disabled{opacity:.5;cursor:not-allowed}
-  .box{background:#151515;padding:14px;border-radius:14px;margin-top:12px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
-  small{color:#aaa}
-  #status{text-align:center;margin:10px 0;font-weight:bold}
-  .ok{color:#6CFF6C}
-  .bad{color:#ff4444}
+  small{color:var(--muted)}
+  #status{text-align:center;margin:8px 0;font-weight:700}
+  .ok{color:#6CFF6C}.bad{color:#ff4444}
+  .pill{display:inline-block;padding:3px 8px;border-radius:999px;border:1px solid var(--border);font-size:12px;color:#ddd}
+  .played{border-color:#2f6; color:#9f9}
+  .sched{border-color:#888; color:#ddd}
   a{color:#9ad0ff}
 </style>
 </head>
 <body>
 
 <h2>MatiPLK – PLK Predictor</h2>
-<div id="status" class="bad">Ładowanie danych…</div>
+<div id="status" class="bad">Ładowanie…</div>
 
 <div class="box">
-  <h3>Wybór meczu</h3>
+  <div class="row" style="justify-content:space-between;align-items:center">
+    <div><b>Terminarz</b> <span id="meta" class="pill">—</span></div>
+    <div class="pill" id="onlinePill">—</div>
+  </div>
 
   <label>Drużyna A (gospodarz)</label>
   <select id="teamA"></select>
@@ -42,94 +50,108 @@
 
   <button id="btnPredict" onclick="predict()" disabled>ANALIZUJ</button>
 
-  <div style="text-align:center;margin-top:6px">
+  <div style="text-align:center;margin-top:10px">
     <small id="countdown"></small><br>
-    <small>Źródło terminarza: <a href="https://plk.pl/terminarz/najblizsze-mecze" target="_blank" rel="noreferrer">plk.pl – Najbliższe mecze</a></small><br>
-    <small>Ostatnia aktualizacja matches.json: 2026-01-11</small>
+    <small>Źródło: <a href="https://plk.pl/terminarz" target="_blank" rel="noreferrer">plk.pl/terminarz</a></small>
   </div>
 </div>
 
 <div class="box" id="result"></div>
 
 <div class="box">
-  <h3>Historia</h3>
+  <h3 style="margin:0 0 8px 0">Historia</h3>
   <div id="history"></div>
 </div>
 
 <script>
-function normName(s) {
-  return String(s || "")
-    .trim()
-    .replace(/\s+/g, " ")
-    .replace(/–/g, "-")
-    .replace(/—/g, "-");
+function normName(s){
+  return String(s||"").trim().replace(/\s+/g," ").replace(/[–—]/g,"-");
 }
 
 let teams = null;
 let matches = [];
+let matchesMeta = null;
 
-function setStatus(text, ok) {
+function setStatus(text, ok){
   const el = document.getElementById('status');
   el.textContent = text;
-  el.className = ok ? 'ok' : 'bad';
+  el.className = ok ? "ok" : "bad";
 }
 
-async function loadTeams() {
-  const r = await fetch('teams.json', { cache: 'no-store' });
-  if(!r.ok) throw new Error('teams.json HTTP ' + r.status);
+function setOnlinePill(){
+  const p = document.getElementById('onlinePill');
+  const on = navigator.onLine;
+  p.textContent = on ? "ONLINE" : "OFFLINE";
+  p.className = "pill " + (on ? "played" : "sched");
+}
+
+async function loadTeams(){
+  const r = await fetch('teams.json', { cache:'no-store' });
+  if(!r.ok) throw new Error("teams.json HTTP "+r.status);
   teams = await r.json();
 }
 
-async function loadMatches() {
-  const r = await fetch('matches.json', { cache: 'no-store' });
-  if(!r.ok) throw new Error('matches.json HTTP ' + r.status);
-  matches = await r.json();
+async function loadMatches(){
+  const r = await fetch('matches.json', { cache:'no-store' });
+  if(!r.ok) throw new Error("matches.json HTTP "+r.status);
+  const data = await r.json();
+  if(Array.isArray(data)){
+    matches = data;
+    matchesMeta = null;
+  }else{
+    matches = data.matches || [];
+    matchesMeta = data.meta || null;
+  }
+  document.getElementById('meta').textContent =
+    matchesMeta?.updated_at ? ("aktualizacja: "+matchesMeta.updated_at) : ("mecze: "+matches.length);
 }
 
-function populateTeamSelects() {
+function populateTeamSelects(){
   const a = document.getElementById('teamA');
   const b = document.getElementById('teamB');
-  a.innerHTML = '';
-  b.innerHTML = '';
-  Object.keys(teams || {}).forEach(t => {
+  a.innerHTML = ""; b.innerHTML = "";
+  Object.keys(teams||{}).forEach(t=>{
     a.innerHTML += `<option>${t}</option>`;
     b.innerHTML += `<option>${t}</option>`;
   });
 }
 
-function updateMatchList() {
+function formatMatchOption(m){
+  const d = new Date(m.start);
+  const when = d.toLocaleString('pl-PL', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' });
+  const score = (m.status==="played" && m.score) ? ` ${m.score.home}:${m.score.away}` : "";
+  return `${when} — vs ${m.away}${score}`;
+}
+
+function updateMatchList(){
   const host = normName(document.getElementById('teamA').value);
   const ms = document.getElementById('matchSelect');
   ms.innerHTML = `<option value="">— wybierz mecz —</option>`;
 
-  const upcoming = matches
+  const list = matches
     .filter(m => normName(m.home) === host)
-    .sort((x,y) => new Date(x.start) - new Date(y.start));
+    .sort((x,y)=> new Date(x.start) - new Date(y.start));
 
-  if (upcoming.length === 0) {
-    ms.innerHTML += `<option value="">(Brak meczów dla: ${host} – zaktualizuj matches.json)</option>`;
-  } else {
-    for (const m of upcoming) {
-      const d = new Date(m.start);
-      const label = `${d.toLocaleString('pl-PL')} — vs ${m.away} (kolejka ${m.round})`;
-      ms.innerHTML += `<option value="${m.id}">${label}</option>`;
-    }
-  }
-
-  document.getElementById('btnPredict').disabled = true;
-  document.getElementById('countdown').textContent = '';
-  document.getElementById('matchDate').value = '';
-}
-
-function applySelectedMatch() {
-  const id = document.getElementById('matchSelect').value;
-  const m = matches.find(x => String(x.id) === String(id));
-  if(!m) {
+  if(list.length===0){
+    ms.innerHTML += `<option value="">(Brak meczów – uruchom workflow w GitHub Actions)</option>`;
     document.getElementById('btnPredict').disabled = true;
     return;
   }
 
-  // ustaw gościa + datę
+  for(const m of list){
+    ms.innerHTML += `<option value="${m.id}">${formatMatchOption(m)}</option>`;
+  }
+
+  document.getElementById('btnPredict').disabled = true;
+  document.getElementById('countdown').textContent = "";
+  document.getElementById('matchDate').value = "";
+}
+
+function applySelectedMatch(){
+  const id = document.getElementById('matchSelect').value;
+  const m = matches.find(x => String(x.id) === String(id));
+  if(!m){ document.getElementById('btnPredict').disabled = true; return; }
+
   document.getElementById('teamB').value = m.away;
 
   const dt = new Date(m.start);
@@ -141,23 +163,23 @@ function applySelectedMatch() {
   document.getElementById('btnPredict').disabled = false;
 }
 
-function updateCountdown(matchTime) {
+function updateCountdown(matchTime){
   const el = document.getElementById('countdown');
   const now = new Date();
   const diffMs = matchTime - now;
 
-  if(diffMs > 0) {
-    const totalSec = Math.floor(diffMs / 1000);
-    const days = Math.floor(totalSec / 86400);
-    const hours = Math.floor((totalSec % 86400) / 3600);
-    const mins = Math.floor((totalSec % 3600) / 60);
+  if(diffMs > 0){
+    const totalSec = Math.floor(diffMs/1000);
+    const days = Math.floor(totalSec/86400);
+    const hours = Math.floor((totalSec%86400)/3600);
+    const mins = Math.floor((totalSec%3600)/60);
     el.textContent = `Start za: ${days}d ${hours}h ${mins}m`;
-  } else {
+  }else{
     el.textContent = `Mecz już się rozpoczął / minął`;
   }
 }
 
-function teamScore(name, isHome) {
+function teamScore(name, isHome){
   const t = teams[name];
   if(!t) return 50;
   const base = t.rating;
@@ -168,55 +190,54 @@ function teamScore(name, isHome) {
   return base + form + players + homeBonus + rand;
 }
 
-function predict() {
-  const a = document.getElementById('teamA').value; // gospodarz
-  const b = document.getElementById('teamB').value; // gość
-  const dtVal = document.getElementById('matchDate').value;
+function predict(){
+  const a = teamA.value;
+  const b = teamB.value;
+  const dtVal = matchDate.value;
+  const m = matches.find(x => x.id === matchSelect.value);
 
-  if(!a || !b || a === b) {
-    result.innerHTML = "Wybierz mecz z terminarza.";
-    return;
-  }
-
-  const sa = teamScore(a, true);
-  const sb = teamScore(b, false);
+  const sa = teamScore(a,true);
+  const sb = teamScore(b,false);
   const diff = sa - sb;
   const win = diff > 0 ? a : b;
+
   const pct = Math.min(80, 50 + Math.abs(diff) * 2.3);
   const conf = pct > 70 ? "WYSOKA" : pct > 60 ? "ŚREDNIA" : "NISKA";
 
-  let when = "";
-  if(dtVal) when = `<br><b>Mecz:</b> ${new Date(dtVal).toLocaleString('pl-PL')}`;
+  const when = dtVal ? `<br><b>Mecz:</b> ${new Date(dtVal).toLocaleString('pl-PL')}` : "";
+  const tv = m?.tv ? `<br><b>TV:</b> ${m.tv}` : "";
+  const played = (m?.status==="played" && m.score) ? `<br><b>Wynik:</b> ${m.score.home}:${m.score.away} (wygrał: ${m.winner})` : "";
 
   result.innerHTML = `
-    <h3>WYNIK ANALIZY</h3>
+    <h3 style="margin:0 0 8px 0">WYNIK ANALIZY</h3>
     ${a}: ${sa.toFixed(1)}<br>
     ${b}: ${sb.toFixed(1)}<br><br>
     <b>Typ:</b> ${win}<br>
     <b>Szanse:</b> ${pct.toFixed(0)}%<br>
     <b>Pewność:</b> ${conf}
-    ${when}
+    ${when}${tv}${played}
     <br><small>Do zabawy</small>
   `;
-
-  history.innerHTML = `${a} vs ${b} → ${win} (${pct.toFixed(0)}%)${dtVal ? " | " + new Date(dtVal).toLocaleString('pl-PL') : ""}<br>` + history.innerHTML;
 }
 
 (async () => {
-  try {
+  setOnlinePill();
+  window.addEventListener('online', setOnlinePill);
+  window.addEventListener('offline', setOnlinePill);
+
+  try{
     await Promise.all([loadTeams(), loadMatches()]);
-    setStatus("ONLINE: dane + terminarz załadowane", true);
-  } catch(e) {
+    setStatus("ONLINE: dane + terminarz", true);
+  }catch(e){
     console.warn(e);
-    setStatus("OFFLINE: błąd ładowania danych (teams.json / matches.json)", false);
+    setStatus("OFFLINE: błąd ładowania", false);
     return;
   }
 
   populateTeamSelects();
   updateMatchList();
-
-  document.getElementById('teamA').addEventListener('change', updateMatchList);
-  document.getElementById('matchSelect').addEventListener('change', applySelectedMatch);
+  teamA.addEventListener('change', updateMatchList);
+  matchSelect.addEventListener('change', applySelectedMatch);
 })();
 </script>
 </body>
