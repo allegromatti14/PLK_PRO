@@ -1,9 +1,15 @@
-WRZUĆ DO REPO (ROOT):
-- plk_pro.html
-- teams.json
-- matches.json
+Gotowiec (opcja 1 = matches.json jako cache z plk.pl)
 
-Potem GitHub Pages: Settings → Pages → Deploy from branch → main / (root)
+1) Wrzuć do repo PLK_PRO (ROOT):
+   - plk_pro.html
+   - teams.json
+   - matches.json
 
-Link:
-https://allegromatti14.github.io/PLK_PRO/plk_pro.html
+2) GitHub Pages: Settings → Pages → Deploy from branch → main / (root)
+
+3) Otwórz:
+   https://allegromatti14.github.io/PLK_PRO/plk_pro.html
+
+Aktualizacja terminarza:
+- wejdź na https://plk.pl/terminarz/najblizsze-mecze
+- przepisz/uzupełnij matches.json o kolejne mecze.

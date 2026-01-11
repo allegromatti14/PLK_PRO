@@ -1,152 +1,72 @@
 [
   {
-    "id": "M1",
-    "home": "Dziki Warszawa",
-    "away": "WKS Śląsk Wrocław",
-    "start": "2026-01-24T18:00:00+01:00"
-  },
-  {
-    "id": "M2",
+    "id": "15-2026-01-11-KING-LEGIA",
     "home": "King Szczecin",
-    "away": "AMW Arka Gdynia",
-    "start": "2026-02-07T18:00:00+01:00"
-  },
-  {
-    "id": "M3",
-    "home": "Anwil Włocławek",
-    "away": "Trefl Sopot",
-    "start": "2026-02-21T18:00:00+01:00"
-  },
-  {
-    "id": "M4",
-    "home": "Legia Warszawa",
-    "away": "Górnik Zamek Książ Wałbrzych",
-    "start": "2026-03-07T18:00:00+01:00"
-  },
-  {
-    "id": "M5",
-    "home": "Zastal Zielona Góra",
-    "away": "PGE Start Lublin",
-    "start": "2026-03-21T18:00:00+01:00"
-  },
-  {
-    "id": "M6",
-    "home": "MKS Dąbrowa Górnicza",
-    "away": "Energa Czarni Słupsk",
-    "start": "2026-04-04T18:00:00+01:00"
-  },
-  {
-    "id": "M7",
-    "home": "Arriva Lotto Twarde Pierniki Toruń",
-    "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-    "start": "2026-04-18T18:00:00+01:00"
-  },
-  {
-    "id": "M8",
-    "home": "Tauron GTK Gliwice",
-    "away": "Miasto Szkła Krosno",
-    "start": "2026-05-02T18:00:00+01:00"
-  },
-  {
-    "id": "M9",
-    "home": "Dziki Warszawa",
-    "away": "King Szczecin",
-    "start": "2026-05-16T18:00:00+01:00"
-  },
-  {
-    "id": "M10",
-    "home": "King Szczecin",
-    "away": "Anwil Włocławek",
-    "start": "2026-05-30T18:00:00+01:00"
-  },
-  {
-    "id": "M11",
-    "home": "Anwil Włocławek",
     "away": "Legia Warszawa",
-    "start": "2026-06-13T18:00:00+01:00"
+    "start": "2026-01-11T12:30:00+01:00",
+    "round": "15"
   },
   {
-    "id": "M12",
-    "home": "Legia Warszawa",
+    "id": "15-2026-01-11-GORNIK-STAL",
+    "home": "Górnik Zamek Książ Wałbrzych",
+    "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+    "start": "2026-01-11T15:30:00+01:00",
+    "round": "15"
+  },
+  {
+    "id": "15-2026-01-11-DZIKI-ZASTAL",
+    "home": "Dziki Warszawa",
     "away": "Zastal Zielona Góra",
-    "start": "2026-06-27T18:00:00+01:00"
+    "start": "2026-01-11T17:30:00+01:00",
+    "round": "15"
   },
   {
-    "id": "M13",
-    "home": "Zastal Zielona Góra",
-    "away": "MKS Dąbrowa Górnicza",
-    "start": "2026-07-11T18:00:00+01:00"
+    "id": "15-2026-01-11-SLASK-KROSNO",
+    "home": "WKS Śląsk Wrocław",
+    "away": "Miasto Szkła Krosno",
+    "start": "2026-01-11T20:00:00+01:00",
+    "round": "15"
   },
   {
-    "id": "M14",
+    "id": "16-2026-01-16-MKS-PIERNIKI",
     "home": "MKS Dąbrowa Górnicza",
     "away": "Arriva Lotto Twarde Pierniki Toruń",
-    "start": "2026-07-25T18:00:00+01:00"
+    "start": "2026-01-16T20:15:00+01:00",
+    "round": "16"
   },
   {
-    "id": "M15",
-    "home": "Arriva Lotto Twarde Pierniki Toruń",
-    "away": "Tauron GTK Gliwice",
-    "start": "2026-08-08T18:00:00+01:00"
-  },
-  {
-    "id": "M16",
-    "home": "Tauron GTK Gliwice",
-    "away": "Dziki Warszawa",
-    "start": "2026-08-22T18:00:00+01:00"
-  },
-  {
-    "id": "M17",
+    "id": "16-2026-01-17-DZIKI-SLASK",
     "home": "Dziki Warszawa",
-    "away": "AMW Arka Gdynia",
-    "start": "2026-09-05T18:00:00+01:00"
-  },
-  {
-    "id": "M18",
-    "home": "King Szczecin",
-    "away": "Trefl Sopot",
-    "start": "2026-09-19T18:00:00+01:00"
-  },
-  {
-    "id": "M19",
-    "home": "Anwil Włocławek",
-    "away": "Górnik Zamek Książ Wałbrzych",
-    "start": "2026-10-03T18:00:00+01:00"
-  },
-  {
-    "id": "M20",
-    "home": "Legia Warszawa",
-    "away": "PGE Start Lublin",
-    "start": "2026-10-17T18:00:00+01:00"
-  },
-  {
-    "id": "M21",
-    "home": "Zastal Zielona Góra",
-    "away": "Energa Czarni Słupsk",
-    "start": "2026-10-31T18:00:00+01:00"
-  },
-  {
-    "id": "M22",
-    "home": "MKS Dąbrowa Górnicza",
-    "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-    "start": "2026-11-14T18:00:00+01:00"
-  },
-  {
-    "id": "M23",
-    "home": "Arriva Lotto Twarde Pierniki Toruń",
-    "away": "Miasto Szkła Krosno",
-    "start": "2026-11-28T18:00:00+01:00"
-  },
-  {
-    "id": "M24",
-    "home": "Tauron GTK Gliwice",
     "away": "WKS Śląsk Wrocław",
-    "start": "2026-12-12T18:00:00+01:00"
+    "start": "2026-01-17T12:30:00+01:00",
+    "round": "16"
   },
   {
-    "id": "M25",
-    "home": "Dziki Warszawa",
+    "id": "16-2026-01-17-TREFL-ZASTAL",
+    "home": "Energa Trefl Sopot",
+    "away": "Zastal Zielona Góra",
+    "start": "2026-01-17T15:30:00+01:00",
+    "round": "16"
+  },
+  {
+    "id": "16-2026-01-17-GORNIK-ANWIL",
+    "home": "Górnik Zamek Książ Wałbrzych",
     "away": "Anwil Włocławek",
-    "start": "2026-12-26T18:00:00+01:00"
+    "start": "2026-01-17T17:30:00+01:00",
+    "round": "16"
+  },
+  {
+    "id": "16-2026-01-17-CZARNI-ARKA",
+    "home": "Energa Czarni Słupsk",
+    "away": "AMW Arka Gdynia",
+    "start": "2026-01-17T19:30:00+01:00",
+    "round": "16"
+  },
+  {
+    "id": "16-2026-01-18-KING-START",
+    "home": "King Szczecin",
+    "away": "PGE Start Lublin",
+    "start": "2026-01-18T12:30:00+01:00",
+    "round": "16"
   }
 ]
