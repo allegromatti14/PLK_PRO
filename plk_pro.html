@@ -2,78 +2,129 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
-<title>PLK ULTRA PRO ONLINE</title>
+<title>MatiPLK – PLK Predictor</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body{background:#0b0b0b;color:#fff;font-family:Arial;padding:15px}
-h2,h3{text-align:center}
-select,button{width:100%;padding:12px;margin:8px 0;font-size:16px}
-button{background:#ff9800;border:none;font-weight:bold}
-.box{background:#1a1a1a;padding:12px;border-radius:8px;margin-top:12px}
-small{color:#aaa}
-#offline{color:#ff4444;font-weight:bold;text-align:center;margin-top:10px}
+  body{background:#0b0b0b;color:#fff;font-family:Arial;padding:15px}
+  h2,h3{text-align:center;margin:10px 0}
+  select,button{width:100%;padding:12px;margin:8px 0;font-size:16px}
+  button{background:#ff9800;border:none;font-weight:bold}
+  .box{background:#1a1a1a;padding:12px;border-radius:10px;margin-top:12px}
+  small{color:#aaa}
+  #status{text-align:center;margin:10px 0;font-weight:bold}
+  .ok{color:#6CFF6C}
+  .bad{color:#ff4444}
 </style>
 </head>
 <body>
-<h2>PLK ULTRA PRO – ONLINE 2025/26</h2>
+<h2>MatiPLK – PLK Predictor (Online + Offline)</h2>
+
+<div id="status" class="bad">Ładowanie danych…</div>
+
 <div class="box">
-<h3>Wybór meczu</h3>
-<label>Drużyna A</label>
-<select id="teamA"></select>
-<label><input type="checkbox" id="homeA"> Mecz u siebie</label>
-<label>Drużyna B</label>
-<select id="teamB"></select>
-<label><input type="checkbox" id="homeB"> Mecz u siebie</label>
-<button onclick="predict()">ANALIZUJ</button>
+  <h3>Wybór meczu</h3>
+  <label>Drużyna A</label>
+  <select id="teamA"></select>
+  <label><input type="checkbox" id="homeA"> Mecz u siebie</label>
+
+  <label>Drużyna B</label>
+  <select id="teamB"></select>
+  <label><input type="checkbox" id="homeB"> Mecz u siebie</label>
+
+  <button onclick="predict()">ANALIZUJ</button>
 </div>
-<div id="offline"></div>
+
 <div class="box" id="result"></div>
+
 <div class="box">
-<h3>Historia</h3>
-<div id="history"></div>
+  <h3>Historia</h3>
+  <div id="history"></div>
 </div>
+
 <script>
-let teams={};
-const offlineMessage = document.getElementById('offline');
+let teams = null;
+const FALLBACK = {"WKS Śląsk Wrocław": {"wins": 10, "losses": 4, "avg_points_scored": 89, "avg_points_allowed": 83, "form": [1, 1, 0, 1, 1], "rating": 91, "top_players": [{"name": "Lider S1", "ppg": 18.7, "rpg": 6.3, "apg": 4.5}, {"name": "Lider S2", "ppg": 15.4, "rpg": 5.9, "apg": 3.8}, {"name": "Lider S3", "ppg": 12.8, "rpg": 4.6, "apg": 3.1}]}, "AMW Arka Gdynia": {"wins": 10, "losses": 4, "avg_points_scored": 87, "avg_points_allowed": 82, "form": [1, 1, 1, 0, 1], "rating": 89, "top_players": [{"name": "Lider A1", "ppg": 17.9, "rpg": 6.1, "apg": 4.2}, {"name": "Lider A2", "ppg": 14.9, "rpg": 5.6, "apg": 3.7}, {"name": "Lider A3", "ppg": 11.9, "rpg": 4.8, "apg": 3.3}]}, "Trefl Sopot": {"wins": 9, "losses": 5, "avg_points_scored": 88, "avg_points_allowed": 84, "form": [1, 0, 1, 1, 1], "rating": 90, "top_players": [{"name": "Lider T1", "ppg": 18.3, "rpg": 6.4, "apg": 4.6}, {"name": "Lider T2", "ppg": 15.2, "rpg": 5.7, "apg": 4.0}, {"name": "Lider T3", "ppg": 13.2, "rpg": 5.0, "apg": 3.5}]}, "Legia Warszawa": {"wins": 9, "losses": 5, "avg_points_scored": 85, "avg_points_allowed": 83, "form": [1, 1, 0, 0, 1], "rating": 88, "top_players": [{"name": "Lider L1", "ppg": 16.1, "rpg": 6.0, "apg": 4.3}, {"name": "Lider L2", "ppg": 14.1, "rpg": 5.5, "apg": 3.9}, {"name": "Lider L3", "ppg": 12.3, "rpg": 4.4, "apg": 3.2}]}, "King Szczecin": {"wins": 9, "losses": 5, "avg_points_scored": 86, "avg_points_allowed": 85, "form": [1, 0, 1, 1, 0], "rating": 89, "top_players": [{"name": "Lider K1", "ppg": 17.0, "rpg": 6.5, "apg": 4.6}, {"name": "Lider K2", "ppg": 14.4, "rpg": 5.9, "apg": 4.0}, {"name": "Lider K3", "ppg": 12.1, "rpg": 4.9, "apg": 3.4}]}, "Anwil Włocławek": {"wins": 8, "losses": 6, "avg_points_scored": 87, "avg_points_allowed": 88, "form": [0, 1, 1, 1, 0], "rating": 87, "top_players": [{"name": "Lider W1", "ppg": 16.8, "rpg": 6.2, "apg": 4.0}, {"name": "Lider W2", "ppg": 14.6, "rpg": 5.7, "apg": 3.8}, {"name": "Lider W3", "ppg": 12.4, "rpg": 4.7, "apg": 3.1}]}, "Górnik Zamek Książ Wałbrzych": {"wins": 8, "losses": 6, "avg_points_scored": 84, "avg_points_allowed": 86, "form": [1, 0, 1, 0, 1], "rating": 86, "top_players": [{"name": "Lider G1", "ppg": 15.8, "rpg": 6.0, "apg": 4.1}, {"name": "Lider G2", "ppg": 14.0, "rpg": 5.5, "apg": 3.7}, {"name": "Lider G3", "ppg": 11.7, "rpg": 4.8, "apg": 3.3}]}, "Zastal Zielona Góra": {"wins": 8, "losses": 6, "avg_points_scored": 88, "avg_points_allowed": 86, "form": [1, 1, 0, 1, 0], "rating": 87, "top_players": [{"name": "Lider Z1", "ppg": 16.9, "rpg": 6.1, "apg": 4.3}, {"name": "Lider Z2", "ppg": 14.3, "rpg": 5.8, "apg": 3.9}, {"name": "Lider Z3", "ppg": 12.2, "rpg": 4.9, "apg": 3.2}]}, "Dziki Warszawa": {"wins": 8, "losses": 6, "avg_points_scored": 89, "avg_points_allowed": 86, "form": [1, 1, 0, 1, 0], "rating": 87, "top_players": [{"name": "Lider D1", "ppg": 17.6, "rpg": 6.7, "apg": 4.8}, {"name": "Lider D2", "ppg": 14.2, "rpg": 5.9, "apg": 3.6}, {"name": "Lider D3", "ppg": 12.5, "rpg": 4.8, "apg": 3.1}]}, "Stal Ostrów Wielkopolski": {"wins": 7, "losses": 7, "avg_points_scored": 87, "avg_points_allowed": 89, "form": [0, 1, 0, 1, 0], "rating": 85, "top_players": [{"name": "Lider O1", "ppg": 15.6, "rpg": 6.2, "apg": 4.1}, {"name": "Lider O2", "ppg": 13.8, "rpg": 5.7, "apg": 3.9}, {"name": "Lider O3", "ppg": 11.9, "rpg": 4.6, "apg": 3.0}]}, "MKS Dąbrowa Górnicza": {"wins": 6, "losses": 8, "avg_points_scored": 86, "avg_points_allowed": 88, "form": [0, 0, 1, 1, 0], "rating": 84, "top_players": [{"name": "Lider M1", "ppg": 15.4, "rpg": 5.8, "apg": 4.0}, {"name": "Lider M2", "ppg": 13.9, "rpg": 5.3, "apg": 3.8}, {"name": "Lider M3", "ppg": 11.8, "rpg": 4.7, "apg": 3.1}]}, "Czarni Słupsk": {"wins": 5, "losses": 10, "avg_points_scored": 87, "avg_points_allowed": 91, "form": [0, 0, 0, 1, 0], "rating": 82, "top_players": [{"name": "Lider C1", "ppg": 15.9, "rpg": 6.0, "apg": 4.2}, {"name": "Lider C2", "ppg": 13.5, "rpg": 5.6, "apg": 3.7}, {"name": "Lider C3", "ppg": 11.4, "rpg": 4.5, "apg": 3.0}]}, "Twarde Pierniki Toruń": {"wins": 6, "losses": 8, "avg_points_scored": 87, "avg_points_allowed": 89, "form": [0, 1, 0, 1, 0], "rating": 83, "top_players": [{"name": "Lider P1", "ppg": 15.7, "rpg": 6.1, "apg": 4.3}, {"name": "Lider P2", "ppg": 13.7, "rpg": 5.5, "apg": 3.7}, {"name": "Lider P3", "ppg": 11.9, "rpg": 4.6, "apg": 3.2}]}, "Start Lublin": {"wins": 5, "losses": 9, "avg_points_scored": 85, "avg_points_allowed": 90, "form": [0, 0, 1, 0, 0], "rating": 80, "top_players": [{"name": "Lider SL1", "ppg": 16.4, "rpg": 5.7, "apg": 4.1}, {"name": "Lider SL2", "ppg": 13.9, "rpg": 5.3, "apg": 3.8}, {"name": "Lider SL3", "ppg": 11.2, "rpg": 4.5, "apg": 3.0}]}, "GTK Gliwice": {"wins": 3, "losses": 12, "avg_points_scored": 84, "avg_points_allowed": 92, "form": [0, 0, 0, 1, 0], "rating": 78, "top_players": [{"name": "Lider Gt1", "ppg": 15.2, "rpg": 5.6, "apg": 4.0}, {"name": "Lider Gt2", "ppg": 13.8, "rpg": 5.2, "apg": 3.6}, {"name": "Lider Gt3", "ppg": 10.8, "rpg": 4.2, "apg": 3.0}]}, "Miasto Szkła Krosno": {"wins": 2, "losses": 12, "avg_points_scored": 82, "avg_points_allowed": 90, "form": [0, 0, 0, 1, 0], "rating": 76, "top_players": [{"name": "Lider Krs1", "ppg": 14.9, "rpg": 5.5, "apg": 4.1}, {"name": "Lider Krs2", "ppg": 12.8, "rpg": 5.0, "apg": 3.8}, {"name": "Lider Krs3", "ppg": 10.5, "rpg": 4.3, "apg": 2.9}]}, "BM SLAM Stal Ostrów (rezerwa)": {"wins": 4, "losses": 10, "avg_points_scored": 83, "avg_points_allowed": 91, "form": [0, 1, 0, 0, 0], "rating": 79, "top_players": [{"name": "Lider R1", "ppg": 14.8, "rpg": 5.8, "apg": 3.9}, {"name": "Lider R2", "ppg": 12.9, "rpg": 5.1, "apg": 3.4}, {"name": "Lider R3", "ppg": 10.9, "rpg": 4.4, "apg": 2.8}]}};
+
+function setStatus(text, ok) {
+  const el = document.getElementById('status');
+  el.textContent = text;
+  el.className = ok ? 'ok' : 'bad';
+}
+
 async function loadTeams() {
- try{
-  const response = await fetch('teams.json');
-  if(!response.ok) throw new Error('Brak odpowiedzi serwera');
-  teams = await response.json();
-  offlineMessage.textContent = ''; 
- }catch(e){
-  offlineMessage.textContent = '❌ Tryb OFFLINE – używane ostatnie dane lokalne';
-  console.warn('Offline fallback:', e);
-  teams = {"WKS \u015al\u0105sk Wroc\u0142aw": {"wins": 10, "losses": 4, "avg_points_scored": 89, "avg_points_allowed": 83, "form": [1, 1, 0, 1, 1], "rating": 91, "top_players": [{"name": "Lider A1", "ppg": 18.7, "rpg": 6.3, "apg": 4.5}, {"name": "Lider A2", "ppg": 15.4, "rpg": 5.9, "apg": 3.8}, {"name": "Lider A3", "ppg": 12.8, "rpg": 4.6, "apg": 3.1}]}, "AMW Arka Gdynia": {"wins": 10, "losses": 4, "avg_points_scored": 87, "avg_points_allowed": 82, "form": [1, 1, 1, 0, 1], "rating": 89, "top_players": [{"name": "Lider B1", "ppg": 17.9, "rpg": 6.1, "apg": 4.2}, {"name": "Lider B2", "ppg": 14.9, "rpg": 5.6, "apg": 3.7}, {"name": "Lider B3", "ppg": 11.9, "rpg": 4.8, "apg": 3.3}]}, "Energa Trefl Sopot": {"wins": 9, "losses": 5, "avg_points_scored": 88, "avg_points_allowed": 84, "form": [1, 0, 1, 1, 1], "rating": 90, "top_players": [{"name": "Lider C1", "ppg": 18.3, "rpg": 6.4, "apg": 4.6}, {"name": "Lider C2", "ppg": 15.2, "rpg": 5.7, "apg": 4.0}, {"name": "Lider C3", "ppg": 13.2, "rpg": 5.0, "apg": 3.5}]}, "Legia Warszawa": {"wins": 9, "losses": 5, "avg_points_scored": 85, "avg_points_allowed": 83, "form": [1, 1, 0, 0, 1], "rating": 88, "top_players": [{"name": "Lider D1", "ppg": 16.1, "rpg": 6.0, "apg": 4.3}, {"name": "Lider D2", "ppg": 14.1, "rpg": 5.5, "apg": 3.9}, {"name": "Lider D3", "ppg": 12.3, "rpg": 4.4, "apg": 3.2}]}, "King Szczecin": {"wins": 9, "losses": 5, "avg_points_scored": 86, "avg_points_allowed": 85, "form": [1, 0, 1, 1, 0], "rating": 89, "top_players": [{"name": "Lider E1", "ppg": 17.0, "rpg": 6.5, "apg": 4.6}, {"name": "Lider E2", "ppg": 14.4, "rpg": 5.9, "apg": 4.0}, {"name": "Lider E3", "ppg": 12.1, "rpg": 4.9, "apg": 3.4}]}, "Anwil W\u0142oc\u0142awek": {"wins": 8, "losses": 6, "avg_points_scored": 87, "avg_points_allowed": 88, "form": [0, 1, 1, 1, 0], "rating": 87, "top_players": [{"name": "Lider F1", "ppg": 16.8, "rpg": 6.2, "apg": 4.0}, {"name": "Lider F2", "ppg": 14.6, "rpg": 5.7, "apg": 3.8}, {"name": "Lider F3", "ppg": 12.4, "rpg": 4.7, "apg": 3.1}]}, "G\u00f3rnik Wa\u0142brzych": {"wins": 8, "losses": 6, "avg_points_scored": 84, "avg_points_allowed": 86, "form": [1, 0, 1, 0, 1], "rating": 86, "top_players": [{"name": "Lider G1", "ppg": 15.8, "rpg": 6.0, "apg": 4.1}, {"name": "Lider G2", "ppg": 14.0, "rpg": 5.5, "apg": 3.7}, {"name": "Lider G3", "ppg": 11.7, "rpg": 4.8, "apg": 3.3}]}, "Zastal Zielona G\u00f3ra": {"wins": 8, "losses": 6, "avg_points_scored": 88, "avg_points_allowed": 86, "form": [1, 1, 0, 1, 0], "rating": 87, "top_players": [{"name": "Lider H1", "ppg": 16.9, "rpg": 6.1, "apg": 4.3}, {"name": "Lider H2", "ppg": 14.3, "rpg": 5.8, "apg": 3.9}, {"name": "Lider H3", "ppg": 12.2, "rpg": 4.9, "apg": 3.2}]}, "Dziki Warszawa": {"wins": 8, "losses": 6, "avg_points_scored": 89, "avg_points_allowed": 86, "form": [1, 1, 0, 1, 0], "rating": 87, "top_players": [{"name": "Lider I1", "ppg": 17.6, "rpg": 6.7, "apg": 4.8}, {"name": "Lider I2", "ppg": 14.2, "rpg": 5.9, "apg": 3.6}, {"name": "Lider I3", "ppg": 12.5, "rpg": 4.8, "apg": 3.1}]}, "Stal Ostr\u00f3w": {"wins": 7, "losses": 7, "avg_points_scored": 87, "avg_points_allowed": 89, "form": [0, 1, 0, 1, 0], "rating": 85, "top_players": [{"name": "Lider J1", "ppg": 15.6, "rpg": 6.2, "apg": 4.1}, {"name": "Lider J2", "ppg": 13.8, "rpg": 5.7, "apg": 3.9}, {"name": "Lider J3", "ppg": 11.9, "rpg": 4.6, "apg": 3.0}]}, "MKS D\u0105browa G\u00f3rnicza": {"wins": 6, "losses": 8, "avg_points_scored": 86, "avg_points_allowed": 88, "form": [0, 0, 1, 1, 0], "rating": 84, "top_players": [{"name": "Lider K1", "ppg": 15.4, "rpg": 5.8, "apg": 4.0}, {"name": "Lider K2", "ppg": 13.9, "rpg": 5.3, "apg": 3.8}, {"name": "Lider K3", "ppg": 11.8, "rpg": 4.7, "apg": 3.1}]}, "Czarni S\u0142upsk": {"wins": 5, "losses": 10, "avg_points_scored": 87, "avg_points_allowed": 91, "form": [0, 0, 0, 1, 0], "rating": 82, "top_players": [{"name": "Lider L1", "ppg": 15.9, "rpg": 6.0, "apg": 4.2}, {"name": "Lider L2", "ppg": 13.5, "rpg": 5.6, "apg": 3.7}, {"name": "Lider L3", "ppg": 11.4, "rpg": 4.5, "apg": 3.0}]}, "Twarde Pierniki Toru\u0144": {"wins": 6, "losses": 8, "avg_points_scored": 87, "avg_points_allowed": 89, "form": [0, 1, 0, 1, 0], "rating": 83, "top_players": [{"name": "Lider M1", "ppg": 15.7, "rpg": 6.1, "apg": 4.3}, {"name": "Lider M2", "ppg": 13.7, "rpg": 5.5, "apg": 3.7}, {"name": "Lider M3", "ppg": 11.9, "rpg": 4.6, "apg": 3.2}]}, "PGE Start Lublin": {"wins": 5, "losses": 9, "avg_points_scored": 85, "avg_points_allowed": 90, "form": [0, 0, 1, 0, 0], "rating": 80, "top_players": [{"name": "Lider N1", "ppg": 16.4, "rpg": 5.7, "apg": 4.1}, {"name": "Lider N2", "ppg": 13.9, "rpg": 5.3, "apg": 3.8}, {"name": "Lider N3", "ppg": 11.2, "rpg": 4.5, "apg": 3.0}]}, "GTK Gliwice": {"wins": 3, "losses": 12, "avg_points_scored": 84, "avg_points_allowed": 92, "form": [0, 0, 0, 1, 0], "rating": 78, "top_players": [{"name": "Lider O1", "ppg": 15.2, "rpg": 5.6, "apg": 4.0}, {"name": "Lider O2", "ppg": 13.8, "rpg": 5.2, "apg": 3.6}, {"name": "Lider O3", "ppg": 10.8, "rpg": 4.2, "apg": 3.0}]}, "Miasto Szk\u0142a Krosno": {"wins": 2, "losses": 12, "avg_points_scored": 82, "avg_points_allowed": 90, "form": [0, 0, 0, 1, 0], "rating": 76, "top_players": [{"name": "Lider P1", "ppg": 14.9, "rpg": 5.5, "apg": 4.1}, {"name": "Lider P2", "ppg": 12.8, "rpg": 5.0, "apg": 3.8}, {"name": "Lider P3", "ppg": 10.5, "rpg": 4.3, "apg": 2.9}]}};
- }
- populateSelects();
+  try {
+    // Works on GitHub Pages: teams.json in same folder as this HTML
+    const response = await fetch('teams.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error('HTTP ' + response.status);
+    teams = await response.json();
+    setStatus('ONLINE: dane załadowane', true);
+  } catch (e) {
+    teams = FALLBACK;
+    // Show offline/failed indicator
+    const isOffline = (navigator.onLine === false);
+    setStatus((isOffline ? 'OFFLINE: brak internetu' : 'OFFLINE: błąd wczytania teams.json') + ' – używam danych lokalnych', false);
+    console.warn('Fallback data used:', e);
+  }
+  populateSelects();
 }
-function populateSelects(){
- const a=document.getElementById('teamA'),b=document.getElementById('teamB');
- a.innerHTML='';b.innerHTML='';
- for(let t in teams){a.innerHTML+=`<option>${t}</option>`;b.innerHTML+=`<option>${t}</option>`;}
+
+function populateSelects() {
+  const a = document.getElementById('teamA');
+  const b = document.getElementById('teamB');
+  a.innerHTML = '';
+  b.innerHTML = '';
+  Object.keys(teams).forEach(t => {
+    a.innerHTML += `<option>${t}</option>`;
+    b.innerHTML += `<option>${t}</option>`;
+  });
 }
-function teamScore(name,home){
- let t=teams[name];
- let base=t.rating;
- let form=(t.form.reduce((a,v)=>a+v,0)/5)*20;
- let players=t.top_players.reduce((s,p)=>s+(p.ppg*0.5+p.rpg*0.3+p.apg*0.2),0)*0.4;
- let homeBonus=home?6:0;
- let rand=Math.random()*3;
- return base+form+players+homeBonus+rand;
+
+function teamScore(name, home) {
+  const t = teams[name];
+  const base = t.rating;
+  const form = (t.form.reduce((acc,v)=>acc+v,0)/5) * 20;
+  const players = t.top_players.reduce((s,p)=>s + (p.ppg*0.5 + p.rpg*0.3 + p.apg*0.2), 0) * 0.4;
+  const homeBonus = home ? 6 : 0;
+  const rand = Math.random() * 3;
+  return base + form + players + homeBonus + rand;
 }
-function predict(){
- let a=document.getElementById('teamA').value,b=document.getElementById('teamB').value,result=document.getElementById('result'),history=document.getElementById('history');
- if(a===b){result.innerHTML="Wybierz różne drużyny";return;}
- let sa=teamScore(a,document.getElementById('homeA').checked);
- let sb=teamScore(b,document.getElementById('homeB').checked);
- let diff=sa-sb;
- let win=diff>0?a:b;
- let pct=Math.min(80,50+Math.abs(diff)*2.3);
- let conf=pct>70?"WYSOKA":pct>60?"ŚREDNIA":"NISKA";
- result.innerHTML=`<h3>WYNIK ANALIZY</h3>${a}: ${sa.toFixed(1)}<br>${b}: ${sb.toFixed(1)}<br><br><b>Typ:</b> ${win}<br><b>Szanse:</b> ${pct}%<br><b>Pewność:</b> ${conf}<br><small>Symulacja analityczna – sezon 2025/26</small>`;
- history.innerHTML=`${a} vs ${b} → ${win} (${pct}%)<br>`+history.innerHTML;
+
+function predict() {
+  const a = document.getElementById('teamA').value;
+  const b = document.getElementById('teamB').value;
+  const result = document.getElementById('result');
+  const history = document.getElementById('history');
+
+  if (a === b) {
+    result.innerHTML = 'Wybierz różne drużyny';
+    return;
+  }
+
+  const sa = teamScore(a, document.getElementById('homeA').checked);
+  const sb = teamScore(b, document.getElementById('homeB').checked);
+  const diff = sa - sb;
+  const win = diff > 0 ? a : b;
+
+  const pct = Math.min(80, 50 + Math.abs(diff) * 2.3);
+  const conf = pct > 70 ? 'WYSOKA' : pct > 60 ? 'ŚREDNIA' : 'NISKA';
+
+  result.innerHTML = `
+    <h3>WYNIK ANALIZY</h3>
+    ${a}: ${sa.toFixed(1)}<br>
+    ${b}: ${sb.toFixed(1)}<br><br>
+    <b>Typ:</b> ${win}<br>
+    <b>Szanse:</b> ${pct.toFixed(0)}%<br>
+    <b>Pewność:</b> ${conf}<br>
+    <small>Do zabawy</small>
+  `;
+
+  history.innerHTML = `${a} vs ${b} → ${win} (${pct.toFixed(0)}%)<br>` + history.innerHTML;
 }
+
+// react to online/offline changes
+window.addEventListener('online', () => loadTeams());
+window.addEventListener('offline', () => setStatus('OFFLINE: brak internetu – używam danych lokalnych', false));
+
 loadTeams();
 </script>
 </body>
