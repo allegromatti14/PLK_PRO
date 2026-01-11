@@ -14,3 +14,5 @@ Instrukcja:
    https://allegromatti14.github.io/PLK_PRO/plk_pro.html
 
 NOWOŚĆ: zakładka 'Kolejka 1–30' – wybierasz kolejkę i mecz z listy.
+
+FIX: parser HTML (H4 + tabela) – nie szuka '####'.
