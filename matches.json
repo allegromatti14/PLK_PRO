@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-11T14:16:08Z",
+    "updated_at": "2026-01-12T06:53:06Z",
     "count": 240
   },
   "matches": [
@@ -1650,9 +1650,12 @@
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2026-01-11T15:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 80,
+        "away": 72
+      },
+      "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
       "id": "15-110117:30-DzikiWarszawa-ZastalZielonaG",
@@ -1661,9 +1664,12 @@
       "away": "Zastal Zielona Góra",
       "start": "2026-01-11T17:30:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 98,
+        "away": 86
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "15-110120:00-WKSŚląskWrocła-MiastoSzkłaKro",
@@ -1672,9 +1678,12 @@
       "away": "Miasto Szkła Krosno",
       "start": "2026-01-11T20:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 89,
+        "away": 60
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "16-160120:15-MKSDąbrowaGórn-ArrivaLottoTwa",
