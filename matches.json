@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-16T06:49:19Z",
+    "updated_at": "2026-01-17T06:44:43Z",
     "count": 240
   },
   "matches": [
@@ -1692,9 +1692,12 @@
       "away": "Arriva Lotto Twarde Pierniki Toruń",
       "start": "2026-01-16T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 90,
+        "away": 79
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "16-170112:30-DzikiWarszawa-WKSŚląskWrocła",
@@ -1917,17 +1920,6 @@
       "winner": null
     },
     {
-      "id": "18-010212:30-WKSŚląskWrocła-GórnikZamekKsi",
-      "round": 18,
-      "home": "WKS Śląsk Wrocław",
-      "away": "Górnik Zamek Książ Wałbrzych",
-      "start": "2026-02-01T12:30:00+01:00",
-      "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "18-010215:30-ZastalZielonaG-TauronGTKGliwi",
       "round": 18,
       "home": "Zastal Zielona Góra",
@@ -1945,6 +1937,17 @@
       "away": "Miasto Szkła Krosno",
       "start": "2026-02-01T17:30:00+01:00",
       "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "18-300600:00-WKSŚląskWrocła-GórnikZamekKsi",
+      "round": 18,
+      "home": "WKS Śląsk Wrocław",
+      "away": "Górnik Zamek Książ Wałbrzych",
+      "start": "2026-06-30T00:00:00+01:00",
+      "tv": null,
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -1994,17 +1997,6 @@
       "winner": null
     },
     {
-      "id": "19-070212:30-DzikiWarszawa-GórnikZamekKsi",
-      "round": 19,
-      "home": "Dziki Warszawa",
-      "away": "Górnik Zamek Książ Wałbrzych",
-      "start": "2026-02-07T12:30:00+01:00",
-      "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "19-070215:30-EnergaTreflSop-MiastoSzkłaKro",
       "round": 19,
       "home": "Energa Trefl Sopot",
@@ -2027,11 +2019,33 @@
       "winner": null
     },
     {
+      "id": "19-080217:30-DzikiWarszawa-GórnikZamekKsi",
+      "round": 19,
+      "home": "Dziki Warszawa",
+      "away": "Górnik Zamek Książ Wałbrzych",
+      "start": "2026-02-08T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "19-080220:15-EnergaCzarniSł-LegiaWarszawa",
       "round": 19,
       "home": "Energa Czarni Słupsk",
       "away": "Legia Warszawa",
       "start": "2026-02-08T20:15:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "20-120200:00-AMWArkaGdynia-WKSŚląskWrocła",
+      "round": 20,
+      "home": "AMW Arka Gdynia",
+      "away": "WKS Śląsk Wrocław",
+      "start": "2026-02-12T00:00:00+01:00",
       "tv": "YouTube",
       "status": "scheduled",
       "score": null,
@@ -2044,28 +2058,6 @@
       "away": "Zastal Zielona Góra",
       "start": "2026-02-12T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "20-120220:15-AMWArkaGdynia-WKSŚląskWrocła",
-      "round": 20,
-      "home": "AMW Arka Gdynia",
-      "away": "WKS Śląsk Wrocław",
-      "start": "2026-02-12T20:15:00+01:00",
-      "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "20-130220:15-DzikiWarszawa-TauronGTKGliwi",
-      "round": 20,
-      "home": "Dziki Warszawa",
-      "away": "Tauron GTK Gliwice",
-      "start": "2026-02-13T20:15:00+01:00",
-      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2099,6 +2091,17 @@
       "away": "Energa Trefl Sopot",
       "start": "2026-02-15T12:30:00+01:00",
       "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "20-150215:00-DzikiWarszawa-TauronGTKGliwi",
+      "round": 20,
+      "home": "Dziki Warszawa",
+      "away": "Tauron GTK Gliwice",
+      "start": "2026-02-15T15:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
