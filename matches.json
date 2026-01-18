@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-17T06:44:43Z",
+    "updated_at": "2026-01-18T06:45:49Z",
     "count": 240
   },
   "matches": [
@@ -1706,9 +1706,12 @@
       "away": "WKS Śląsk Wrocław",
       "start": "2026-01-17T12:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 81,
+        "away": 82
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "16-170115:30-EnergaTreflSop-ZastalZielonaG",
@@ -1717,9 +1720,12 @@
       "away": "Zastal Zielona Góra",
       "start": "2026-01-17T15:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 78,
+        "away": 75
+      },
+      "winner": "Energa Trefl Sopot"
     },
     {
       "id": "16-170117:30-GórnikZamekKsi-AnwilWłocławek",
@@ -1728,9 +1734,12 @@
       "away": "Anwil Włocławek",
       "start": "2026-01-17T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 61,
+        "away": 86
+      },
+      "winner": "Anwil Włocławek"
     },
     {
       "id": "16-170119:30-EnergaCzarniSł-AMWArkaGdynia",
@@ -1739,9 +1748,12 @@
       "away": "AMW Arka Gdynia",
       "start": "2026-01-17T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 76,
+        "away": 90
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "16-180112:30-KingSzczecin-PGEStartLublin",
