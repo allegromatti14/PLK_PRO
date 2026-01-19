@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-18T06:45:49Z",
+    "updated_at": "2026-01-19T06:54:55Z",
     "count": 240
   },
   "matches": [
@@ -1762,9 +1762,12 @@
       "away": "PGE Start Lublin",
       "start": "2026-01-18T12:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 81,
+        "away": 75
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "16-180115:30-MiastoSzkłaKro-LegiaWarszawa",
@@ -1773,9 +1776,12 @@
       "away": "Legia Warszawa",
       "start": "2026-01-18T15:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 87,
+        "away": 94
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "16-180117:30-TauronGTKGliwi-TasomixRosiekS",
@@ -1784,9 +1790,12 @@
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2026-01-18T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 73,
+        "away": 76
+      },
+      "winner": "Tasomix Rosiek Stal Ostrów Wielkopolski"
     },
     {
       "id": "17-220120:15-TasomixRosiekS-AMWArkaGdynia",
