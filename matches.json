@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-19T06:54:55Z",
+    "updated_at": "2026-01-20T06:53:27Z",
     "count": 240
   },
   "matches": [
@@ -2040,12 +2040,12 @@
       "winner": null
     },
     {
-      "id": "19-080217:30-DzikiWarszawa-GórnikZamekKsi",
+      "id": "19-070220:15-DzikiWarszawa-GórnikZamekKsi",
       "round": 19,
       "home": "Dziki Warszawa",
       "away": "Górnik Zamek Książ Wałbrzych",
-      "start": "2026-02-08T17:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "start": "2026-02-07T20:15:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2056,17 +2056,6 @@
       "home": "Energa Czarni Słupsk",
       "away": "Legia Warszawa",
       "start": "2026-02-08T20:15:00+01:00",
-      "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "20-120200:00-AMWArkaGdynia-WKSŚląskWrocła",
-      "round": 20,
-      "home": "AMW Arka Gdynia",
-      "away": "WKS Śląsk Wrocław",
-      "start": "2026-02-12T00:00:00+01:00",
       "tv": "YouTube",
       "status": "scheduled",
       "score": null,
@@ -2144,6 +2133,17 @@
       "home": "Arriva Lotto Twarde Pierniki Toruń",
       "away": "Miasto Szkła Krosno",
       "start": "2026-02-17T18:00:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "20-210400:00-AMWArkaGdynia-WKSŚląskWrocła",
+      "round": 20,
+      "home": "AMW Arka Gdynia",
+      "away": "WKS Śląsk Wrocław",
+      "start": "2026-04-21T00:00:00+01:00",
       "tv": "YouTube",
       "status": "scheduled",
       "score": null,
