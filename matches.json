@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-22T06:51:39Z",
+    "updated_at": "2026-01-23T06:51:12Z",
     "count": 240
   },
   "matches": [
@@ -1804,9 +1804,12 @@
       "away": "AMW Arka Gdynia",
       "start": "2026-01-22T20:15:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 84,
+        "away": 82
+      },
+      "winner": "Tasomix Rosiek Stal Ostrów Wielkopolski"
     },
     {
       "id": "17-230118:00-KingSzczecin-ArrivaLottoTwa",
