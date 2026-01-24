@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-23T06:51:12Z",
+    "updated_at": "2026-01-24T06:46:23Z",
     "count": 240
   },
   "matches": [
@@ -1818,9 +1818,12 @@
       "away": "Arriva Lotto Twarde Pierniki Toruń",
       "start": "2026-01-23T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 90,
+        "away": 82
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "17-230120:15-PGEStartLublin-LegiaWarszawa",
@@ -1829,9 +1832,12 @@
       "away": "Legia Warszawa",
       "start": "2026-01-23T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 52,
+        "away": 84
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "17-240112:30-EnergaCzarniSł-MKSDąbrowaGórn",
