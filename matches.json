@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-24T06:46:23Z",
+    "updated_at": "2026-01-25T06:47:43Z",
     "count": 240
   },
   "matches": [
@@ -1846,9 +1846,12 @@
       "away": "MKS Dąbrowa Górnicza",
       "start": "2026-01-24T12:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 88,
+        "away": 102
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "17-240115:30-TauronGTKGliwi-AnwilWłocławek",
@@ -1857,9 +1860,12 @@
       "away": "Anwil Włocławek",
       "start": "2026-01-24T15:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 87,
+        "away": 86
+      },
+      "winner": "Tauron GTK Gliwice"
     },
     {
       "id": "17-240117:30-WKSŚląskWrocła-EnergaTreflSop",
@@ -1868,9 +1874,12 @@
       "away": "Energa Trefl Sopot",
       "start": "2026-01-24T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 96,
+        "away": 85
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "17-250112:30-GórnikZamekKsi-ZastalZielonaG",
