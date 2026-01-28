@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-27T06:52:22Z",
+    "updated_at": "2026-01-28T06:52:41Z",
     "count": 240
   },
   "matches": [
@@ -90,9 +90,9 @@
       "winner": "PGE Start Lublin"
     },
     {
-      "id": "01-060117:30-ORLENZastalZie-EnergaTreflSop",
+      "id": "01-060117:30-OrlenZastalZie-EnergaTreflSop",
       "round": 1,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "Energa Trefl Sopot",
       "start": "2026-01-06T17:30:00+01:00",
       "tv": "Polsat Sport 3",
@@ -101,7 +101,7 @@
         "home": 92,
         "away": 90
       },
-      "winner": "ORLEN Zastal Zielona Góra"
+      "winner": "Orlen Zastal Zielona Góra"
     },
     {
       "id": "01-060120:15-AnwilWłocławek-GórnikZamekKsi",
@@ -118,9 +118,9 @@
       "winner": "Anwil Włocławek"
     },
     {
-      "id": "02-031018:00-ORLENZastalZie-GórnikZamekKsi",
+      "id": "02-031018:00-OrlenZastalZie-GórnikZamekKsi",
       "round": 2,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2025-10-03T18:00:00+01:00",
       "tv": "YouTube",
@@ -328,10 +328,10 @@
       "winner": "Energa Czarni Słupsk"
     },
     {
-      "id": "03-131018:00-TauronGTKGliwi-ORLENZastalZie",
+      "id": "03-131018:00-TauronGTKGliwi-OrlenZastalZie",
       "round": 3,
       "home": "Tauron GTK Gliwice",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2025-10-13T18:00:00+01:00",
       "tv": "YouTube",
       "status": "played",
@@ -339,7 +339,7 @@
         "home": 62,
         "away": 86
       },
-      "winner": "ORLEN Zastal Zielona Góra"
+      "winner": "Orlen Zastal Zielona Góra"
     },
     {
       "id": "04-171018:00-TauronGTKGliwi-WKSŚląskWrocła",
@@ -356,9 +356,9 @@
       "winner": "WKS Śląsk Wrocław"
     },
     {
-      "id": "04-171020:15-ORLENZastalZie-AMWArkaGdynia",
+      "id": "04-171020:15-OrlenZastalZie-AMWArkaGdynia",
       "round": 4,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "AMW Arka Gdynia",
       "start": "2025-10-17T20:15:00+01:00",
       "tv": "Polsat Sport 2",
@@ -538,9 +538,9 @@
       "winner": "Energa Trefl Sopot"
     },
     {
-      "id": "05-261017:30-ORLENZastalZie-MKSDąbrowaGórn",
+      "id": "05-261017:30-OrlenZastalZie-MKSDąbrowaGórn",
       "round": 5,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "MKS Dąbrowa Górnicza",
       "start": "2025-10-26T17:30:00+01:00",
       "tv": "Polsat Sport 2",
@@ -549,7 +549,7 @@
         "home": 82,
         "away": 70
       },
-      "winner": "ORLEN Zastal Zielona Góra"
+      "winner": "Orlen Zastal Zielona Góra"
     },
     {
       "id": "05-261020:00-TauronGTKGliwi-DzikiWarszawa",
@@ -580,10 +580,10 @@
       "winner": "Miasto Szkła Krosno"
     },
     {
-      "id": "06-011117:30-KingSzczecin-ORLENZastalZie",
+      "id": "06-011117:30-KingSzczecin-OrlenZastalZie",
       "round": 6,
       "home": "King Szczecin",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2025-11-01T17:30:00+01:00",
       "tv": "Polsat Sport 2",
       "status": "played",
@@ -762,9 +762,9 @@
       "winner": "Dziki Warszawa"
     },
     {
-      "id": "07-091117:30-ORLENZastalZie-LegiaWarszawa",
+      "id": "07-091117:30-OrlenZastalZie-LegiaWarszawa",
       "round": 7,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "Legia Warszawa",
       "start": "2025-11-09T17:30:00+01:00",
       "tv": "Polsat Sport 2",
@@ -832,10 +832,10 @@
       "winner": "WKS Śląsk Wrocław"
     },
     {
-      "id": "08-151112:30-PGEStartLublin-ORLENZastalZie",
+      "id": "08-151112:30-PGEStartLublin-OrlenZastalZie",
       "round": 8,
       "home": "PGE Start Lublin",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2025-11-15T12:30:00+01:00",
       "tv": "YouTube",
       "status": "played",
@@ -843,7 +843,7 @@
         "home": 77,
         "away": 91
       },
-      "winner": "ORLEN Zastal Zielona Góra"
+      "winner": "Orlen Zastal Zielona Góra"
     },
     {
       "id": "08-151115:00-MKSDąbrowaGórn-EnergaTreflSop",
@@ -958,10 +958,10 @@
       "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
-      "id": "09-221120:00-ArrivaLottoTwa-ORLENZastalZie",
+      "id": "09-221120:00-ArrivaLottoTwa-OrlenZastalZie",
       "round": 9,
       "home": "Arriva Lotto Twarde Pierniki Toruń",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2025-11-22T20:00:00+01:00",
       "tv": "YouTube",
       "status": "played",
@@ -1070,10 +1070,10 @@
       "winner": "Energa Trefl Sopot"
     },
     {
-      "id": "10-061217:30-EnergaCzarniSł-ORLENZastalZie",
+      "id": "10-061217:30-EnergaCzarniSł-OrlenZastalZie",
       "round": 10,
       "home": "Energa Czarni Słupsk",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2025-12-06T17:30:00+01:00",
       "tv": "YouTube",
       "status": "played",
@@ -1081,7 +1081,7 @@
         "home": 63,
         "away": 95
       },
-      "winner": "ORLEN Zastal Zielona Góra"
+      "winner": "Orlen Zastal Zielona Góra"
     },
     {
       "id": "10-071212:30-KingSzczecin-GórnikZamekKsi",
@@ -1168,9 +1168,9 @@
       "winner": "Energa Trefl Sopot"
     },
     {
-      "id": "11-131217:30-ORLENZastalZie-TasomixRosiekS",
+      "id": "11-131217:30-OrlenZastalZie-TasomixRosiekS",
       "round": 11,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2025-12-13T17:30:00+01:00",
       "tv": "Polsat Sport 2",
@@ -1179,7 +1179,7 @@
         "home": 98,
         "away": 84
       },
-      "winner": "ORLEN Zastal Zielona Góra"
+      "winner": "Orlen Zastal Zielona Góra"
     },
     {
       "id": "11-141212:30-AnwilWłocławek-MiastoSzkłaKro",
@@ -1336,9 +1336,9 @@
       "winner": "Tasomix Rosiek Stal Ostrów Wielkopolski"
     },
     {
-      "id": "12-221219:00-ORLENZastalZie-AnwilWłocławek",
+      "id": "12-221219:00-OrlenZastalZie-AnwilWłocławek",
       "round": 12,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "Anwil Włocławek",
       "start": "2025-12-22T19:00:00+01:00",
       "tv": "YouTube",
@@ -1347,7 +1347,7 @@
         "home": 91,
         "away": 82
       },
-      "winner": "ORLEN Zastal Zielona Góra"
+      "winner": "Orlen Zastal Zielona Góra"
     },
     {
       "id": "13-261217:30-WKSŚląskWrocła-AnwilWłocławek",
@@ -1392,9 +1392,9 @@
       "winner": "Arriva Lotto Twarde Pierniki Toruń"
     },
     {
-      "id": "13-271220:00-ORLENZastalZie-MiastoSzkłaKro",
+      "id": "13-271220:00-OrlenZastalZie-MiastoSzkłaKro",
       "round": 13,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "Miasto Szkła Krosno",
       "start": "2025-12-27T20:00:00+01:00",
       "tv": "YouTube",
@@ -1403,7 +1403,7 @@
         "home": 98,
         "away": 84
       },
-      "winner": "ORLEN Zastal Zielona Góra"
+      "winner": "Orlen Zastal Zielona Góra"
     },
     {
       "id": "13-281212:30-AMWArkaGdynia-LegiaWarszawa",
@@ -1504,10 +1504,10 @@
       "winner": "Arriva Lotto Twarde Pierniki Toruń"
     },
     {
-      "id": "14-020120:15-WKSŚląskWrocła-ORLENZastalZie",
+      "id": "14-020120:15-WKSŚląskWrocła-OrlenZastalZie",
       "round": 14,
       "home": "WKS Śląsk Wrocław",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2026-01-02T20:15:00+01:00",
       "tv": "Polsat Sport 2",
       "status": "played",
@@ -1658,10 +1658,10 @@
       "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
-      "id": "15-110117:30-DzikiWarszawa-ORLENZastalZie",
+      "id": "15-110117:30-DzikiWarszawa-OrlenZastalZie",
       "round": 15,
       "home": "Dziki Warszawa",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2026-01-11T17:30:00+01:00",
       "tv": "Polsat Sport 3",
       "status": "played",
@@ -1714,10 +1714,10 @@
       "winner": "WKS Śląsk Wrocław"
     },
     {
-      "id": "16-170115:30-EnergaTreflSop-ORLENZastalZie",
+      "id": "16-170115:30-EnergaTreflSop-OrlenZastalZie",
       "round": 16,
       "home": "Energa Trefl Sopot",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2026-01-17T15:30:00+01:00",
       "tv": "YouTube",
       "status": "played",
@@ -1882,10 +1882,10 @@
       "winner": "WKS Śląsk Wrocław"
     },
     {
-      "id": "17-250112:30-GórnikZamekKsi-ORLENZastalZie",
+      "id": "17-250112:30-GórnikZamekKsi-OrlenZastalZie",
       "round": 17,
       "home": "Górnik Zamek Książ Wałbrzych",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2026-01-25T12:30:00+01:00",
       "tv": "Polsat Sport 2",
       "status": "played",
@@ -1893,7 +1893,7 @@
         "home": 82,
         "away": 89
       },
-      "winner": "ORLEN Zastal Zielona Góra"
+      "winner": "Orlen Zastal Zielona Góra"
     },
     {
       "id": "17-250117:30-DzikiWarszawa-MiastoSzkłaKro",
@@ -1965,9 +1965,9 @@
       "winner": null
     },
     {
-      "id": "18-010215:30-ORLENZastalZie-TauronGTKGliwi",
+      "id": "18-010215:30-OrlenZastalZie-TauronGTKGliwi",
       "round": 18,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "Tauron GTK Gliwice",
       "start": "2026-02-01T15:30:00+01:00",
       "tv": "YouTube",
@@ -1987,12 +1987,12 @@
       "winner": null
     },
     {
-      "id": "18-300600:00-WKSŚląskWrocła-GórnikZamekKsi",
+      "id": "18-100320:15-WKSŚląskWrocła-GórnikZamekKsi",
       "round": 18,
       "home": "WKS Śląsk Wrocław",
       "away": "Górnik Zamek Książ Wałbrzych",
-      "start": "2026-06-30T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-03-10T20:15:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2009,10 +2009,10 @@
       "winner": null
     },
     {
-      "id": "19-050220:15-AMWArkaGdynia-ORLENZastalZie",
+      "id": "19-050220:15-AMWArkaGdynia-OrlenZastalZie",
       "round": 19,
       "home": "AMW Arka Gdynia",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2026-02-05T20:15:00+01:00",
       "tv": "Polsat Sport 2",
       "status": "scheduled",
@@ -2086,10 +2086,10 @@
       "winner": null
     },
     {
-      "id": "20-120218:00-MKSDąbrowaGórn-ORLENZastalZie",
+      "id": "20-120218:00-MKSDąbrowaGórn-OrlenZastalZie",
       "round": 20,
       "home": "MKS Dąbrowa Górnicza",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2026-02-12T18:00:00+01:00",
       "tv": "YouTube",
       "status": "scheduled",
@@ -2185,9 +2185,9 @@
       "winner": null
     },
     {
-      "id": "21-050300:00-ORLENZastalZie-KingSzczecin",
+      "id": "21-050300:00-OrlenZastalZie-KingSzczecin",
       "round": 21,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "King Szczecin",
       "start": "2026-03-05T00:00:00+01:00",
       "tv": null,
@@ -2229,12 +2229,12 @@
       "winner": null
     },
     {
-      "id": "21-070300:00-AnwilWłocławek-LegiaWarszawa",
+      "id": "21-070317:30-AnwilWłocławek-LegiaWarszawa",
       "round": 21,
       "home": "Anwil Włocławek",
       "away": "Legia Warszawa",
-      "start": "2026-03-07T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-03-07T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2295,10 +2295,10 @@
       "winner": null
     },
     {
-      "id": "22-140300:00-LegiaWarszawa-ORLENZastalZie",
+      "id": "22-140300:00-LegiaWarszawa-OrlenZastalZie",
       "round": 22,
       "home": "Legia Warszawa",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2026-03-14T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -2350,9 +2350,9 @@
       "winner": null
     },
     {
-      "id": "23-190300:00-ORLENZastalZie-PGEStartLublin",
+      "id": "23-190300:00-OrlenZastalZie-PGEStartLublin",
       "round": 23,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "PGE Start Lublin",
       "start": "2026-03-19T00:00:00+01:00",
       "tv": null,
@@ -2504,9 +2504,9 @@
       "winner": null
     },
     {
-      "id": "24-290300:00-ORLENZastalZie-ArrivaLottoTwa",
+      "id": "24-290300:00-OrlenZastalZie-ArrivaLottoTwa",
       "round": 24,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "Arriva Lotto Twarde Pierniki Toruń",
       "start": "2026-03-29T00:00:00+01:00",
       "tv": null,
@@ -2526,9 +2526,9 @@
       "winner": null
     },
     {
-      "id": "25-020400:00-ORLENZastalZie-EnergaCzarniSł",
+      "id": "25-020400:00-OrlenZastalZie-EnergaCzarniSł",
       "round": 25,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "Energa Czarni Słupsk",
       "start": "2026-04-02T00:00:00+01:00",
       "tv": null,
@@ -2691,10 +2691,10 @@
       "winner": null
     },
     {
-      "id": "26-130400:00-TasomixRosiekS-ORLENZastalZie",
+      "id": "26-130400:00-TasomixRosiekS-OrlenZastalZie",
       "round": 26,
       "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2026-04-13T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -2779,10 +2779,10 @@
       "winner": null
     },
     {
-      "id": "27-190400:00-AnwilWłocławek-ORLENZastalZie",
+      "id": "27-190400:00-AnwilWłocławek-OrlenZastalZie",
       "round": 27,
       "home": "Anwil Włocławek",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2026-04-19T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -2790,10 +2790,10 @@
       "winner": null
     },
     {
-      "id": "28-230400:00-MiastoSzkłaKro-ORLENZastalZie",
+      "id": "28-230400:00-MiastoSzkłaKro-OrlenZastalZie",
       "round": 28,
       "home": "Miasto Szkła Krosno",
-      "away": "ORLEN Zastal Zielona Góra",
+      "away": "Orlen Zastal Zielona Góra",
       "start": "2026-04-23T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -2955,9 +2955,9 @@
       "winner": null
     },
     {
-      "id": "29-030500:00-ORLENZastalZie-WKSŚląskWrocła",
+      "id": "29-030500:00-OrlenZastalZie-WKSŚląskWrocła",
       "round": 29,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "WKS Śląsk Wrocław",
       "start": "2026-05-03T00:00:00+01:00",
       "tv": null,
@@ -2977,9 +2977,9 @@
       "winner": null
     },
     {
-      "id": "30-060500:00-ORLENZastalZie-DzikiWarszawa",
+      "id": "30-060500:00-OrlenZastalZie-DzikiWarszawa",
       "round": 30,
-      "home": "ORLEN Zastal Zielona Góra",
+      "home": "Orlen Zastal Zielona Góra",
       "away": "Dziki Warszawa",
       "start": "2026-05-06T00:00:00+01:00",
       "tv": null,
