@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-30T07:04:01Z",
+    "updated_at": "2026-01-31T06:55:34Z",
     "count": 240
   },
   "matches": [
@@ -1916,9 +1916,12 @@
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2026-01-30T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 91,
+        "away": 84
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "18-310112:30-LegiaWarszawa-ArrivaLOTTOTwa",
