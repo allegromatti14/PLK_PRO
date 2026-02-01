@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-01-31T06:55:34Z",
+    "updated_at": "2026-02-01T07:03:05Z",
     "count": 240
   },
   "matches": [
@@ -1930,9 +1930,12 @@
       "away": "Arriva LOTTO Twarde Pierniki Toruń",
       "start": "2026-01-31T12:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 82,
+        "away": 81
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "18-310115:30-EnergaTreflSop-DzikiWarszawa",
@@ -1941,9 +1944,12 @@
       "away": "Dziki Warszawa",
       "start": "2026-01-31T15:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 64,
+        "away": 104
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "18-310117:30-AMWArkaGdynia-AnwilWłocławek",
@@ -1952,9 +1958,12 @@
       "away": "Anwil Włocławek",
       "start": "2026-01-31T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 82,
+        "away": 97
+      },
+      "winner": "Anwil Włocławek"
     },
     {
       "id": "18-310119:00-KingSzczecin-EnergaCzarniSł",
@@ -1963,9 +1972,12 @@
       "away": "Energa Czarni Słupsk",
       "start": "2026-01-31T19:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 84,
+        "away": 83
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "18-010215:30-ORLENZastalZie-TauronGTKGliwi",
