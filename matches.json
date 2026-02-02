@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-02-01T07:03:05Z",
+    "updated_at": "2026-02-02T07:15:44Z",
     "count": 240
   },
   "matches": [
@@ -1986,9 +1986,12 @@
       "away": "Tauron GTK Gliwice",
       "start": "2026-02-01T15:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 98,
+        "away": 81
+      },
+      "winner": "ORLEN Zastal Zielona Góra"
     },
     {
       "id": "18-010217:30-PGEStartLublin-MiastoSzkłaKro",
@@ -1997,9 +2000,12 @@
       "away": "Miasto Szkła Krosno",
       "start": "2026-02-01T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 87,
+        "away": 95
+      },
+      "winner": "Miasto Szkła Krosno"
     },
     {
       "id": "18-100320:15-WKSŚląskWrocła-GórnikZamekKsi",
