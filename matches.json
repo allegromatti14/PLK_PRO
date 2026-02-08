@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-02-07T06:57:52Z",
+    "updated_at": "2026-02-08T07:03:40Z",
     "count": 240
   },
   "matches": [
@@ -2081,9 +2081,12 @@
       "away": "Miasto Szkła Krosno",
       "start": "2026-02-07T15:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 94,
+        "away": 81
+      },
+      "winner": "Energa Trefl Sopot"
     },
     {
       "id": "19-070217:30-MKSDąbrowaGórn-AnwilWłocławek",
@@ -2092,9 +2095,12 @@
       "away": "Anwil Włocławek",
       "start": "2026-02-07T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 85,
+        "away": 94
+      },
+      "winner": "Anwil Włocławek"
     },
     {
       "id": "19-070220:15-DzikiWarszawa-GórnikZamekKsi",
@@ -2103,9 +2109,12 @@
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2026-02-07T20:15:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 78,
+        "away": 84
+      },
+      "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
       "id": "19-080217:30-EnergaCzarniSł-LegiaWarszawa",
