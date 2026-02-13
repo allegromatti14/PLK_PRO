@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-02-12T07:15:20Z",
+    "updated_at": "2026-02-13T07:12:52Z",
     "count": 240
   },
   "matches": [
@@ -2137,9 +2137,12 @@
       "away": "ORLEN Zastal Zielona Góra",
       "start": "2026-02-12T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 91,
+        "away": 86
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "20-140217:30-KingSzczecin-AnwilWłocławek",
@@ -2428,6 +2431,17 @@
       "winner": null
     },
     {
+      "id": "23-210312:30-KingSzczecin-DzikiWarszawa",
+      "round": 23,
+      "home": "King Szczecin",
+      "away": "Dziki Warszawa",
+      "start": "2026-03-21T12:30:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "23-210315:00-MiastoSzkłaKro-TauronGTKGliwi",
       "round": 23,
       "home": "Miasto Szkła Krosno",
@@ -2467,17 +2481,6 @@
       "away": "AMW Arka Gdynia",
       "start": "2026-03-22T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "23-230319:00-KingSzczecin-DzikiWarszawa",
-      "round": 23,
-      "home": "King Szczecin",
-      "away": "Dziki Warszawa",
-      "start": "2026-03-23T19:00:00+01:00",
-      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2648,23 +2651,12 @@
       "winner": null
     },
     {
-      "id": "25-300600:00-ArrivaLOTTOTwa-WKSŚląskWrocła",
+      "id": "25-280419:00-ArrivaLOTTOTwa-WKSŚląskWrocła",
       "round": 25,
       "home": "Arriva LOTTO Twarde Pierniki Toruń",
       "away": "WKS Śląsk Wrocław",
-      "start": "2026-06-30T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "26-090400:00-MKSDąbrowaGórn-AMWArkaGdynia",
-      "round": 26,
-      "home": "MKS Dąbrowa Górnicza",
-      "away": "AMW Arka Gdynia",
-      "start": "2026-04-09T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-28T19:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2674,6 +2666,17 @@
       "round": 26,
       "home": "Arriva LOTTO Twarde Pierniki Toruń",
       "away": "Dziki Warszawa",
+      "start": "2026-04-10T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "26-100400:00-MKSDąbrowaGórn-AMWArkaGdynia",
+      "round": 26,
+      "home": "MKS Dąbrowa Górnicza",
+      "away": "AMW Arka Gdynia",
       "start": "2026-04-10T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
