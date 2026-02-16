@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-02-15T07:03:34Z",
+    "updated_at": "2026-02-16T07:18:30Z",
     "count": 240
   },
   "matches": [
@@ -2179,9 +2179,12 @@
       "away": "Energa Trefl Sopot",
       "start": "2026-02-15T12:30:00+01:00",
       "tv": "Polsat Sport 1",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 91,
+        "away": 100
+      },
+      "winner": "Energa Trefl Sopot"
     },
     {
       "id": "20-150215:00-DzikiWarszawa-TauronGTKGliwi",
@@ -2190,9 +2193,12 @@
       "away": "Tauron GTK Gliwice",
       "start": "2026-02-15T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 108,
+        "away": 83
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "20-150217:30-PGEStartLublin-EnergaCzarniSł",
@@ -2201,9 +2207,12 @@
       "away": "Energa Czarni Słupsk",
       "start": "2026-02-15T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 101,
+        "away": 96
+      },
+      "winner": "PGE Start Lublin"
     },
     {
       "id": "20-170218:00-ArrivaLOTTOTwa-MiastoSzkłaKro",
