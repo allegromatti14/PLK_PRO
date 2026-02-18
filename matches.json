@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-02-17T07:12:37Z",
+    "updated_at": "2026-02-18T07:14:11Z",
     "count": 240
   },
   "matches": [
@@ -2221,9 +2221,12 @@
       "away": "Miasto Szkła Krosno",
       "start": "2026-02-17T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 112,
+        "away": 105
+      },
+      "winner": "Arriva LOTTO Twarde Pierniki Toruń"
     },
     {
       "id": "20-210400:00-AMWArkaGdynia-WKSŚląskWrocła",
