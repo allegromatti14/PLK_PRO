@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-02-26T07:13:19Z",
+    "updated_at": "2026-02-27T07:09:06Z",
     "count": 240
   },
   "matches": [
@@ -2383,11 +2383,11 @@
       "winner": null
     },
     {
-      "id": "22-150312:30-TasomixRosiekS-ArrivaLOTTOTwa",
+      "id": "22-150317:30-TasomixRosiekS-ArrivaLOTTOTwa",
       "round": 22,
       "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "away": "Arriva LOTTO Twarde Pierniki Toruń",
-      "start": "2026-03-15T12:30:00+01:00",
+      "start": "2026-03-15T17:30:00+01:00",
       "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
@@ -2691,12 +2691,12 @@
       "winner": null
     },
     {
-      "id": "26-100400:00-MKSDąbrowaGórn-AMWArkaGdynia",
+      "id": "26-100419:00-MKSDąbrowaGórn-AMWArkaGdynia",
       "round": 26,
       "home": "MKS Dąbrowa Górnicza",
       "away": "AMW Arka Gdynia",
-      "start": "2026-04-10T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-10T19:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
