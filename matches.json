@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-05T07:06:38Z",
+    "updated_at": "2026-03-06T07:04:42Z",
     "count": 240
   },
   "matches": [
@@ -2246,9 +2246,12 @@
       "away": "Arriva LOTTO Twarde Pierniki Toruń",
       "start": "2026-03-05T17:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 103,
+        "away": 93
+      },
+      "winner": "Energa Czarni Słupsk"
     },
     {
       "id": "21-050319:00-WKSŚląskWrocła-MKSDąbrowaGórn",
@@ -2257,9 +2260,12 @@
       "away": "MKS Dąbrowa Górnicza",
       "start": "2026-03-05T19:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 95,
+        "away": 90
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "21-050320:15-ORLENZastalZie-KingSzczecin",
@@ -2268,9 +2274,12 @@
       "away": "King Szczecin",
       "start": "2026-03-05T20:15:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 74,
+        "away": 75
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "21-060320:15-TauronGTKGliwi-EnergaTreflSop",
