@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-06T07:04:42Z",
+    "updated_at": "2026-03-07T06:56:43Z",
     "count": 240
   },
   "matches": [
@@ -2288,9 +2288,12 @@
       "away": "Energa Trefl Sopot",
       "start": "2026-03-06T20:15:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 92,
+        "away": 96
+      },
+      "winner": "Energa Trefl Sopot"
     },
     {
       "id": "21-070315:00-GórnikZamekKsi-MiastoSzkłaKro",
