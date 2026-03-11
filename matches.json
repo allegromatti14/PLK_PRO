@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-10T07:04:38Z",
+    "updated_at": "2026-03-11T07:08:25Z",
     "count": 240
   },
   "matches": [
@@ -2013,10 +2013,13 @@
       "home": "WKS Śląsk Wrocław",
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2026-03-10T20:15:00+01:00",
-      "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "tv": "Polsat Sport 1",
+      "status": "played",
+      "score": {
+        "home": 100,
+        "away": 75
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "19-050218:00-TasomixRosiekS-KingSzczecin",
