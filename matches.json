@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-11T07:08:25Z",
+    "updated_at": "2026-03-12T07:10:01Z",
     "count": 240
   },
   "matches": [
@@ -2663,12 +2663,12 @@
       "winner": null
     },
     {
-      "id": "25-040400:00-DzikiWarszawa-PGEStartLublin",
+      "id": "25-040415:30-DzikiWarszawa-PGEStartLublin",
       "round": 25,
       "home": "Dziki Warszawa",
       "away": "PGE Start Lublin",
-      "start": "2026-04-04T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-04T15:30:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2982,21 +2982,21 @@
       "winner": null
     },
     {
-      "id": "29-010500:00-MKSDąbrowaGórn-LegiaWarszawa",
+      "id": "29-300400:00-DzikiWarszawa-AnwilWłocławek",
       "round": 29,
-      "home": "MKS Dąbrowa Górnicza",
-      "away": "Legia Warszawa",
-      "start": "2026-05-01T00:00:00+01:00",
+      "home": "Dziki Warszawa",
+      "away": "Anwil Włocławek",
+      "start": "2026-04-30T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "29-010500:00-DzikiWarszawa-AnwilWłocławek",
+      "id": "29-010500:00-MKSDąbrowaGórn-LegiaWarszawa",
       "round": 29,
-      "home": "Dziki Warszawa",
-      "away": "Anwil Włocławek",
+      "home": "MKS Dąbrowa Górnicza",
+      "away": "Legia Warszawa",
       "start": "2026-05-01T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
