@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-12T07:10:01Z",
+    "updated_at": "2026-03-13T07:09:08Z",
     "count": 240
   },
   "matches": [
@@ -2361,9 +2361,12 @@
       "away": "Energa Czarni Słupsk",
       "start": "2026-03-12T19:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 77,
+        "away": 91
+      },
+      "winner": "Energa Czarni Słupsk"
     },
     {
       "id": "22-130320:15-MKSDąbrowaGórn-DzikiWarszawa",
