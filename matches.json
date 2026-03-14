@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-13T07:09:08Z",
+    "updated_at": "2026-03-14T07:02:12Z",
     "count": 240
   },
   "matches": [
@@ -2375,9 +2375,12 @@
       "away": "Dziki Warszawa",
       "start": "2026-03-13T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 95,
+        "away": 82
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "22-140312:30-TauronGTKGliwi-GórnikZamekKsi",
