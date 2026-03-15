@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-14T07:02:12Z",
+    "updated_at": "2026-03-15T07:11:20Z",
     "count": 240
   },
   "matches": [
@@ -2389,9 +2389,12 @@
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2026-03-14T12:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 82,
+        "away": 92
+      },
+      "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
       "id": "22-140315:00-PGEStartLublin-AnwilWłocławek",
@@ -2400,9 +2403,12 @@
       "away": "Anwil Włocławek",
       "start": "2026-03-14T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 97,
+        "away": 91
+      },
+      "winner": "PGE Start Lublin"
     },
     {
       "id": "22-140317:30-LegiaWarszawa-ORLENZastalZie",
@@ -2411,9 +2417,12 @@
       "away": "ORLEN Zastal Zielona Góra",
       "start": "2026-03-14T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 84,
+        "away": 66
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "22-150317:30-TasomixRosiekS-ArrivaLOTTOTwa",
