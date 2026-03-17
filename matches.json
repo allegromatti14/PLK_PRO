@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-16T07:45:21Z",
+    "updated_at": "2026-03-17T07:17:22Z",
     "count": 240
   },
   "matches": [
@@ -2232,12 +2232,12 @@
       "winner": "Arriva LOTTO Twarde Pierniki Toruń"
     },
     {
-      "id": "20-210400:00-AMWArkaGdynia-WKSŚląskWrocła",
+      "id": "20-210420:15-AMWArkaGdynia-WKSŚląskWrocła",
       "round": 20,
       "home": "AMW Arka Gdynia",
       "away": "WKS Śląsk Wrocław",
-      "start": "2026-04-21T00:00:00+01:00",
-      "tv": "YouTube",
+      "start": "2026-04-21T20:15:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2445,9 +2445,12 @@
       "away": "WKS Śląsk Wrocław",
       "start": "2026-03-16T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 90,
+        "away": 81
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "22-160320:15-AMWArkaGdynia-EnergaTreflSop",
@@ -2456,9 +2459,12 @@
       "away": "Energa Trefl Sopot",
       "start": "2026-03-16T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 80,
+        "away": 77
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "23-190318:00-ORLENZastalZie-PGEStartLublin",
@@ -2637,45 +2643,34 @@
       "winner": null
     },
     {
-      "id": "25-020400:00-ORLENZastalZie-EnergaCzarniSł",
+      "id": "25-020420:15-ORLENZastalZie-EnergaCzarniSł",
       "round": 25,
       "home": "ORLEN Zastal Zielona Góra",
       "away": "Energa Czarni Słupsk",
-      "start": "2026-04-02T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-02T20:15:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "25-030400:00-AMWArkaGdynia-MiastoSzkłaKro",
+      "id": "25-030418:00-AMWArkaGdynia-MiastoSzkłaKro",
       "round": 25,
       "home": "AMW Arka Gdynia",
       "away": "Miasto Szkła Krosno",
-      "start": "2026-04-03T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-03T18:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "25-030400:00-TauronGTKGliwi-MKSDąbrowaGórn",
+      "id": "25-030420:15-TauronGTKGliwi-MKSDąbrowaGórn",
       "round": 25,
       "home": "Tauron GTK Gliwice",
       "away": "MKS Dąbrowa Górnicza",
-      "start": "2026-04-03T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "25-040400:00-GórnikZamekKsi-KingSzczecin",
-      "round": 25,
-      "home": "Górnik Zamek Książ Wałbrzych",
-      "away": "King Szczecin",
-      "start": "2026-04-04T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-03T20:15:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2692,23 +2687,34 @@
       "winner": null
     },
     {
-      "id": "25-060400:00-EnergaTreflSop-LegiaWarszawa",
+      "id": "25-040417:30-GórnikZamekKsi-KingSzczecin",
       "round": 25,
-      "home": "Energa Trefl Sopot",
-      "away": "Legia Warszawa",
-      "start": "2026-04-06T00:00:00+01:00",
-      "tv": null,
+      "home": "Górnik Zamek Książ Wałbrzych",
+      "away": "King Szczecin",
+      "start": "2026-04-04T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "25-060400:00-AnwilWłocławek-TasomixRosiekS",
+      "id": "25-060415:00-AnwilWłocławek-TasomixRosiekS",
       "round": 25,
       "home": "Anwil Włocławek",
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "start": "2026-04-06T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-06T15:00:00+01:00",
+      "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "25-060417:30-EnergaTreflSop-LegiaWarszawa",
+      "round": 25,
+      "home": "Energa Trefl Sopot",
+      "away": "Legia Warszawa",
+      "start": "2026-04-06T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2725,17 +2731,6 @@
       "winner": null
     },
     {
-      "id": "26-100400:00-ArrivaLOTTOTwa-DzikiWarszawa",
-      "round": 26,
-      "home": "Arriva LOTTO Twarde Pierniki Toruń",
-      "away": "Dziki Warszawa",
-      "start": "2026-04-10T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "26-100419:00-MKSDąbrowaGórn-AMWArkaGdynia",
       "round": 26,
       "home": "MKS Dąbrowa Górnicza",
@@ -2747,100 +2742,100 @@
       "winner": null
     },
     {
-      "id": "26-110400:00-MiastoSzkłaKro-AnwilWłocławek",
+      "id": "26-100420:15-ArrivaLOTTOTwa-DzikiWarszawa",
       "round": 26,
-      "home": "Miasto Szkła Krosno",
-      "away": "Anwil Włocławek",
-      "start": "2026-04-11T00:00:00+01:00",
-      "tv": null,
+      "home": "Arriva LOTTO Twarde Pierniki Toruń",
+      "away": "Dziki Warszawa",
+      "start": "2026-04-10T20:15:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "26-110400:00-EnergaCzarniSł-WKSŚląskWrocła",
-      "round": 26,
-      "home": "Energa Czarni Słupsk",
-      "away": "WKS Śląsk Wrocław",
-      "start": "2026-04-11T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "26-110400:00-EnergaTreflSop-PGEStartLublin",
+      "id": "26-110412:30-EnergaTreflSop-PGEStartLublin",
       "round": 26,
       "home": "Energa Trefl Sopot",
       "away": "PGE Start Lublin",
-      "start": "2026-04-11T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-11T12:30:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "26-120400:00-LegiaWarszawa-GórnikZamekKsi",
+      "id": "26-110415:00-MiastoSzkłaKro-AnwilWłocławek",
+      "round": 26,
+      "home": "Miasto Szkła Krosno",
+      "away": "Anwil Włocławek",
+      "start": "2026-04-11T15:00:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "26-110417:30-EnergaCzarniSł-WKSŚląskWrocła",
+      "round": 26,
+      "home": "Energa Czarni Słupsk",
+      "away": "WKS Śląsk Wrocław",
+      "start": "2026-04-11T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "26-120415:00-LegiaWarszawa-GórnikZamekKsi",
       "round": 26,
       "home": "Legia Warszawa",
       "away": "Górnik Zamek Książ Wałbrzych",
-      "start": "2026-04-12T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-12T15:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "26-120400:00-TauronGTKGliwi-KingSzczecin",
+      "id": "26-120417:30-TauronGTKGliwi-KingSzczecin",
       "round": 26,
       "home": "Tauron GTK Gliwice",
       "away": "King Szczecin",
-      "start": "2026-04-12T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-12T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "26-130400:00-TasomixRosiekS-ORLENZastalZie",
+      "id": "26-130420:15-TasomixRosiekS-ORLENZastalZie",
       "round": 26,
       "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "away": "ORLEN Zastal Zielona Góra",
-      "start": "2026-04-13T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-13T20:15:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "27-170400:00-AMWArkaGdynia-KingSzczecin",
+      "id": "27-170418:00-AMWArkaGdynia-KingSzczecin",
       "round": 27,
       "home": "AMW Arka Gdynia",
       "away": "King Szczecin",
-      "start": "2026-04-17T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-17T18:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "27-170400:00-GórnikZamekKsi-PGEStartLublin",
-      "round": 27,
-      "home": "Górnik Zamek Książ Wałbrzych",
-      "away": "PGE Start Lublin",
-      "start": "2026-04-17T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "27-170400:00-WKSŚląskWrocła-TasomixRosiekS",
+      "id": "27-170420:15-WKSŚląskWrocła-TasomixRosiekS",
       "round": 27,
       "home": "WKS Śląsk Wrocław",
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "start": "2026-04-17T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-17T20:15:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2857,45 +2852,56 @@
       "winner": null
     },
     {
-      "id": "27-180400:00-LegiaWarszawa-TauronGTKGliwi",
-      "round": 27,
-      "home": "Legia Warszawa",
-      "away": "Tauron GTK Gliwice",
-      "start": "2026-04-18T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "27-180400:00-EnergaTreflSop-ArrivaLOTTOTwa",
-      "round": 27,
-      "home": "Energa Trefl Sopot",
-      "away": "Arriva LOTTO Twarde Pierniki Toruń",
-      "start": "2026-04-18T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "27-190400:00-DzikiWarszawa-EnergaCzarniSł",
+      "id": "27-180412:30-DzikiWarszawa-EnergaCzarniSł",
       "round": 27,
       "home": "Dziki Warszawa",
       "away": "Energa Czarni Słupsk",
-      "start": "2026-04-19T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-18T12:30:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "27-190400:00-AnwilWłocławek-ORLENZastalZie",
+      "id": "27-180415:00-EnergaTreflSop-ArrivaLOTTOTwa",
+      "round": 27,
+      "home": "Energa Trefl Sopot",
+      "away": "Arriva LOTTO Twarde Pierniki Toruń",
+      "start": "2026-04-18T15:00:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "27-180417:30-GórnikZamekKsi-PGEStartLublin",
+      "round": 27,
+      "home": "Górnik Zamek Książ Wałbrzych",
+      "away": "PGE Start Lublin",
+      "start": "2026-04-18T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "27-180420:00-LegiaWarszawa-TauronGTKGliwi",
+      "round": 27,
+      "home": "Legia Warszawa",
+      "away": "Tauron GTK Gliwice",
+      "start": "2026-04-18T20:00:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "27-190412:30-AnwilWłocławek-ORLENZastalZie",
       "round": 27,
       "home": "Anwil Włocławek",
       "away": "ORLEN Zastal Zielona Góra",
-      "start": "2026-04-19T00:00:00+01:00",
-      "tv": null,
+      "start": "2026-04-19T12:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
