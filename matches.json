@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-18T07:15:46Z",
+    "updated_at": "2026-03-19T07:11:45Z",
     "count": 240
   },
   "matches": [
@@ -2555,11 +2555,11 @@
       "winner": null
     },
     {
-      "id": "24-260319:00-GórnikZamekKsi-MKSDąbrowaGórn",
+      "id": "24-260318:00-GórnikZamekKsi-MKSDąbrowaGórn",
       "round": 24,
       "home": "Górnik Zamek Książ Wałbrzych",
       "away": "MKS Dąbrowa Górnicza",
-      "start": "2026-03-26T19:00:00+01:00",
+      "start": "2026-03-26T18:00:00+01:00",
       "tv": "YouTube",
       "status": "scheduled",
       "score": null,
