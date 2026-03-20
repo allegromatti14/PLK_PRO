@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-19T07:11:45Z",
+    "updated_at": "2026-03-20T07:10:14Z",
     "count": 240
   },
   "matches": [
@@ -2473,9 +2473,12 @@
       "away": "PGE Start Lublin",
       "start": "2026-03-19T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 76,
+        "away": 73
+      },
+      "winner": "ORLEN Zastal Zielona Góra"
     },
     {
       "id": "23-190320:15-TasomixRosiekS-EnergaCzarniSł",
@@ -2484,9 +2487,12 @@
       "away": "Energa Czarni Słupsk",
       "start": "2026-03-19T20:15:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 75,
+        "away": 68
+      },
+      "winner": "Tasomix Rosiek Stal Ostrów Wielkopolski"
     },
     {
       "id": "23-200317:30-EnergaTreflSop-MKSDąbrowaGórn",
@@ -2538,7 +2544,7 @@
       "home": "Anwil Włocławek",
       "away": "Arriva LOTTO Twarde Pierniki Toruń",
       "start": "2026-03-22T12:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 1",
       "status": "scheduled",
       "score": null,
       "winner": null
