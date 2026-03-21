@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-20T07:10:14Z",
+    "updated_at": "2026-03-21T06:59:42Z",
     "count": 240
   },
   "matches": [
@@ -2501,9 +2501,12 @@
       "away": "MKS Dąbrowa Górnicza",
       "start": "2026-03-20T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 77,
+        "away": 100
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "23-210312:00-KingSzczecin-DzikiWarszawa",
