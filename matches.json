@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-21T06:59:42Z",
+    "updated_at": "2026-03-22T07:04:30Z",
     "count": 240
   },
   "matches": [
@@ -2515,9 +2515,12 @@
       "away": "Dziki Warszawa",
       "start": "2026-03-21T12:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 91,
+        "away": 88
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "23-210315:00-MiastoSzkłaKro-TauronGTKGliwi",
@@ -2526,9 +2529,12 @@
       "away": "Tauron GTK Gliwice",
       "start": "2026-03-21T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 88,
+        "away": 87
+      },
+      "winner": "Miasto Szkła Krosno"
     },
     {
       "id": "23-210317:30-LegiaWarszawa-WKSŚląskWrocła",
@@ -2537,9 +2543,12 @@
       "away": "WKS Śląsk Wrocław",
       "start": "2026-03-21T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 99,
+        "away": 104
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "23-220312:30-AnwilWłocławek-ArrivaLOTTOTwa",
