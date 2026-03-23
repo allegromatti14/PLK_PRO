@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-22T07:04:30Z",
+    "updated_at": "2026-03-23T07:37:20Z",
     "count": 240
   },
   "matches": [
@@ -2557,9 +2557,12 @@
       "away": "Arriva LOTTO Twarde Pierniki Toruń",
       "start": "2026-03-22T12:30:00+01:00",
       "tv": "Polsat Sport 1",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 87,
+        "away": 98
+      },
+      "winner": "Arriva LOTTO Twarde Pierniki Toruń"
     },
     {
       "id": "23-220317:30-GórnikZamekKsi-AMWArkaGdynia",
@@ -2568,9 +2571,12 @@
       "away": "AMW Arka Gdynia",
       "start": "2026-03-22T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 103,
+        "away": 97
+      },
+      "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
       "id": "24-260318:00-GórnikZamekKsi-MKSDąbrowaGórn",
