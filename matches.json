@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-27T07:22:06Z",
+    "updated_at": "2026-03-28T07:11:14Z",
     "count": 240
   },
   "matches": [
@@ -2599,9 +2599,12 @@
       "away": "Tauron GTK Gliwice",
       "start": "2026-03-27T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 76,
+        "away": 59
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "24-280312:30-KingSzczecin-EnergaTreflSop",
