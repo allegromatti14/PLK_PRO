@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-03-29T07:17:24Z",
+    "updated_at": "2026-03-30T07:57:31Z",
     "count": 240
   },
   "matches": [
@@ -2655,9 +2655,12 @@
       "away": "Arriva LOTTO Twarde Pierniki Toruń",
       "start": "2026-03-29T12:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 88,
+        "away": 90
+      },
+      "winner": "Arriva LOTTO Twarde Pierniki Toruń"
     },
     {
       "id": "24-290317:30-WKSŚląskWrocła-PGEStartLublin",
@@ -2666,9 +2669,12 @@
       "away": "PGE Start Lublin",
       "start": "2026-03-29T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 98,
+        "away": 91
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "24-290319:30-MiastoSzkłaKro-TasomixRosiekS",
@@ -2677,9 +2683,12 @@
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2026-03-29T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 80,
+        "away": 87
+      },
+      "winner": "Tasomix Rosiek Stal Ostrów Wielkopolski"
     },
     {
       "id": "25-020420:15-ORLENZastalZie-EnergaCzarniSł",
