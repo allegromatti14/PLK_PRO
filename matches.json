@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-03T07:23:46Z",
+    "updated_at": "2026-04-04T07:14:04Z",
     "count": 240
   },
   "matches": [
@@ -2711,9 +2711,12 @@
       "away": "Miasto Szkła Krosno",
       "start": "2026-04-03T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 95,
+        "away": 76
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "25-030420:15-TauronGTKGliwi-MKSDąbrowaGórn",
@@ -2722,9 +2725,12 @@
       "away": "MKS Dąbrowa Górnicza",
       "start": "2026-04-03T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 80,
+        "away": 90
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "25-040415:30-DzikiWarszawa-PGEStartLublin",
