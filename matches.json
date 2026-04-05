@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-04T07:14:04Z",
+    "updated_at": "2026-04-05T07:20:47Z",
     "count": 240
   },
   "matches": [
@@ -2739,9 +2739,12 @@
       "away": "PGE Start Lublin",
       "start": "2026-04-04T15:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 103,
+        "away": 72
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "25-040417:30-GórnikZamekKsi-KingSzczecin",
@@ -2750,9 +2753,12 @@
       "away": "King Szczecin",
       "start": "2026-04-04T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 97,
+        "away": 76
+      },
+      "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
       "id": "25-060415:00-AnwilWłocławek-TasomixRosiekS",
