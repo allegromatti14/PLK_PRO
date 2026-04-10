@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-09T07:52:32Z",
+    "updated_at": "2026-04-10T07:56:05Z",
     "count": 240
   },
   "matches": [
@@ -2816,7 +2816,7 @@
       "home": "Arriva LOTTO Twarde Pierniki Toruń",
       "away": "Dziki Warszawa",
       "start": "2026-04-10T20:15:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 3",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2849,7 +2849,7 @@
       "home": "Energa Czarni Słupsk",
       "away": "WKS Śląsk Wrocław",
       "start": "2026-04-11T17:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 3",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2871,7 +2871,7 @@
       "home": "Tauron GTK Gliwice",
       "away": "King Szczecin",
       "start": "2026-04-12T17:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 3",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -2987,21 +2987,10 @@
       "winner": null
     },
     {
-      "id": "28-240418:00-ArrivaLOTTOTwa-GórnikZamekKsi",
+      "id": "28-240420:15-ArrivaLOTTOTwa-GórnikZamekKsi",
       "round": 28,
       "home": "Arriva LOTTO Twarde Pierniki Toruń",
       "away": "Górnik Zamek Książ Wałbrzych",
-      "start": "2026-04-24T18:00:00+01:00",
-      "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "28-240420:15-TasomixRosiekS-DzikiWarszawa",
-      "round": 28,
-      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "away": "Dziki Warszawa",
       "start": "2026-04-24T20:15:00+01:00",
       "tv": "Polsat Sport 2",
       "status": "scheduled",
@@ -3026,6 +3015,17 @@
       "away": "WKS Śląsk Wrocław",
       "start": "2026-04-25T17:30:00+01:00",
       "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "28-250418:00-TasomixRosiekS-DzikiWarszawa",
+      "round": 28,
+      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "away": "Dziki Warszawa",
+      "start": "2026-04-25T18:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
