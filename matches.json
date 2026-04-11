@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-10T07:56:05Z",
+    "updated_at": "2026-04-11T07:14:38Z",
     "count": 240
   },
   "matches": [
@@ -2806,9 +2806,12 @@
       "away": "AMW Arka Gdynia",
       "start": "2026-04-10T19:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 70,
+        "away": 83
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "26-100420:15-ArrivaLOTTOTwa-DzikiWarszawa",
@@ -2817,9 +2820,12 @@
       "away": "Dziki Warszawa",
       "start": "2026-04-10T20:15:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 82,
+        "away": 83
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "26-110412:30-EnergaTreflSop-PGEStartLublin",
