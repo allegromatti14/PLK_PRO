@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-11T07:14:38Z",
+    "updated_at": "2026-04-12T07:40:50Z",
     "count": 240
   },
   "matches": [
@@ -2834,9 +2834,12 @@
       "away": "PGE Start Lublin",
       "start": "2026-04-11T12:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 103,
+        "away": 97
+      },
+      "winner": "Energa Trefl Sopot"
     },
     {
       "id": "26-110415:00-MiastoSzkłaKro-AnwilWłocławek",
@@ -2845,9 +2848,12 @@
       "away": "Anwil Włocławek",
       "start": "2026-04-11T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 87,
+        "away": 101
+      },
+      "winner": "Anwil Włocławek"
     },
     {
       "id": "26-110417:30-EnergaCzarniSł-WKSŚląskWrocła",
@@ -2855,10 +2861,13 @@
       "home": "Energa Czarni Słupsk",
       "away": "WKS Śląsk Wrocław",
       "start": "2026-04-11T17:30:00+01:00",
-      "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "tv": "Polsat Sport 1",
+      "status": "played",
+      "score": {
+        "home": 86,
+        "away": 91
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "26-120415:00-LegiaWarszawa-GórnikZamekKsi",
