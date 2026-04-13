@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-12T07:40:50Z",
+    "updated_at": "2026-04-13T08:19:15Z",
     "count": 240
   },
   "matches": [
@@ -2876,9 +2876,12 @@
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2026-04-12T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 93,
+        "away": 68
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "26-120417:30-TauronGTKGliwi-KingSzczecin",
@@ -2887,9 +2890,12 @@
       "away": "King Szczecin",
       "start": "2026-04-12T17:30:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 86,
+        "away": 93
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "26-130420:15-TasomixRosiekS-ORLENZastalZie",
