@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-18T07:22:48Z",
+    "updated_at": "2026-04-19T07:43:13Z",
     "count": 240
   },
   "matches": [
@@ -2946,9 +2946,12 @@
       "away": "Energa Czarni Słupsk",
       "start": "2026-04-18T12:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 106,
+        "away": 86
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "27-180415:00-EnergaTreflSop-ArrivaLOTTOTwa",
@@ -2957,9 +2960,12 @@
       "away": "Arriva LOTTO Twarde Pierniki Toruń",
       "start": "2026-04-18T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 92,
+        "away": 72
+      },
+      "winner": "Energa Trefl Sopot"
     },
     {
       "id": "27-180417:30-GórnikZamekKsi-PGEStartLublin",
@@ -2968,9 +2974,12 @@
       "away": "PGE Start Lublin",
       "start": "2026-04-18T17:30:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 81,
+        "away": 86
+      },
+      "winner": "PGE Start Lublin"
     },
     {
       "id": "27-180418:00-MKSDąbrowaGórn-MiastoSzkłaKro",
@@ -2979,9 +2988,12 @@
       "away": "Miasto Szkła Krosno",
       "start": "2026-04-18T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 91,
+        "away": 89
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "27-180420:00-LegiaWarszawa-TauronGTKGliwi",
@@ -2990,9 +3002,12 @@
       "away": "Tauron GTK Gliwice",
       "start": "2026-04-18T20:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 93,
+        "away": 66
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "27-190412:30-AnwilWłocławek-ORLENZastalZie",
