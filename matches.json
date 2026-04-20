@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-19T07:43:13Z",
+    "updated_at": "2026-04-20T08:24:05Z",
     "count": 240
   },
   "matches": [
@@ -3016,9 +3016,12 @@
       "away": "ORLEN Zastal Zielona Góra",
       "start": "2026-04-19T12:30:00+01:00",
       "tv": "Polsat Sport 1",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 79,
+        "away": 70
+      },
+      "winner": "Anwil Włocławek"
     },
     {
       "id": "28-230419:00-MiastoSzkłaKro-ORLENZastalZie",
