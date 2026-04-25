@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-24T08:19:33Z",
+    "updated_at": "2026-04-25T07:43:04Z",
     "count": 240
   },
   "matches": [
@@ -3047,9 +3047,12 @@
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2026-04-24T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 73,
+        "away": 96
+      },
+      "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
       "id": "28-250415:00-EnergaCzarniSł-EnergaTreflSop",
