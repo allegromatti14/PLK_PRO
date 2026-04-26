@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-25T07:43:04Z",
+    "updated_at": "2026-04-26T07:51:33Z",
     "count": 240
   },
   "matches": [
@@ -3061,9 +3061,12 @@
       "away": "Energa Trefl Sopot",
       "start": "2026-04-25T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 72,
+        "away": 76
+      },
+      "winner": "Energa Trefl Sopot"
     },
     {
       "id": "28-250417:30-AnwilWłocławek-WKSŚląskWrocła",
@@ -3072,9 +3075,12 @@
       "away": "WKS Śląsk Wrocław",
       "start": "2026-04-25T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 96,
+        "away": 83
+      },
+      "winner": "Anwil Włocławek"
     },
     {
       "id": "28-250418:00-TasomixRosiekS-DzikiWarszawa",
@@ -3083,9 +3089,12 @@
       "away": "Dziki Warszawa",
       "start": "2026-04-25T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 73,
+        "away": 83
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "28-250419:30-KingSzczecin-MKSDąbrowaGórn",
@@ -3094,9 +3103,12 @@
       "away": "MKS Dąbrowa Górnicza",
       "start": "2026-04-25T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 102,
+        "away": 89
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "28-260412:30-LegiaWarszawa-AMWArkaGdynia",
