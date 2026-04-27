@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-26T07:51:33Z",
+    "updated_at": "2026-04-27T08:39:38Z",
     "count": 240
   },
   "matches": [
@@ -3117,9 +3117,12 @@
       "away": "AMW Arka Gdynia",
       "start": "2026-04-26T12:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 91,
+        "away": 84
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "28-260417:30-PGEStartLublin-TauronGTKGliwi",
@@ -3128,9 +3131,12 @@
       "away": "Tauron GTK Gliwice",
       "start": "2026-04-26T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 86,
+        "away": 82
+      },
+      "winner": "PGE Start Lublin"
     },
     {
       "id": "29-300418:00-DzikiWarszawa-AnwilWłocławek",
