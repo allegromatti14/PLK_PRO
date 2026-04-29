@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-28T08:38:18Z",
+    "updated_at": "2026-04-29T08:30:58Z",
     "count": 240
   },
   "matches": [
@@ -2798,9 +2798,12 @@
       "away": "WKS Śląsk Wrocław",
       "start": "2026-04-28T19:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 113,
+        "away": 106
+      },
+      "winner": "Arriva LOTTO Twarde Pierniki Toruń"
     },
     {
       "id": "26-100419:00-MKSDąbrowaGórn-AMWArkaGdynia",
