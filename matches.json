@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-04-30T08:34:39Z",
+    "updated_at": "2026-05-01T08:23:30Z",
     "count": 240
   },
   "matches": [
@@ -3148,9 +3148,12 @@
       "away": "Anwil Włocławek",
       "start": "2026-04-30T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 78,
+        "away": 73
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "29-300420:15-GórnikZamekKsi-EnergaCzarniSł",
@@ -3159,9 +3162,12 @@
       "away": "Energa Czarni Słupsk",
       "start": "2026-04-30T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 90,
+        "away": 107
+      },
+      "winner": "Energa Czarni Słupsk"
     },
     {
       "id": "29-010520:15-MKSDąbrowaGórn-LegiaWarszawa",
