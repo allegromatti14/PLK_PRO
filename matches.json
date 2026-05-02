@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-05-01T08:23:30Z",
+    "updated_at": "2026-05-02T07:57:25Z",
     "count": 240
   },
   "matches": [
@@ -3176,9 +3176,12 @@
       "away": "Legia Warszawa",
       "start": "2026-05-01T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 85,
+        "away": 90
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "29-020515:00-KingSzczecin-MiastoSzkłaKro",
@@ -3197,7 +3200,7 @@
       "home": "Energa Trefl Sopot",
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2026-05-02T17:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 3",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -3219,7 +3222,7 @@
       "home": "ORLEN Zastal Zielona Góra",
       "away": "WKS Śląsk Wrocław",
       "start": "2026-05-03T12:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 1",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -3230,7 +3233,7 @@
       "home": "PGE Start Lublin",
       "away": "AMW Arka Gdynia",
       "start": "2026-05-03T17:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport Fight",
       "status": "scheduled",
       "score": null,
       "winner": null
