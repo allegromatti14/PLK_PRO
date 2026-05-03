@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-05-02T07:57:25Z",
+    "updated_at": "2026-05-03T08:11:58Z",
     "count": 240
   },
   "matches": [
@@ -3190,9 +3190,12 @@
       "away": "Miasto Szkła Krosno",
       "start": "2026-05-02T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 88,
+        "away": 85
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "29-020517:30-EnergaTreflSop-TasomixRosiekS",
@@ -3201,9 +3204,12 @@
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2026-05-02T17:30:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 88,
+        "away": 86
+      },
+      "winner": "Energa Trefl Sopot"
     },
     {
       "id": "29-020519:30-TauronGTKGliwi-ArrivaLOTTOTwa",
@@ -3212,9 +3218,12 @@
       "away": "Arriva LOTTO Twarde Pierniki Toruń",
       "start": "2026-05-02T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 107,
+        "away": 99
+      },
+      "winner": "Tauron GTK Gliwice"
     },
     {
       "id": "29-030512:30-ORLENZastalZie-WKSŚląskWrocła",
