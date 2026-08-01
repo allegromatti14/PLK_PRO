@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-07-31T09:13:34Z",
+    "updated_at": "2026-08-01T08:31:45Z",
     "count": 240
   },
   "matches": [
@@ -28,9 +28,9 @@
       "winner": null
     },
     {
-      "id": "01-031017:30-EneaAstoriaByd-ZastalZielonaG",
+      "id": "01-031017:30-EneaŁaciateAst-ZastalZielonaG",
       "round": 1,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "Zastal Zielona Góra",
       "start": "2025-10-03T17:30:00+01:00",
       "tv": null,
@@ -94,9 +94,9 @@
       "winner": null
     },
     {
-      "id": "02-091018:00-EneaAstoriaByd-GTKGliwice",
+      "id": "02-091018:00-EneaŁaciateAst-GTKGliwice",
       "round": 2,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "GTK Gliwice",
       "start": "2025-10-09T18:00:00+01:00",
       "tv": null,
@@ -182,10 +182,10 @@
       "winner": null
     },
     {
-      "id": "03-161000:00-ArrivaLottoTwa-EneaAstoriaByd",
+      "id": "03-161000:00-ArrivaLottoTwa-EneaŁaciateAst",
       "round": 3,
       "home": "Arriva Lotto Twarde Pierniki Toruń",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2025-10-16T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -303,10 +303,10 @@
       "winner": null
     },
     {
-      "id": "04-241000:00-WKSŚląskWrocła-EneaAstoriaByd",
+      "id": "04-241000:00-WKSŚląskWrocła-EneaŁaciateAst",
       "round": 4,
       "home": "WKS Śląsk Wrocław",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2025-10-24T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -391,10 +391,10 @@
       "winner": null
     },
     {
-      "id": "05-311000:00-EnergaTreflSop-EneaAstoriaByd",
+      "id": "05-311000:00-EnergaTreflSop-EneaŁaciateAst",
       "round": 5,
       "home": "Energa Trefl Sopot",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2025-10-31T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -446,9 +446,9 @@
       "winner": null
     },
     {
-      "id": "06-061100:00-EneaAstoriaByd-PGEStartLublin",
+      "id": "06-061100:00-EneaŁaciateAst-PGEStartLublin",
       "round": 6,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "PGE Start Lublin",
       "start": "2025-11-06T00:00:00+01:00",
       "tv": null,
@@ -578,9 +578,9 @@
       "winner": null
     },
     {
-      "id": "07-151100:00-EneaAstoriaByd-GórnikZamekKsi",
+      "id": "07-151100:00-EneaŁaciateAst-GórnikZamekKsi",
       "round": 7,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2025-11-15T00:00:00+01:00",
       "tv": null,
@@ -622,9 +622,9 @@
       "winner": null
     },
     {
-      "id": "08-201100:00-EneaAstoriaByd-EnergaCzarniSł",
+      "id": "08-201100:00-EneaŁaciateAst-EnergaCzarniSł",
       "round": 8,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "Energa Czarni Słupsk",
       "start": "2025-11-20T00:00:00+01:00",
       "tv": null,
@@ -710,10 +710,10 @@
       "winner": null
     },
     {
-      "id": "09-041200:00-LegiaWarszawa-EneaAstoriaByd",
+      "id": "09-041200:00-LegiaWarszawa-EneaŁaciateAst",
       "round": 9,
       "home": "Legia Warszawa",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2025-12-04T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -809,9 +809,9 @@
       "winner": null
     },
     {
-      "id": "10-121200:00-EneaAstoriaByd-AnwilWłocławek",
+      "id": "10-121200:00-EneaŁaciateAst-AnwilWłocławek",
       "round": 10,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "Anwil Włocławek",
       "start": "2025-12-12T00:00:00+01:00",
       "tv": null,
@@ -886,10 +886,10 @@
       "winner": null
     },
     {
-      "id": "11-181200:00-TasomixRosiekS-EneaAstoriaByd",
+      "id": "11-181200:00-TasomixRosiekS-EneaŁaciateAst",
       "round": 11,
       "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2025-12-18T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -1029,9 +1029,9 @@
       "winner": null
     },
     {
-      "id": "12-271200:00-EneaAstoriaByd-DzikiWarszawa",
+      "id": "12-271200:00-EneaŁaciateAst-DzikiWarszawa",
       "round": 12,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "Dziki Warszawa",
       "start": "2025-12-27T00:00:00+01:00",
       "tv": null,
@@ -1095,10 +1095,10 @@
       "winner": null
     },
     {
-      "id": "13-231200:00-AMWArkaGdynia-EneaAstoriaByd",
+      "id": "13-231200:00-AMWArkaGdynia-EneaŁaciateAst",
       "round": 13,
       "home": "AMW Arka Gdynia",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2025-12-23T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -1205,9 +1205,9 @@
       "winner": null
     },
     {
-      "id": "14-030100:00-EneaAstoriaByd-KingSzczecin",
+      "id": "14-030100:00-EneaŁaciateAst-KingSzczecin",
       "round": 14,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "King Szczecin",
       "start": "2026-01-03T00:00:00+01:00",
       "tv": null,
@@ -1315,9 +1315,9 @@
       "winner": null
     },
     {
-      "id": "15-100100:00-EneaAstoriaByd-MKSDąbrowaGórn",
+      "id": "15-100100:00-EneaŁaciateAst-MKSDąbrowaGórn",
       "round": 15,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "MKS Dąbrowa Górnicza",
       "start": "2026-01-10T00:00:00+01:00",
       "tv": null,
@@ -1337,10 +1337,10 @@
       "winner": null
     },
     {
-      "id": "16-150100:00-PGEStartLublin-EneaAstoriaByd",
+      "id": "16-150100:00-PGEStartLublin-EneaŁaciateAst",
       "round": 16,
       "home": "PGE Start Lublin",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2026-01-15T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -1491,10 +1491,10 @@
       "winner": null
     },
     {
-      "id": "17-250100:00-GórnikZamekKsi-EneaAstoriaByd",
+      "id": "17-250100:00-GórnikZamekKsi-EneaŁaciateAst",
       "round": 17,
       "home": "Górnik Zamek Książ Wałbrzych",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2026-01-25T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -1546,9 +1546,9 @@
       "winner": null
     },
     {
-      "id": "18-310100:00-EneaAstoriaByd-ArrivaLottoTwa",
+      "id": "18-310100:00-EneaŁaciateAst-ArrivaLottoTwa",
       "round": 18,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "Arriva Lotto Twarde Pierniki Toruń",
       "start": "2026-01-31T00:00:00+01:00",
       "tv": null,
@@ -1634,10 +1634,10 @@
       "winner": null
     },
     {
-      "id": "19-070200:00-MKSDąbrowaGórn-EneaAstoriaByd",
+      "id": "19-070200:00-MKSDąbrowaGórn-EneaŁaciateAst",
       "round": 19,
       "home": "MKS Dąbrowa Górnicza",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2026-02-07T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -1722,10 +1722,10 @@
       "winner": null
     },
     {
-      "id": "20-140200:00-KingSzczecin-EneaAstoriaByd",
+      "id": "20-140200:00-KingSzczecin-EneaŁaciateAst",
       "round": 20,
       "home": "King Szczecin",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2026-02-14T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -1766,9 +1766,9 @@
       "winner": null
     },
     {
-      "id": "21-050300:00-EneaAstoriaByd-EnergaTreflSop",
+      "id": "21-050300:00-EneaŁaciateAst-EnergaTreflSop",
       "round": 21,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "Energa Trefl Sopot",
       "start": "2026-03-05T00:00:00+01:00",
       "tv": null,
@@ -1876,9 +1876,9 @@
       "winner": null
     },
     {
-      "id": "22-130300:00-EneaAstoriaByd-WKSŚląskWrocła",
+      "id": "22-130300:00-EneaŁaciateAst-WKSŚląskWrocła",
       "round": 22,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "WKS Śląsk Wrocław",
       "start": "2026-03-13T00:00:00+01:00",
       "tv": null,
@@ -1942,9 +1942,9 @@
       "winner": null
     },
     {
-      "id": "23-190300:00-EneaAstoriaByd-TasomixRosiekS",
+      "id": "23-190300:00-EneaŁaciateAst-TasomixRosiekS",
       "round": 23,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2026-03-19T00:00:00+01:00",
       "tv": null,
@@ -2085,10 +2085,10 @@
       "winner": null
     },
     {
-      "id": "24-290300:00-EnergaCzarniSł-EneaAstoriaByd",
+      "id": "24-290300:00-EnergaCzarniSł-EneaŁaciateAst",
       "round": 24,
       "home": "Energa Czarni Słupsk",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2026-03-29T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -2195,10 +2195,10 @@
       "winner": null
     },
     {
-      "id": "25-050400:00-ZastalZielonaG-EneaAstoriaByd",
+      "id": "25-050400:00-ZastalZielonaG-EneaŁaciateAst",
       "round": 25,
       "home": "Zastal Zielona Góra",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2026-04-05T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -2228,10 +2228,10 @@
       "winner": null
     },
     {
-      "id": "26-100400:00-AnwilWłocławek-EneaAstoriaByd",
+      "id": "26-100400:00-AnwilWłocławek-EneaŁaciateAst",
       "round": 26,
       "home": "Anwil Włocławek",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2026-04-10T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -2305,9 +2305,9 @@
       "winner": null
     },
     {
-      "id": "27-170400:00-EneaAstoriaByd-LegiaWarszawa",
+      "id": "27-170400:00-EneaŁaciateAst-LegiaWarszawa",
       "round": 27,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "Legia Warszawa",
       "start": "2026-04-17T00:00:00+01:00",
       "tv": null,
@@ -2393,9 +2393,9 @@
       "winner": null
     },
     {
-      "id": "28-240400:00-EneaAstoriaByd-AMWArkaGdynia",
+      "id": "28-240400:00-EneaŁaciateAst-AMWArkaGdynia",
       "round": 28,
-      "home": "Enea Astoria Bydgoszcz",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "AMW Arka Gdynia",
       "start": "2026-04-24T00:00:00+01:00",
       "tv": null,
@@ -2481,10 +2481,10 @@
       "winner": null
     },
     {
-      "id": "29-010500:00-DzikiWarszawa-EneaAstoriaByd",
+      "id": "29-010500:00-DzikiWarszawa-EneaŁaciateAst",
       "round": 29,
       "home": "Dziki Warszawa",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2026-05-01T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -2558,10 +2558,10 @@
       "winner": null
     },
     {
-      "id": "30-060519:00-GTKGliwice-EneaAstoriaByd",
+      "id": "30-060519:00-GTKGliwice-EneaŁaciateAst",
       "round": 30,
       "home": "GTK Gliwice",
-      "away": "Enea Astoria Bydgoszcz",
+      "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2026-05-06T19:00:00+01:00",
       "tv": null,
       "status": "scheduled",
