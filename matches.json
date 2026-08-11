@@ -1,10 +1,21 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-08-10T07:58:48Z",
+    "updated_at": "2026-08-11T07:22:19Z",
     "count": 240
   },
   "matches": [
+    {
+      "id": "01-021019:00-EnergaCzarniSł-LegiaWarszawa",
+      "round": 1,
+      "home": "Energa Czarni Słupsk",
+      "away": "Legia Warszawa",
+      "start": "2025-10-02T19:00:00+01:00",
+      "tv": "Emocje.tv",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
     {
       "id": "01-021020:15-EnergaTreflSop-DzikiWarszawa",
       "round": 1,
@@ -33,17 +44,6 @@
       "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "Zastal Zielona Góra",
       "start": "2025-10-03T17:30:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "01-031020:00-EnergaCzarniSł-LegiaWarszawa",
-      "round": 1,
-      "home": "Energa Czarni Słupsk",
-      "away": "Legia Warszawa",
-      "start": "2025-10-03T20:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
