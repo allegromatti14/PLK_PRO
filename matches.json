@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-08-11T07:22:19Z",
+    "updated_at": "2026-08-12T07:46:11Z",
     "count": 240
   },
   "matches": [
@@ -457,17 +457,6 @@
       "winner": null
     },
     {
-      "id": "06-071100:00-AMWArkaGdynia-LegiaWarszawa",
-      "round": 6,
-      "home": "AMW Arka Gdynia",
-      "away": "Legia Warszawa",
-      "start": "2025-11-07T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "06-071100:00-KingSzczecin-EnergaCzarniSł",
       "round": 6,
       "home": "King Szczecin",
@@ -518,6 +507,17 @@
       "away": "Energa Trefl Sopot",
       "start": "2025-11-08T00:00:00+01:00",
       "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "06-081112:30-AMWArkaGdynia-LegiaWarszawa",
+      "round": 6,
+      "home": "AMW Arka Gdynia",
+      "away": "Legia Warszawa",
+      "start": "2025-11-08T12:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -600,21 +600,21 @@
       "winner": null
     },
     {
-      "id": "07-161100:00-EnergaCzarniSł-MKSDąbrowaGórn",
+      "id": "07-151100:00-DzikiWarszawa-TasomixRosiekS",
       "round": 7,
-      "home": "Energa Czarni Słupsk",
-      "away": "MKS Dąbrowa Górnicza",
-      "start": "2025-11-16T00:00:00+01:00",
+      "home": "Dziki Warszawa",
+      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "start": "2025-11-15T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "07-161100:00-DzikiWarszawa-TasomixRosiekS",
+      "id": "07-161100:00-EnergaCzarniSł-MKSDąbrowaGórn",
       "round": 7,
-      "home": "Dziki Warszawa",
-      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "home": "Energa Czarni Słupsk",
+      "away": "MKS Dąbrowa Górnicza",
       "start": "2025-11-16T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -644,17 +644,6 @@
       "winner": null
     },
     {
-      "id": "08-211100:00-ZastalZielonaG-DzikiWarszawa",
-      "round": 8,
-      "home": "Zastal Zielona Góra",
-      "away": "Dziki Warszawa",
-      "start": "2025-11-21T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "08-211100:00-KingSzczecin-AnwilWłocławek",
       "round": 8,
       "home": "King Szczecin",
@@ -671,6 +660,17 @@
       "home": "MKS Dąbrowa Górnicza",
       "away": "Legia Warszawa",
       "start": "2025-11-21T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "08-221100:00-ZastalZielonaG-DzikiWarszawa",
+      "round": 8,
+      "home": "Zastal Zielona Góra",
+      "away": "Dziki Warszawa",
+      "start": "2025-11-22T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
@@ -908,17 +908,6 @@
       "winner": null
     },
     {
-      "id": "11-191200:00-DzikiWarszawa-MKSDąbrowaGórn",
-      "round": 11,
-      "home": "Dziki Warszawa",
-      "away": "MKS Dąbrowa Górnicza",
-      "start": "2025-12-19T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "11-191200:00-AMWArkaGdynia-KingSzczecin",
       "round": 11,
       "home": "AMW Arka Gdynia",
@@ -956,6 +945,17 @@
       "round": 11,
       "home": "WKS Śląsk Wrocław",
       "away": "Energa Czarni Słupsk",
+      "start": "2025-12-20T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "11-201200:00-DzikiWarszawa-MKSDąbrowaGórn",
+      "round": 11,
+      "home": "Dziki Warszawa",
+      "away": "MKS Dąbrowa Górnicza",
       "start": "2025-12-20T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -2261,10 +2261,10 @@
       "winner": null
     },
     {
-      "id": "26-110400:00-TasomixRosiekS-DzikiWarszawa",
+      "id": "26-110400:00-DzikiWarszawa-TasomixRosiekS",
       "round": 26,
-      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "away": "Dziki Warszawa",
+      "home": "Dziki Warszawa",
+      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2026-04-11T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
