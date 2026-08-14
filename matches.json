@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-08-13T07:47:13Z",
+    "updated_at": "2026-08-14T07:45:25Z",
     "count": 240
   },
   "matches": [
@@ -468,6 +468,17 @@
       "winner": null
     },
     {
+      "id": "06-071100:00-MKSDąbrowaGórn-GórnikZamekKsi",
+      "round": 6,
+      "home": "MKS Dąbrowa Górnicza",
+      "away": "Górnik Zamek Książ Wałbrzych",
+      "start": "2025-11-07T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "06-071100:00-WKSŚląskWrocła-ArrivaLottoTwa",
       "round": 6,
       "home": "WKS Śląsk Wrocław",
@@ -518,17 +529,6 @@
       "away": "Legia Warszawa",
       "start": "2025-11-08T12:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "06-091100:00-MKSDąbrowaGórn-GórnikZamekKsi",
-      "round": 6,
-      "home": "MKS Dąbrowa Górnicza",
-      "away": "Górnik Zamek Książ Wałbrzych",
-      "start": "2025-11-09T00:00:00+01:00",
-      "tv": null,
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -600,10 +600,10 @@
       "winner": null
     },
     {
-      "id": "07-151100:00-DzikiWarszawa-TasomixRosiekS",
+      "id": "07-151100:00-TasomixRosiekS-DzikiWarszawa",
       "round": 7,
-      "home": "Dziki Warszawa",
-      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "away": "Dziki Warszawa",
       "start": "2025-11-15T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -710,6 +710,17 @@
       "winner": null
     },
     {
+      "id": "09-041200:00-GórnikZamekKsi-ArrivaLottoTwa",
+      "round": 9,
+      "home": "Górnik Zamek Książ Wałbrzych",
+      "away": "Arriva Lotto Twarde Pierniki Toruń",
+      "start": "2025-12-04T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "09-041200:00-LegiaWarszawa-EneaŁaciateAst",
       "round": 9,
       "home": "Legia Warszawa",
@@ -759,17 +770,6 @@
       "home": "PGE Start Lublin",
       "away": "WKS Śląsk Wrocław",
       "start": "2025-12-06T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "09-071200:00-GórnikZamekKsi-ArrivaLottoTwa",
-      "round": 9,
-      "home": "Górnik Zamek Książ Wałbrzych",
-      "away": "Arriva Lotto Twarde Pierniki Toruń",
-      "start": "2025-12-07T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
@@ -1777,6 +1777,17 @@
       "winner": null
     },
     {
+      "id": "21-050300:00-TasomixRosiekS-MKSDąbrowaGórn",
+      "round": 21,
+      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "away": "MKS Dąbrowa Górnicza",
+      "start": "2026-03-05T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "21-050300:00-WKSŚląskWrocła-KingSzczecin",
       "round": 21,
       "home": "WKS Śląsk Wrocław",
@@ -1804,17 +1815,6 @@
       "home": "PGE Start Lublin",
       "away": "Anwil Włocławek",
       "start": "2026-03-06T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "21-070300:00-TasomixRosiekS-MKSDąbrowaGórn",
-      "round": 21,
-      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "away": "MKS Dąbrowa Górnicza",
-      "start": "2026-03-07T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
@@ -1854,21 +1854,21 @@
       "winner": null
     },
     {
-      "id": "22-120300:00-AMWArkaGdynia-PGEStartLublin",
+      "id": "22-110300:00-TasomixRosiekS-EnergaTreflSop",
       "round": 22,
-      "home": "AMW Arka Gdynia",
-      "away": "PGE Start Lublin",
-      "start": "2026-03-12T00:00:00+01:00",
+      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "away": "Energa Trefl Sopot",
+      "start": "2026-03-11T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "22-120300:00-TasomixRosiekS-EnergaTreflSop",
+      "id": "22-120300:00-AMWArkaGdynia-PGEStartLublin",
       "round": 22,
-      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "away": "Energa Trefl Sopot",
+      "home": "AMW Arka Gdynia",
+      "away": "PGE Start Lublin",
       "start": "2026-03-12T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -2470,6 +2470,17 @@
       "winner": null
     },
     {
+      "id": "29-300400:00-TasomixRosiekS-KingSzczecin",
+      "round": 29,
+      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "away": "King Szczecin",
+      "start": "2026-04-30T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "29-300400:00-AMWArkaGdynia-GTKGliwice",
       "round": 29,
       "home": "AMW Arka Gdynia",
@@ -2485,17 +2496,6 @@
       "round": 29,
       "home": "Dziki Warszawa",
       "away": "Enea Łaciate Astoria Bydgoszcz",
-      "start": "2026-05-01T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "29-010500:00-TasomixRosiekS-KingSzczecin",
-      "round": 29,
-      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "away": "King Szczecin",
       "start": "2026-05-01T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
