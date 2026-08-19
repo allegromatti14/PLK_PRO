@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-08-18T06:59:00Z",
+    "updated_at": "2026-08-19T07:00:16Z",
     "count": 240
   },
   "matches": [
@@ -897,6 +897,17 @@
       "winner": null
     },
     {
+      "id": "11-191200:00-WKSŚląskWrocła-EnergaCzarniSł",
+      "round": 11,
+      "home": "WKS Śląsk Wrocław",
+      "away": "Energa Czarni Słupsk",
+      "start": "2025-12-19T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "11-191200:00-LegiaWarszawa-ArrivaLottoTwa",
       "round": 11,
       "home": "Legia Warszawa",
@@ -934,17 +945,6 @@
       "round": 11,
       "home": "Górnik Zamek Książ Wałbrzych",
       "away": "Energa Trefl Sopot",
-      "start": "2025-12-20T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "11-201200:00-WKSŚląskWrocła-EnergaCzarniSł",
-      "round": 11,
-      "home": "WKS Śląsk Wrocław",
-      "away": "Energa Czarni Słupsk",
       "start": "2025-12-20T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -1150,17 +1150,6 @@
       "winner": null
     },
     {
-      "id": "14-010100:00-TasomixRosiekS-WKSŚląskWrocła",
-      "round": 14,
-      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "away": "WKS Śląsk Wrocław",
-      "start": "2026-01-01T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "14-010100:00-PGEStartLublin-LegiaWarszawa",
       "round": 14,
       "home": "PGE Start Lublin",
@@ -1187,6 +1176,17 @@
       "round": 14,
       "home": "Arriva Lotto Twarde Pierniki Toruń",
       "away": "Dziki Warszawa",
+      "start": "2026-01-02T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "14-020100:00-TasomixRosiekS-WKSŚląskWrocła",
+      "round": 14,
+      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "away": "WKS Śląsk Wrocław",
       "start": "2026-01-02T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
