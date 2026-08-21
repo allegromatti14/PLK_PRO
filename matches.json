@@ -1,16 +1,16 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-08-20T07:01:26Z",
+    "updated_at": "2026-08-21T07:02:28Z",
     "count": 240
   },
   "matches": [
     {
-      "id": "01-021019:00-EnergaCzarniSł-LegiaWarszawa",
+      "id": "01-021018:00-EnergaCzarniSł-LegiaWarszawa",
       "round": 1,
       "home": "Energa Czarni Słupsk",
       "away": "Legia Warszawa",
-      "start": "2025-10-02T19:00:00+01:00",
+      "start": "2025-10-02T18:00:00+01:00",
       "tv": "Emocje.tv",
       "status": "scheduled",
       "score": null,
@@ -50,22 +50,22 @@
       "winner": null
     },
     {
-      "id": "01-041012:30-GTKGliwice-MKSDąbrowaGórn",
+      "id": "01-031019:30-PGEStartLublin-TasomixRosiekS",
       "round": 1,
-      "home": "GTK Gliwice",
-      "away": "MKS Dąbrowa Górnicza",
-      "start": "2025-10-04T12:30:00+01:00",
+      "home": "PGE Start Lublin",
+      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "start": "2025-10-03T19:30:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "01-041015:00-PGEStartLublin-TasomixRosiekS",
+      "id": "01-041012:30-GTKGliwice-MKSDąbrowaGórn",
       "round": 1,
-      "home": "PGE Start Lublin",
-      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "start": "2025-10-04T15:00:00+01:00",
+      "home": "GTK Gliwice",
+      "away": "MKS Dąbrowa Górnicza",
+      "start": "2025-10-04T12:30:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
@@ -413,12 +413,12 @@
       "winner": null
     },
     {
-      "id": "05-311000:00-LegiaWarszawa-DzikiWarszawa",
+      "id": "05-311017:30-LegiaWarszawa-DzikiWarszawa",
       "round": 5,
       "home": "Legia Warszawa",
       "away": "Dziki Warszawa",
-      "start": "2025-10-31T00:00:00+01:00",
-      "tv": null,
+      "start": "2025-10-31T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
