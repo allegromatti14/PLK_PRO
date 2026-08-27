@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-08-26T07:03:14Z",
+    "updated_at": "2026-08-27T17:35:11Z",
     "count": 240
   },
   "matches": [
@@ -809,6 +809,17 @@
       "winner": null
     },
     {
+      "id": "10-111200:00-LegiaWarszawa-GTKGliwice",
+      "round": 10,
+      "home": "Legia Warszawa",
+      "away": "GTK Gliwice",
+      "start": "2025-12-11T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "10-121200:00-EneaŁaciateAst-AnwilWłocławek",
       "round": 10,
       "home": "Enea Łaciate Astoria Bydgoszcz",
@@ -869,17 +880,6 @@
       "home": "Energa Trefl Sopot",
       "away": "PGE Start Lublin",
       "start": "2025-12-14T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "10-161200:00-GTKGliwice-LegiaWarszawa",
-      "round": 10,
-      "home": "GTK Gliwice",
-      "away": "Legia Warszawa",
-      "start": "2025-12-16T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
@@ -1788,10 +1788,10 @@
       "winner": null
     },
     {
-      "id": "21-050300:00-WKSŚląskWrocła-KingSzczecin",
+      "id": "21-050300:00-GTKGliwice-LegiaWarszawa",
       "round": 21,
-      "home": "WKS Śląsk Wrocław",
-      "away": "King Szczecin",
+      "home": "GTK Gliwice",
+      "away": "Legia Warszawa",
       "start": "2026-03-05T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -1799,11 +1799,11 @@
       "winner": null
     },
     {
-      "id": "21-060300:00-LegiaWarszawa-GTKGliwice",
+      "id": "21-050300:00-WKSŚląskWrocła-KingSzczecin",
       "round": 21,
-      "home": "Legia Warszawa",
-      "away": "GTK Gliwice",
-      "start": "2026-03-06T00:00:00+01:00",
+      "home": "WKS Śląsk Wrocław",
+      "away": "King Szczecin",
+      "start": "2026-03-05T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
