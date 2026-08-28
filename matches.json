@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-08-27T17:35:11Z",
+    "updated_at": "2026-08-28T18:35:13Z",
     "count": 240
   },
   "matches": [
@@ -204,6 +204,17 @@
       "winner": null
     },
     {
+      "id": "03-161000:00-LegiaWarszawa-AnwilWłocławek",
+      "round": 3,
+      "home": "Legia Warszawa",
+      "away": "Anwil Włocławek",
+      "start": "2025-10-16T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "03-171000:00-GTKGliwice-ZastalZielonaG",
       "round": 3,
       "home": "GTK Gliwice",
@@ -241,17 +252,6 @@
       "round": 3,
       "home": "Górnik Zamek Książ Wałbrzych",
       "away": "Dziki Warszawa",
-      "start": "2025-10-18T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "03-181000:00-LegiaWarszawa-AnwilWłocławek",
-      "round": 3,
-      "home": "Legia Warszawa",
-      "away": "Anwil Włocławek",
       "start": "2025-10-18T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -655,17 +655,6 @@
       "winner": null
     },
     {
-      "id": "08-211100:00-MKSDąbrowaGórn-LegiaWarszawa",
-      "round": 8,
-      "home": "MKS Dąbrowa Górnicza",
-      "away": "Legia Warszawa",
-      "start": "2025-11-21T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "08-221100:00-ZastalZielonaG-DzikiWarszawa",
       "round": 8,
       "home": "Zastal Zielona Góra",
@@ -681,6 +670,17 @@
       "round": 8,
       "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "away": "AMW Arka Gdynia",
+      "start": "2025-11-22T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "08-221100:00-MKSDąbrowaGórn-LegiaWarszawa",
+      "round": 8,
+      "home": "MKS Dąbrowa Górnicza",
+      "away": "Legia Warszawa",
       "start": "2025-11-22T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -1238,17 +1238,6 @@
       "winner": null
     },
     {
-      "id": "15-060100:00-EnergaTreflSop-TasomixRosiekS",
-      "round": 15,
-      "home": "Energa Trefl Sopot",
-      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "start": "2026-01-06T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "15-070100:00-AnwilWłocławek-PGEStartLublin",
       "round": 15,
       "home": "Anwil Włocławek",
@@ -1265,6 +1254,17 @@
       "home": "AMW Arka Gdynia",
       "away": "Arriva Lotto Twarde Pierniki Toruń",
       "start": "2026-01-08T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "15-090100:00-EnergaTreflSop-TasomixRosiekS",
+      "round": 15,
+      "home": "Energa Trefl Sopot",
+      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "start": "2026-01-09T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
@@ -2294,6 +2294,17 @@
       "winner": null
     },
     {
+      "id": "27-160400:00-TasomixRosiekS-PGEStartLublin",
+      "round": 27,
+      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "away": "PGE Start Lublin",
+      "start": "2026-04-16T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "27-160400:00-EnergaTreflSop-ArrivaLottoTwa",
       "round": 27,
       "home": "Energa Trefl Sopot",
@@ -2342,17 +2353,6 @@
       "round": 27,
       "home": "Dziki Warszawa",
       "away": "Zastal Zielona Góra",
-      "start": "2026-04-18T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "27-180400:00-TasomixRosiekS-PGEStartLublin",
-      "round": 27,
-      "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
-      "away": "PGE Start Lublin",
       "start": "2026-04-18T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
