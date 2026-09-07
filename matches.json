@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-09-06T10:48:55Z",
+    "updated_at": "2026-09-07T12:19:57Z",
     "count": 240
   },
   "matches": [
@@ -798,10 +798,10 @@
       "winner": null
     },
     {
-      "id": "10-111200:00-MKSDąbrowaGórn-TasomixRosiekS",
+      "id": "10-111200:00-LegiaWarszawa-GTKGliwice",
       "round": 10,
-      "home": "MKS Dąbrowa Górnicza",
-      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "home": "Legia Warszawa",
+      "away": "GTK Gliwice",
       "start": "2025-12-11T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -809,11 +809,11 @@
       "winner": null
     },
     {
-      "id": "10-111200:00-LegiaWarszawa-GTKGliwice",
+      "id": "10-121200:00-MKSDąbrowaGórn-TasomixRosiekS",
       "round": 10,
-      "home": "Legia Warszawa",
-      "away": "GTK Gliwice",
-      "start": "2025-12-11T00:00:00+01:00",
+      "home": "MKS Dąbrowa Górnicza",
+      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "start": "2025-12-12T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
