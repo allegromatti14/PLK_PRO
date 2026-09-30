@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-09-29T12:42:19Z",
+    "updated_at": "2026-09-30T12:26:26Z",
     "count": 240
   },
   "matches": [
@@ -94,23 +94,23 @@
       "winner": null
     },
     {
-      "id": "02-091018:00-EneaŁaciateAst-EuvicGTKGliwic",
+      "id": "02-091018:00-ZastalZielonaG-LegiaWarszawa",
       "round": 2,
-      "home": "Enea Łaciate Astoria Bydgoszcz",
-      "away": "Euvic GTK Gliwice",
+      "home": "Zastal Zielona Góra",
+      "away": "Legia Warszawa",
       "start": "2025-10-09T18:00:00+01:00",
-      "tv": "YouTube",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "02-091020:15-ZastalZielonaG-LegiaWarszawa",
+      "id": "02-091020:15-EneaŁaciateAst-EuvicGTKGliwic",
       "round": 2,
-      "home": "Zastal Zielona Góra",
-      "away": "Legia Warszawa",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
+      "away": "Euvic GTK Gliwice",
       "start": "2025-10-09T20:15:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -182,32 +182,21 @@
       "winner": null
     },
     {
-      "id": "03-161018:00-PGEStartLublin-AMWArkaGdynia",
-      "round": 3,
-      "home": "PGE Start Lublin",
-      "away": "AMW Arka Gdynia",
-      "start": "2025-10-16T18:00:00+01:00",
-      "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "03-161019:00-LegiaWarszawa-AnwilWłocławek",
-      "round": 3,
-      "home": "Legia Warszawa",
-      "away": "Anwil Włocławek",
-      "start": "2025-10-16T19:00:00+01:00",
-      "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "03-161020:15-ArrivaLottoTwa-EneaŁaciateAst",
+      "id": "03-161018:00-ArrivaLottoTwa-EneaŁaciateAst",
       "round": 3,
       "home": "Arriva Lotto Twarde Pierniki Toruń",
       "away": "Enea Łaciate Astoria Bydgoszcz",
+      "start": "2025-10-16T18:00:00+01:00",
+      "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "03-161020:15-LegiaWarszawa-AnwilWłocławek",
+      "round": 3,
+      "home": "Legia Warszawa",
+      "away": "Anwil Włocławek",
       "start": "2025-10-16T20:15:00+01:00",
       "tv": "Polsat Sport 2",
       "status": "scheduled",
@@ -226,12 +215,23 @@
       "winner": null
     },
     {
-      "id": "03-171017:30-EnergaTreflSop-KingSzczecin",
+      "id": "03-171017:30-PGEStartLublin-AMWArkaGdynia",
+      "round": 3,
+      "home": "PGE Start Lublin",
+      "away": "AMW Arka Gdynia",
+      "start": "2025-10-17T17:30:00+01:00",
+      "tv": "Polsat Sport",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "03-171019:00-EnergaTreflSop-KingSzczecin",
       "round": 3,
       "home": "Energa Trefl Sopot",
       "away": "King Szczecin",
-      "start": "2025-10-17T17:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "start": "2025-10-17T19:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -413,11 +413,11 @@
       "winner": null
     },
     {
-      "id": "05-311017:30-LegiaWarszawa-DzikiWarszawa",
+      "id": "05-311020:00-LegiaWarszawa-DzikiWarszawa",
       "round": 5,
       "home": "Legia Warszawa",
       "away": "Dziki Warszawa",
-      "start": "2025-10-31T17:30:00+01:00",
+      "start": "2025-10-31T20:00:00+01:00",
       "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
@@ -600,12 +600,12 @@
       "winner": null
     },
     {
-      "id": "07-151100:00-TasomixRosiekS-DzikiWarszawa",
+      "id": "07-151115:00-TasomixRosiekS-DzikiWarszawa",
       "round": 7,
       "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "away": "Dziki Warszawa",
-      "start": "2025-11-15T00:00:00+01:00",
-      "tv": null,
+      "start": "2025-11-15T15:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
