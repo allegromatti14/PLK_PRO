@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-02T12:23:25Z",
+    "updated_at": "2026-10-03T11:34:37Z",
     "count": 240
   },
   "matches": [
@@ -12,9 +12,12 @@
       "away": "Legia Warszawa",
       "start": "2025-10-02T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 76,
+        "away": 79
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "01-021020:15-EnergaTreflSop-DzikiWarszawa",
@@ -23,9 +26,12 @@
       "away": "Dziki Warszawa",
       "start": "2025-10-02T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 63,
+        "away": 102
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "01-031015:00-ArrivaLottoTwa-KingSzczecin",
@@ -380,17 +386,6 @@
       "winner": null
     },
     {
-      "id": "05-311000:00-ArrivaLottoTwa-ZastalZielonaG",
-      "round": 5,
-      "home": "Arriva Lotto Twarde Pierniki Toruń",
-      "away": "Zastal Zielona Góra",
-      "start": "2025-10-31T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "05-311000:00-EnergaTreflSop-EneaŁaciateAst",
       "round": 5,
       "home": "Energa Trefl Sopot",
@@ -408,6 +403,17 @@
       "away": "AMW Arka Gdynia",
       "start": "2025-10-31T00:00:00+01:00",
       "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "05-311019:00-ArrivaLottoTwa-ZastalZielonaG",
+      "round": 5,
+      "home": "Arriva Lotto Twarde Pierniki Toruń",
+      "away": "Zastal Zielona Góra",
+      "start": "2025-10-31T19:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
