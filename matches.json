@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-03T11:34:37Z",
+    "updated_at": "2026-10-04T12:15:12Z",
     "count": 240
   },
   "matches": [
@@ -40,9 +40,12 @@
       "away": "King Szczecin",
       "start": "2025-10-03T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 85,
+        "away": 104
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "01-031017:30-EneaŁaciateAst-ZastalZielonaG",
@@ -51,9 +54,12 @@
       "away": "Zastal Zielona Góra",
       "start": "2025-10-03T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 105,
+        "away": 95
+      },
+      "winner": "Enea Łaciate Astoria Bydgoszcz"
     },
     {
       "id": "01-031019:30-PGEStartLublin-TasomixRosiekS",
@@ -62,9 +68,12 @@
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2025-10-03T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 79,
+        "away": 84
+      },
+      "winner": "Tasomix Rosiek Stal Ostrów Wielkopolski"
     },
     {
       "id": "01-041012:30-EuvicGTKGliwic-MKSDąbrowaGórn",
@@ -73,9 +82,12 @@
       "away": "MKS Dąbrowa Górnicza",
       "start": "2025-10-04T12:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 52,
+        "away": 57
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "01-041017:30-AMWArkaGdynia-WKSŚląskWrocła",
