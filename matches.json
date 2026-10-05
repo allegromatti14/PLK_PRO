@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-04T12:15:12Z",
+    "updated_at": "2026-10-05T14:25:57Z",
     "count": 240
   },
   "matches": [
@@ -84,8 +84,8 @@
       "tv": "Polsat Sport 2",
       "status": "played",
       "score": {
-        "home": 52,
-        "away": 57
+        "home": 78,
+        "away": 89
       },
       "winner": "MKS Dąbrowa Górnicza"
     },
@@ -96,9 +96,12 @@
       "away": "WKS Śląsk Wrocław",
       "start": "2025-10-04T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 95,
+        "away": 70
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "01-051019:00-AnwilWłocławek-GórnikZamekKsi",
@@ -475,17 +478,6 @@
       "winner": null
     },
     {
-      "id": "06-071100:00-KingSzczecin-EnergaCzarniSł",
-      "round": 6,
-      "home": "King Szczecin",
-      "away": "Energa Czarni Słupsk",
-      "start": "2025-11-07T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "06-071100:00-MKSDąbrowaGórn-GórnikZamekKsi",
       "round": 6,
       "home": "MKS Dąbrowa Górnicza",
@@ -523,6 +515,17 @@
       "round": 6,
       "home": "Dziki Warszawa",
       "away": "Anwil Włocławek",
+      "start": "2025-11-08T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "06-081100:00-KingSzczecin-EnergaCzarniSł",
+      "round": 6,
+      "home": "King Szczecin",
+      "away": "Energa Czarni Słupsk",
       "start": "2025-11-08T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -596,21 +599,21 @@
       "winner": null
     },
     {
-      "id": "07-151100:00-EneaŁaciateAst-GórnikZamekKsi",
+      "id": "07-141100:00-LegiaWarszawa-KingSzczecin",
       "round": 7,
-      "home": "Enea Łaciate Astoria Bydgoszcz",
-      "away": "Górnik Zamek Książ Wałbrzych",
-      "start": "2025-11-15T00:00:00+01:00",
+      "home": "Legia Warszawa",
+      "away": "King Szczecin",
+      "start": "2025-11-14T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "07-151100:00-LegiaWarszawa-KingSzczecin",
+      "id": "07-151100:00-EneaŁaciateAst-GórnikZamekKsi",
       "round": 7,
-      "home": "Legia Warszawa",
-      "away": "King Szczecin",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
+      "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2025-11-15T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
