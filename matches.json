@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-09T13:06:51Z",
+    "updated_at": "2026-10-10T12:22:37Z",
     "count": 240
   },
   "matches": [
@@ -124,9 +124,12 @@
       "away": "Legia Warszawa",
       "start": "2025-10-09T18:00:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 104,
+        "away": 87
+      },
+      "winner": "Zastal Zielona Góra"
     },
     {
       "id": "02-091020:15-EneaŁaciateAst-EuvicGTKGliwic",
@@ -135,9 +138,12 @@
       "away": "Euvic GTK Gliwice",
       "start": "2025-10-09T20:15:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 74,
+        "away": 75
+      },
+      "winner": "Euvic GTK Gliwice"
     },
     {
       "id": "02-101015:00-MKSDąbrowaGórn-ArrivaLottoTwa",
