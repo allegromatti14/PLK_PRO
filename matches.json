@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-10T12:22:37Z",
+    "updated_at": "2026-10-11T12:40:02Z",
     "count": 240
   },
   "matches": [
@@ -152,9 +152,12 @@
       "away": "Arriva Lotto Twarde Pierniki Toruń",
       "start": "2025-10-10T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 87,
+        "away": 83
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "02-101017:30-KingSzczecin-WKSŚląskWrocła",
@@ -163,9 +166,12 @@
       "away": "WKS Śląsk Wrocław",
       "start": "2025-10-10T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 69,
+        "away": 82
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "02-111012:30-AMWArkaGdynia-EnergaTreflSop",
@@ -173,10 +179,13 @@
       "home": "AMW Arka Gdynia",
       "away": "Energa Trefl Sopot",
       "start": "2025-10-11T12:30:00+01:00",
-      "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "tv": "Polsat Sport 1",
+      "status": "played",
+      "score": {
+        "home": 87,
+        "away": 76
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "02-111015:00-DzikiWarszawa-PGEStartLublin",
