@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-12T15:12:29Z",
+    "updated_at": "2026-10-13T14:03:47Z",
     "count": 240
   },
   "matches": [
@@ -222,9 +222,12 @@
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2025-10-12T19:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 65,
+        "away": 81
+      },
+      "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
       "id": "03-161018:00-ArrivaLottoTwa-EneaŁaciateAst",
