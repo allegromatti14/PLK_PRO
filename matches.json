@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-14T11:42:41Z",
+    "updated_at": "2026-10-15T11:18:52Z",
     "count": 240
   },
   "matches": [
@@ -268,7 +268,7 @@
       "home": "PGE Start Lublin",
       "away": "AMW Arka Gdynia",
       "start": "2025-10-17T17:30:00+01:00",
-      "tv": "Polsat Sport",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -290,7 +290,7 @@
       "home": "Górnik Zamek Książ Wałbrzych",
       "away": "Dziki Warszawa",
       "start": "2025-10-18T12:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 1",
       "status": "scheduled",
       "score": null,
       "winner": null
