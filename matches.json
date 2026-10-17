@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-16T11:13:38Z",
+    "updated_at": "2026-10-17T10:32:47Z",
     "count": 240
   },
   "matches": [
@@ -236,9 +236,12 @@
       "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2025-10-16T18:00:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 110,
+        "away": 96
+      },
+      "winner": "Arriva Lotto Twarde Pierniki Toruń"
     },
     {
       "id": "03-161020:15-LegiaWarszawa-AnwilWłocławek",
@@ -247,9 +250,12 @@
       "away": "Anwil Włocławek",
       "start": "2025-10-16T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 73,
+        "away": 72
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "03-171015:00-EuvicGTKGliwic-ZastalZielonaG",
