@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-17T10:32:47Z",
+    "updated_at": "2026-10-18T10:55:23Z",
     "count": 240
   },
   "matches": [
@@ -264,9 +264,12 @@
       "away": "Zastal Zielona Góra",
       "start": "2025-10-17T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 76,
+        "away": 84
+      },
+      "winner": "Zastal Zielona Góra"
     },
     {
       "id": "03-171017:30-PGEStartLublin-AMWArkaGdynia",
@@ -275,9 +278,12 @@
       "away": "AMW Arka Gdynia",
       "start": "2025-10-17T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 76,
+        "away": 73
+      },
+      "winner": "PGE Start Lublin"
     },
     {
       "id": "03-171019:00-EnergaTreflSop-KingSzczecin",
@@ -286,9 +292,12 @@
       "away": "King Szczecin",
       "start": "2025-10-17T19:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 81,
+        "away": 91
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "03-181012:30-GórnikZamekKsi-DzikiWarszawa",
@@ -297,9 +306,12 @@
       "away": "Dziki Warszawa",
       "start": "2025-10-18T12:30:00+01:00",
       "tv": "Polsat Sport 1",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 15,
+        "away": 12
+      },
+      "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
       "id": "03-181017:30-MKSDąbrowaGórn-WKSŚląskWrocła",
