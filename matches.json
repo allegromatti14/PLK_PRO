@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-18T10:55:23Z",
+    "updated_at": "2026-10-19T12:58:12Z",
     "count": 240
   },
   "matches": [
@@ -308,8 +308,8 @@
       "tv": "Polsat Sport 1",
       "status": "played",
       "score": {
-        "home": 15,
-        "away": 12
+        "home": 74,
+        "away": 71
       },
       "winner": "Górnik Zamek Książ Wałbrzych"
     },
@@ -320,9 +320,12 @@
       "away": "WKS Śląsk Wrocław",
       "start": "2025-10-18T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 97,
+        "away": 80
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "03-191019:00-EnergaCzarniSł-TasomixRosiekS",
@@ -424,17 +427,6 @@
       "winner": null
     },
     {
-      "id": "05-301018:00-GórnikZamekKsi-KingSzczecin",
-      "round": 5,
-      "home": "Górnik Zamek Książ Wałbrzych",
-      "away": "King Szczecin",
-      "start": "2025-10-30T18:00:00+01:00",
-      "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "05-301020:15-AnwilWłocławek-TasomixRosiekS",
       "round": 5,
       "home": "Anwil Włocławek",
@@ -446,21 +438,21 @@
       "winner": null
     },
     {
-      "id": "05-311015:00-EnergaTreflSop-EneaŁaciateAst",
+      "id": "05-311012:30-EnergaTreflSop-EneaŁaciateAst",
       "round": 5,
       "home": "Energa Trefl Sopot",
       "away": "Enea Łaciate Astoria Bydgoszcz",
-      "start": "2025-10-31T15:00:00+01:00",
+      "start": "2025-10-31T12:30:00+01:00",
       "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "05-311017:30-ArrivaLottoTwa-ZastalZielonaG",
+      "id": "05-311017:30-LegiaWarszawa-DzikiWarszawa",
       "round": 5,
-      "home": "Arriva Lotto Twarde Pierniki Toruń",
-      "away": "Zastal Zielona Góra",
+      "home": "Legia Warszawa",
+      "away": "Dziki Warszawa",
       "start": "2025-10-31T17:30:00+01:00",
       "tv": "Polsat Sport 2",
       "status": "scheduled",
@@ -479,12 +471,23 @@
       "winner": null
     },
     {
-      "id": "05-311020:00-LegiaWarszawa-DzikiWarszawa",
+      "id": "05-311020:00-ArrivaLottoTwa-ZastalZielonaG",
       "round": 5,
-      "home": "Legia Warszawa",
-      "away": "Dziki Warszawa",
+      "home": "Arriva Lotto Twarde Pierniki Toruń",
+      "away": "Zastal Zielona Góra",
       "start": "2025-10-31T20:00:00+01:00",
       "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "05-011115:30-PGEStartLublin-MKSDąbrowaGórn",
+      "round": 5,
+      "home": "PGE Start Lublin",
+      "away": "MKS Dąbrowa Górnicza",
+      "start": "2025-11-01T15:30:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -501,11 +504,11 @@
       "winner": null
     },
     {
-      "id": "05-021119:00-PGEStartLublin-MKSDąbrowaGórn",
+      "id": "05-011119:00-GórnikZamekKsi-KingSzczecin",
       "round": 5,
-      "home": "PGE Start Lublin",
-      "away": "MKS Dąbrowa Górnicza",
-      "start": "2025-11-02T19:00:00+01:00",
+      "home": "Górnik Zamek Książ Wałbrzych",
+      "away": "King Szczecin",
+      "start": "2025-11-01T19:00:00+01:00",
       "tv": "YouTube",
       "status": "scheduled",
       "score": null,
@@ -787,12 +790,12 @@
       "winner": null
     },
     {
-      "id": "09-041200:00-LegiaWarszawa-EneaŁaciateAst",
+      "id": "09-041220:15-LegiaWarszawa-EneaŁaciateAst",
       "round": 9,
       "home": "Legia Warszawa",
       "away": "Enea Łaciate Astoria Bydgoszcz",
-      "start": "2025-12-04T00:00:00+01:00",
-      "tv": null,
+      "start": "2025-12-04T20:15:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -820,10 +823,10 @@
       "winner": null
     },
     {
-      "id": "09-061200:00-EnergaTreflSop-ZastalZielonaG",
+      "id": "09-061200:00-PGEStartLublin-WKSŚląskWrocła",
       "round": 9,
-      "home": "Energa Trefl Sopot",
-      "away": "Zastal Zielona Góra",
+      "home": "PGE Start Lublin",
+      "away": "WKS Śląsk Wrocław",
       "start": "2025-12-06T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -831,12 +834,12 @@
       "winner": null
     },
     {
-      "id": "09-061200:00-PGEStartLublin-WKSŚląskWrocła",
+      "id": "09-061212:30-EnergaTreflSop-ZastalZielonaG",
       "round": 9,
-      "home": "PGE Start Lublin",
-      "away": "WKS Śląsk Wrocław",
-      "start": "2025-12-06T00:00:00+01:00",
-      "tv": null,
+      "home": "Energa Trefl Sopot",
+      "away": "Zastal Zielona Góra",
+      "start": "2025-12-06T12:30:00+01:00",
+      "tv": "Polsat Sport 1",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -875,10 +878,10 @@
       "winner": null
     },
     {
-      "id": "10-121200:00-MKSDąbrowaGórn-TasomixRosiekS",
+      "id": "10-121200:00-ArrivaLottoTwa-EnergaCzarniSł",
       "round": 10,
-      "home": "MKS Dąbrowa Górnicza",
-      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "home": "Arriva Lotto Twarde Pierniki Toruń",
+      "away": "Energa Czarni Słupsk",
       "start": "2025-12-12T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -886,10 +889,10 @@
       "winner": null
     },
     {
-      "id": "10-121200:00-ArrivaLottoTwa-EnergaCzarniSł",
+      "id": "10-121200:00-GórnikZamekKsi-WKSŚląskWrocła",
       "round": 10,
-      "home": "Arriva Lotto Twarde Pierniki Toruń",
-      "away": "Energa Czarni Słupsk",
+      "home": "Górnik Zamek Książ Wałbrzych",
+      "away": "WKS Śląsk Wrocław",
       "start": "2025-12-12T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -941,11 +944,22 @@
       "winner": null
     },
     {
-      "id": "10-131200:00-GórnikZamekKsi-WKSŚląskWrocła",
+      "id": "10-131200:00-MKSDąbrowaGórn-TasomixRosiekS",
       "round": 10,
-      "home": "Górnik Zamek Książ Wałbrzych",
-      "away": "WKS Śląsk Wrocław",
+      "home": "MKS Dąbrowa Górnicza",
+      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2025-12-13T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "11-181200:00-PGEStartLublin-ZastalZielonaG",
+      "round": 11,
+      "home": "PGE Start Lublin",
+      "away": "Zastal Zielona Góra",
+      "start": "2025-12-18T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
@@ -990,17 +1004,6 @@
       "home": "AMW Arka Gdynia",
       "away": "King Szczecin",
       "start": "2025-12-19T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "11-201200:00-PGEStartLublin-ZastalZielonaG",
-      "round": 11,
-      "home": "PGE Start Lublin",
-      "away": "Zastal Zielona Góra",
-      "start": "2025-12-20T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
