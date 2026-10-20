@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-19T12:58:12Z",
+    "updated_at": "2026-10-20T11:25:44Z",
     "count": 240
   },
   "matches": [
@@ -334,9 +334,12 @@
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2025-10-19T19:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 84,
+        "away": 87
+      },
+      "winner": "Tasomix Rosiek Stal Ostrów Wielkopolski"
     },
     {
       "id": "04-231020:15-EuvicGTKGliwic-ArrivaLottoTwa",
@@ -834,12 +837,12 @@
       "winner": null
     },
     {
-      "id": "09-061212:30-EnergaTreflSop-ZastalZielonaG",
+      "id": "09-061217:30-EnergaTreflSop-ZastalZielonaG",
       "round": 9,
       "home": "Energa Trefl Sopot",
       "away": "Zastal Zielona Góra",
-      "start": "2025-12-06T12:30:00+01:00",
-      "tv": "Polsat Sport 1",
+      "start": "2025-12-06T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
