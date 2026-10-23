@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-22T11:40:53Z",
+    "updated_at": "2026-10-23T11:29:51Z",
     "count": 240
   },
   "matches": [
@@ -369,7 +369,7 @@
       "home": "Zastal Zielona Góra",
       "away": "Anwil Włocławek",
       "start": "2025-10-24T17:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 3",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -391,7 +391,7 @@
       "home": "AMW Arka Gdynia",
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2025-10-25T12:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 1",
       "status": "scheduled",
       "score": null,
       "winner": null
