@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-23T11:29:51Z",
+    "updated_at": "2026-10-24T10:49:42Z",
     "count": 240
   },
   "matches": [
@@ -348,9 +348,12 @@
       "away": "Arriva Lotto Twarde Pierniki Toruń",
       "start": "2025-10-23T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 90,
+        "away": 69
+      },
+      "winner": "Euvic GTK Gliwice"
     },
     {
       "id": "04-241015:00-KingSzczecin-PGEStartLublin",
@@ -694,10 +697,10 @@
       "winner": null
     },
     {
-      "id": "08-201118:00-EneaŁaciateAst-EnergaCzarniSł",
+      "id": "08-201118:00-GórnikZamekKsi-EuvicGTKGliwic",
       "round": 8,
-      "home": "Enea Łaciate Astoria Bydgoszcz",
-      "away": "Energa Czarni Słupsk",
+      "home": "Górnik Zamek Książ Wałbrzych",
+      "away": "Euvic GTK Gliwice",
       "start": "2025-11-20T18:00:00+01:00",
       "tv": "YouTube",
       "status": "scheduled",
@@ -705,10 +708,10 @@
       "winner": null
     },
     {
-      "id": "08-201120:15-GórnikZamekKsi-EuvicGTKGliwic",
+      "id": "08-201120:15-EneaŁaciateAst-EnergaCzarniSł",
       "round": 8,
-      "home": "Górnik Zamek Książ Wałbrzych",
-      "away": "Euvic GTK Gliwice",
+      "home": "Enea Łaciate Astoria Bydgoszcz",
+      "away": "Energa Czarni Słupsk",
       "start": "2025-11-20T20:15:00+01:00",
       "tv": "Polsat Sport 2",
       "status": "scheduled",
@@ -722,17 +725,6 @@
       "away": "Anwil Włocławek",
       "start": "2025-11-21T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "08-221100:00-WKSŚląskWrocła-EnergaTreflSop",
-      "round": 8,
-      "home": "WKS Śląsk Wrocław",
-      "away": "Energa Trefl Sopot",
-      "start": "2025-11-22T00:00:00+01:00",
-      "tv": null,
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -753,6 +745,17 @@
       "round": 8,
       "home": "PGE Start Lublin",
       "away": "Arriva Lotto Twarde Pierniki Toruń",
+      "start": "2025-11-22T15:00:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "08-221115:00-WKSŚląskWrocła-EnergaTreflSop",
+      "round": 8,
+      "home": "WKS Śląsk Wrocław",
+      "away": "Energa Trefl Sopot",
       "start": "2025-11-22T15:00:00+01:00",
       "tv": "YouTube",
       "status": "scheduled",
