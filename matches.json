@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-24T10:49:42Z",
+    "updated_at": "2026-10-25T11:15:01Z",
     "count": 240
   },
   "matches": [
@@ -362,9 +362,12 @@
       "away": "PGE Start Lublin",
       "start": "2025-10-24T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 70,
+        "away": 54
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "04-241017:30-ZastalZielonaG-AnwilWłocławek",
@@ -373,9 +376,12 @@
       "away": "Anwil Włocławek",
       "start": "2025-10-24T17:30:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 78,
+        "away": 77
+      },
+      "winner": "Zastal Zielona Góra"
     },
     {
       "id": "04-241019:30-WKSŚląskWrocła-EneaŁaciateAst",
@@ -384,9 +390,12 @@
       "away": "Enea Łaciate Astoria Bydgoszcz",
       "start": "2025-10-24T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 100,
+        "away": 77
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "04-251012:30-AMWArkaGdynia-GórnikZamekKsi",
