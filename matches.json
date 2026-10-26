@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-25T11:15:01Z",
+    "updated_at": "2026-10-26T12:49:00Z",
     "count": 240
   },
   "matches": [
@@ -404,9 +404,12 @@
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2025-10-25T12:30:00+01:00",
       "tv": "Polsat Sport 1",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 88,
+        "away": 95
+      },
+      "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
       "id": "04-251015:00-LegiaWarszawa-TasomixRosiekS",
@@ -415,9 +418,12 @@
       "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2025-10-25T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 84,
+        "away": 74
+      },
+      "winner": "Legia Warszawa"
     },
     {
       "id": "04-251017:30-DzikiWarszawa-EnergaCzarniSł",
@@ -426,9 +432,12 @@
       "away": "Energa Czarni Słupsk",
       "start": "2025-10-25T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 91,
+        "away": 81
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "04-251019:30-MKSDąbrowaGórn-EnergaTreflSop",
@@ -437,9 +446,12 @@
       "away": "Energa Trefl Sopot",
       "start": "2025-10-25T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 88,
+        "away": 82
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "05-301020:15-AnwilWłocławek-TasomixRosiekS",
