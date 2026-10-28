@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-27T12:00:53Z",
+    "updated_at": "2026-10-28T12:41:15Z",
     "count": 240
   },
   "matches": [
@@ -740,6 +740,17 @@
       "winner": null
     },
     {
+      "id": "08-211112:30-PGEStartLublin-ArrivaLottoTwa",
+      "round": 8,
+      "home": "PGE Start Lublin",
+      "away": "Arriva Lotto Twarde Pierniki Toruń",
+      "start": "2025-11-21T12:30:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "08-211117:30-KingSzczecin-AnwilWłocławek",
       "round": 8,
       "home": "King Szczecin",
@@ -757,17 +768,6 @@
       "away": "Dziki Warszawa",
       "start": "2025-11-22T12:30:00+01:00",
       "tv": "Polsat Sport 1",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "08-221115:00-PGEStartLublin-ArrivaLottoTwa",
-      "round": 8,
-      "home": "PGE Start Lublin",
-      "away": "Arriva Lotto Twarde Pierniki Toruń",
-      "start": "2025-11-22T15:00:00+01:00",
-      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
