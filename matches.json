@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-10-31T12:13:35Z",
+    "updated_at": "2026-11-01T13:11:00Z",
     "count": 240
   },
   "matches": [
@@ -476,10 +476,10 @@
       "tv": "YouTube",
       "status": "played",
       "score": {
-        "home": 42,
-        "away": 33
+        "home": 87,
+        "away": 90
       },
-      "winner": "Energa Trefl Sopot"
+      "winner": "Enea Łaciate Astoria Bydgoszcz"
     },
     {
       "id": "05-311017:30-LegiaWarszawa-DzikiWarszawa",
@@ -488,9 +488,12 @@
       "away": "Dziki Warszawa",
       "start": "2025-10-31T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 77,
+        "away": 92
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "05-311019:30-EnergaCzarniSł-AMWArkaGdynia",
@@ -499,9 +502,12 @@
       "away": "AMW Arka Gdynia",
       "start": "2025-10-31T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 72,
+        "away": 84
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "05-311020:00-ArrivaLottoTwa-ZastalZielonaG",
@@ -510,9 +516,12 @@
       "away": "Zastal Zielona Góra",
       "start": "2025-10-31T20:00:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 87,
+        "away": 71
+      },
+      "winner": "Arriva Lotto Twarde Pierniki Toruń"
     },
     {
       "id": "05-011115:30-PGEStartLublin-MKSDąbrowaGórn",
