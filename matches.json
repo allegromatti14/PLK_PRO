@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-03T14:01:18Z",
+    "updated_at": "2026-11-04T14:21:07Z",
     "count": 240
   },
   "matches": [
@@ -1028,17 +1028,6 @@
       "winner": null
     },
     {
-      "id": "11-191200:00-WKSŚląskWrocła-EnergaCzarniSł",
-      "round": 11,
-      "home": "WKS Śląsk Wrocław",
-      "away": "Energa Czarni Słupsk",
-      "start": "2025-12-19T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "11-191200:00-LegiaWarszawa-ArrivaLottoTwa",
       "round": 11,
       "home": "Legia Warszawa",
@@ -1056,6 +1045,17 @@
       "away": "King Szczecin",
       "start": "2025-12-19T00:00:00+01:00",
       "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "11-191217:30-WKSŚląskWrocła-EnergaCzarniSł",
+      "round": 11,
+      "home": "WKS Śląsk Wrocław",
+      "away": "Energa Czarni Słupsk",
+      "start": "2025-12-19T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
