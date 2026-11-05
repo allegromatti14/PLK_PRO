@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-04T14:21:07Z",
+    "updated_at": "2026-11-05T14:30:36Z",
     "count": 240
   },
   "matches": [
@@ -571,7 +571,7 @@
       "home": "Enea Łaciate Astoria Bydgoszcz",
       "away": "PGE Start Lublin",
       "start": "2025-11-06T20:15:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 3",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -593,7 +593,7 @@
       "home": "Dziki Warszawa",
       "away": "Anwil Włocławek",
       "start": "2025-11-07T17:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 3",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -615,7 +615,7 @@
       "home": "AMW Arka Gdynia",
       "away": "Legia Warszawa",
       "start": "2025-11-08T12:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 1",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -637,7 +637,7 @@
       "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "away": "Zastal Zielona Góra",
       "start": "2025-11-08T17:30:00+01:00",
-      "tv": "Polsat Sport 2",
+      "tv": "Polsat Sport 3",
       "status": "scheduled",
       "score": null,
       "winner": null
