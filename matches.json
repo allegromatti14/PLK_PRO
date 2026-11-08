@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-07T12:52:05Z",
+    "updated_at": "2026-11-08T13:13:57Z",
     "count": 240
   },
   "matches": [
@@ -586,9 +586,12 @@
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2025-11-07T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 93,
+        "away": 85
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "06-071117:30-DzikiWarszawa-AnwilWłocławek",
@@ -597,9 +600,12 @@
       "away": "Anwil Włocławek",
       "start": "2025-11-07T17:30:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 96,
+        "away": 75
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "06-071119:30-WKSŚląskWrocła-ArrivaLottoTwa",
@@ -608,9 +614,12 @@
       "away": "Arriva Lotto Twarde Pierniki Toruń",
       "start": "2025-11-07T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 81,
+        "away": 76
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "06-081112:30-AMWArkaGdynia-LegiaWarszawa",
@@ -619,9 +628,12 @@
       "away": "Legia Warszawa",
       "start": "2025-11-08T12:30:00+01:00",
       "tv": "Polsat Sport 1",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 62,
+        "away": 56
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "06-081115:00-EuvicGTKGliwic-EnergaTreflSop",
