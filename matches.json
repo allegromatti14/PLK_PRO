@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-08T13:13:57Z",
+    "updated_at": "2026-11-09T16:01:25Z",
     "count": 240
   },
   "matches": [
@@ -630,8 +630,8 @@
       "tv": "Polsat Sport 1",
       "status": "played",
       "score": {
-        "home": 62,
-        "away": 56
+        "home": 67,
+        "away": 60
       },
       "winner": "AMW Arka Gdynia"
     },
@@ -642,9 +642,12 @@
       "away": "Energa Trefl Sopot",
       "start": "2025-11-08T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 84,
+        "away": 77
+      },
+      "winner": "Euvic GTK Gliwice"
     },
     {
       "id": "06-081117:30-TasomixRosiekS-ZastalZielonaG",
@@ -653,9 +656,12 @@
       "away": "Zastal Zielona Góra",
       "start": "2025-11-08T17:30:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 69,
+        "away": 74
+      },
+      "winner": "Zastal Zielona Góra"
     },
     {
       "id": "06-081119:15-KingSzczecin-EnergaCzarniSł",
@@ -664,9 +670,12 @@
       "away": "Energa Czarni Słupsk",
       "start": "2025-11-08T19:15:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 105,
+        "away": 95
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "07-131118:00-PGEStartLublin-EuvicGTKGliwic",
