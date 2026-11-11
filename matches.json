@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-10T14:45:31Z",
+    "updated_at": "2026-11-11T14:04:51Z",
     "count": 240
   },
   "matches": [
@@ -1118,89 +1118,89 @@
       "winner": null
     },
     {
-      "id": "12-261200:00-ZastalZielonaG-KingSzczecin",
+      "id": "12-261212:30-ZastalZielonaG-KingSzczecin",
       "round": 12,
       "home": "Zastal Zielona Góra",
       "away": "King Szczecin",
-      "start": "2025-12-26T00:00:00+01:00",
-      "tv": null,
+      "start": "2025-12-26T12:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "12-261200:00-ArrivaLottoTwa-AnwilWłocławek",
-      "round": 12,
-      "home": "Arriva Lotto Twarde Pierniki Toruń",
-      "away": "Anwil Włocławek",
-      "start": "2025-12-26T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "12-261200:00-WKSŚląskWrocła-LegiaWarszawa",
-      "round": 12,
-      "home": "WKS Śląsk Wrocław",
-      "away": "Legia Warszawa",
-      "start": "2025-12-26T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "12-261200:00-EnergaCzarniSł-EnergaTreflSop",
+      "id": "12-261215:00-EnergaCzarniSł-EnergaTreflSop",
       "round": 12,
       "home": "Energa Czarni Słupsk",
       "away": "Energa Trefl Sopot",
-      "start": "2025-12-26T00:00:00+01:00",
-      "tv": null,
+      "start": "2025-12-26T15:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "12-271200:00-AMWArkaGdynia-MKSDąbrowaGórn",
+      "id": "12-261217:30-ArrivaLottoTwa-AnwilWłocławek",
+      "round": 12,
+      "home": "Arriva Lotto Twarde Pierniki Toruń",
+      "away": "Anwil Włocławek",
+      "start": "2025-12-26T17:30:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "12-261220:00-WKSŚląskWrocła-LegiaWarszawa",
+      "round": 12,
+      "home": "WKS Śląsk Wrocław",
+      "away": "Legia Warszawa",
+      "start": "2025-12-26T20:00:00+01:00",
+      "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "12-271212:30-AMWArkaGdynia-MKSDąbrowaGórn",
       "round": 12,
       "home": "AMW Arka Gdynia",
       "away": "MKS Dąbrowa Górnicza",
-      "start": "2025-12-27T00:00:00+01:00",
-      "tv": null,
+      "start": "2025-12-27T12:30:00+01:00",
+      "tv": "Polsat Sport 2",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "12-271200:00-EneaŁaciateAst-DzikiWarszawa",
-      "round": 12,
-      "home": "Enea Łaciate Astoria Bydgoszcz",
-      "away": "Dziki Warszawa",
-      "start": "2025-12-27T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "12-271200:00-TasomixRosiekS-EuvicGTKGliwic",
+      "id": "12-271215:00-TasomixRosiekS-EuvicGTKGliwic",
       "round": 12,
       "home": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "away": "Euvic GTK Gliwice",
-      "start": "2025-12-27T00:00:00+01:00",
-      "tv": null,
+      "start": "2025-12-27T15:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
     },
     {
-      "id": "12-271200:00-PGEStartLublin-GórnikZamekKsi",
+      "id": "12-271217:30-PGEStartLublin-GórnikZamekKsi",
       "round": 12,
       "home": "PGE Start Lublin",
       "away": "Górnik Zamek Książ Wałbrzych",
-      "start": "2025-12-27T00:00:00+01:00",
-      "tv": null,
+      "start": "2025-12-27T17:30:00+01:00",
+      "tv": "Polsat Sport 2",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "12-271220:00-EneaŁaciateAst-DzikiWarszawa",
+      "round": 12,
+      "home": "Enea Łaciate Astoria Bydgoszcz",
+      "away": "Dziki Warszawa",
+      "start": "2025-12-27T20:00:00+01:00",
+      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
