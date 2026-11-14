@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-13T14:28:20Z",
+    "updated_at": "2026-11-14T13:24:14Z",
     "count": 240
   },
   "matches": [
@@ -684,9 +684,12 @@
       "away": "Euvic GTK Gliwice",
       "start": "2025-11-13T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 87,
+        "away": 83
+      },
+      "winner": "PGE Start Lublin"
     },
     {
       "id": "07-131120:15-AnwilWłocławek-AMWArkaGdynia",
@@ -695,9 +698,12 @@
       "away": "AMW Arka Gdynia",
       "start": "2025-11-13T20:15:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 67,
+        "away": 79
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "07-141115:00-ArrivaLottoTwa-EnergaTreflSop",
