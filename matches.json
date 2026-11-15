@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-14T13:24:14Z",
+    "updated_at": "2026-11-15T13:50:56Z",
     "count": 240
   },
   "matches": [
@@ -712,9 +712,12 @@
       "away": "Energa Trefl Sopot",
       "start": "2025-11-14T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 106,
+        "away": 76
+      },
+      "winner": "Arriva Lotto Twarde Pierniki Toruń"
     },
     {
       "id": "07-141117:30-LegiaWarszawa-KingSzczecin",
@@ -723,9 +726,12 @@
       "away": "King Szczecin",
       "start": "2025-11-14T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 78,
+        "away": 85
+      },
+      "winner": "King Szczecin"
     },
     {
       "id": "07-141119:30-WKSŚląskWrocła-ZastalZielonaG",
@@ -734,9 +740,12 @@
       "away": "Zastal Zielona Góra",
       "start": "2025-11-14T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 91,
+        "away": 85
+      },
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "07-151112:30-EneaŁaciateAst-GórnikZamekKsi",
@@ -745,9 +754,12 @@
       "away": "Górnik Zamek Książ Wałbrzych",
       "start": "2025-11-15T12:30:00+01:00",
       "tv": "Polsat Sport 1",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 91,
+        "away": 87
+      },
+      "winner": "Enea Łaciate Astoria Bydgoszcz"
     },
     {
       "id": "07-151117:30-TasomixRosiekS-DzikiWarszawa",
