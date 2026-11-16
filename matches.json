@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-15T13:50:56Z",
+    "updated_at": "2026-11-16T15:33:54Z",
     "count": 240
   },
   "matches": [
@@ -768,9 +768,12 @@
       "away": "Dziki Warszawa",
       "start": "2025-11-15T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 59,
+        "away": 73
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "07-161119:00-EnergaCzarniSł-MKSDąbrowaGórn",
