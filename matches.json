@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-16T15:33:54Z",
+    "updated_at": "2026-11-17T15:53:18Z",
     "count": 240
   },
   "matches": [
@@ -782,9 +782,12 @@
       "away": "MKS Dąbrowa Górnicza",
       "start": "2025-11-16T19:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 90,
+        "away": 100
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "08-201118:00-GórnikZamekKsi-EuvicGTKGliwic",
@@ -1073,6 +1076,17 @@
       "winner": null
     },
     {
+      "id": "11-191212:30-AMWArkaGdynia-KingSzczecin",
+      "round": 11,
+      "home": "AMW Arka Gdynia",
+      "away": "King Szczecin",
+      "start": "2025-12-19T12:30:00+01:00",
+      "tv": "YouTube",
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "11-191215:00-LegiaWarszawa-ArrivaLottoTwa",
       "round": 11,
       "home": "Legia Warszawa",
@@ -1090,17 +1104,6 @@
       "away": "Energa Czarni Słupsk",
       "start": "2025-12-19T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "11-191220:00-AMWArkaGdynia-KingSzczecin",
-      "round": 11,
-      "home": "AMW Arka Gdynia",
-      "away": "King Szczecin",
-      "start": "2025-12-19T20:00:00+01:00",
-      "tv": "YouTube",
       "status": "scheduled",
       "score": null,
       "winner": null
@@ -1579,10 +1582,10 @@
       "winner": null
     },
     {
-      "id": "17-220100:00-ArrivaLottoTwa-PGEStartLublin",
+      "id": "17-220100:00-MKSDąbrowaGórn-EuvicGTKGliwic",
       "round": 17,
-      "home": "Arriva Lotto Twarde Pierniki Toruń",
-      "away": "PGE Start Lublin",
+      "home": "MKS Dąbrowa Górnicza",
+      "away": "Euvic GTK Gliwice",
       "start": "2026-01-22T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
@@ -1590,11 +1593,11 @@
       "winner": null
     },
     {
-      "id": "17-230100:00-MKSDąbrowaGórn-EuvicGTKGliwic",
+      "id": "17-220100:00-ArrivaLottoTwa-PGEStartLublin",
       "round": 17,
-      "home": "MKS Dąbrowa Górnicza",
-      "away": "Euvic GTK Gliwice",
-      "start": "2026-01-23T00:00:00+01:00",
+      "home": "Arriva Lotto Twarde Pierniki Toruń",
+      "away": "PGE Start Lublin",
+      "start": "2026-01-22T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
       "score": null,
@@ -1711,17 +1714,6 @@
       "winner": null
     },
     {
-      "id": "18-310100:00-EneaŁaciateAst-ArrivaLottoTwa",
-      "round": 18,
-      "home": "Enea Łaciate Astoria Bydgoszcz",
-      "away": "Arriva Lotto Twarde Pierniki Toruń",
-      "start": "2026-01-31T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
       "id": "18-310100:00-PGEStartLublin-KingSzczecin",
       "round": 18,
       "home": "PGE Start Lublin",
@@ -1750,6 +1742,17 @@
       "away": "MKS Dąbrowa Górnicza",
       "start": "2026-01-31T00:00:00+01:00",
       "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
+      "id": "18-310112:30-EneaŁaciateAst-ArrivaLottoTwa",
+      "round": 18,
+      "home": "Enea Łaciate Astoria Bydgoszcz",
+      "away": "Arriva Lotto Twarde Pierniki Toruń",
+      "start": "2026-01-31T12:30:00+01:00",
+      "tv": "Polsat Sport 1",
       "status": "scheduled",
       "score": null,
       "winner": null
