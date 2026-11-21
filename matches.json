@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-20T15:18:56Z",
+    "updated_at": "2026-11-21T14:32:30Z",
     "count": 240
   },
   "matches": [
@@ -796,9 +796,12 @@
       "away": "Euvic GTK Gliwice",
       "start": "2025-11-20T18:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 70,
+        "away": 52
+      },
+      "winner": "Górnik Zamek Książ Wałbrzych"
     },
     {
       "id": "08-201120:15-EneaŁaciateAst-EnergaCzarniSł",
@@ -807,9 +810,12 @@
       "away": "Energa Czarni Słupsk",
       "start": "2025-11-20T20:15:00+01:00",
       "tv": "Polsat Sport 3",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 95,
+        "away": 58
+      },
+      "winner": "Enea Łaciate Astoria Bydgoszcz"
     },
     {
       "id": "08-211112:30-PGEStartLublin-ArrivaLottoTwa",
@@ -818,9 +824,12 @@
       "away": "Arriva Lotto Twarde Pierniki Toruń",
       "start": "2025-11-21T12:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 94,
+        "away": 101
+      },
+      "winner": "Arriva Lotto Twarde Pierniki Toruń"
     },
     {
       "id": "08-211117:30-KingSzczecin-AnwilWłocławek",
