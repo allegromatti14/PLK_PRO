@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-21T14:32:30Z",
+    "updated_at": "2026-11-22T14:27:52Z",
     "count": 240
   },
   "matches": [
@@ -838,9 +838,12 @@
       "away": "Anwil Włocławek",
       "start": "2025-11-21T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 80,
+        "away": 97
+      },
+      "winner": "Anwil Włocławek"
     },
     {
       "id": "08-221112:30-ZastalZielonaG-DzikiWarszawa",
@@ -849,9 +852,12 @@
       "away": "Dziki Warszawa",
       "start": "2025-11-22T12:30:00+01:00",
       "tv": "Polsat Sport 1",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 83,
+        "away": 96
+      },
+      "winner": "Dziki Warszawa"
     },
     {
       "id": "08-221115:00-WKSŚląskWrocła-EnergaTreflSop",
@@ -860,9 +866,12 @@
       "away": "Energa Trefl Sopot",
       "start": "2025-11-22T15:00:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 18,
+        "away": 23
+      },
+      "winner": "Energa Trefl Sopot"
     },
     {
       "id": "08-221117:30-TasomixRosiekS-AMWArkaGdynia",
