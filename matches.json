@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-22T14:27:52Z",
+    "updated_at": "2026-11-23T17:56:20Z",
     "count": 240
   },
   "matches": [
@@ -868,10 +868,10 @@
       "tv": "YouTube",
       "status": "played",
       "score": {
-        "home": 18,
-        "away": 23
+        "home": 87,
+        "away": 83
       },
-      "winner": "Energa Trefl Sopot"
+      "winner": "WKS Śląsk Wrocław"
     },
     {
       "id": "08-221117:30-TasomixRosiekS-AMWArkaGdynia",
@@ -880,9 +880,12 @@
       "away": "AMW Arka Gdynia",
       "start": "2025-11-22T17:30:00+01:00",
       "tv": "Polsat Sport 2",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 82,
+        "away": 86
+      },
+      "winner": "AMW Arka Gdynia"
     },
     {
       "id": "08-221119:30-MKSDąbrowaGórn-LegiaWarszawa",
@@ -891,9 +894,12 @@
       "away": "Legia Warszawa",
       "start": "2025-11-22T19:30:00+01:00",
       "tv": "YouTube",
-      "status": "scheduled",
-      "score": null,
-      "winner": null
+      "status": "played",
+      "score": {
+        "home": 93,
+        "away": 81
+      },
+      "winner": "MKS Dąbrowa Górnicza"
     },
     {
       "id": "09-041218:00-GórnikZamekKsi-ArrivaLottoTwa",
