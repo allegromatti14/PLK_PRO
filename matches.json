@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://plk.pl/terminarz",
-    "updated_at": "2026-11-24T17:31:20Z",
+    "updated_at": "2026-11-25T17:04:56Z",
     "count": 240
   },
   "matches": [
@@ -2574,6 +2574,17 @@
       "winner": null
     },
     {
+      "id": "28-230400:00-ArrivaLottoTwa-TasomixRosiekS",
+      "round": 28,
+      "home": "Arriva Lotto Twarde Pierniki Toruń",
+      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
+      "start": "2026-04-23T00:00:00+01:00",
+      "tv": null,
+      "status": "scheduled",
+      "score": null,
+      "winner": null
+    },
+    {
       "id": "28-230400:00-ZastalZielonaG-PGEStartLublin",
       "round": 28,
       "home": "Zastal Zielona Góra",
@@ -2600,17 +2611,6 @@
       "round": 28,
       "home": "King Szczecin",
       "away": "Energa Trefl Sopot",
-      "start": "2026-04-24T00:00:00+01:00",
-      "tv": null,
-      "status": "scheduled",
-      "score": null,
-      "winner": null
-    },
-    {
-      "id": "28-240400:00-ArrivaLottoTwa-TasomixRosiekS",
-      "round": 28,
-      "home": "Arriva Lotto Twarde Pierniki Toruń",
-      "away": "Tasomix Rosiek Stal Ostrów Wielkopolski",
       "start": "2026-04-24T00:00:00+01:00",
       "tv": null,
       "status": "scheduled",
